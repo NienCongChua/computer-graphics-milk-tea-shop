@@ -1,2 +1,2 @@
 # computer-graphics-milk-tea-shop
-No description
+The code using OpenGL to simulation a milk tea shop like mixue
