@@ -17,10 +17,25 @@
 #define M_PI 3.14152
 
 GLboolean redFlag = true, switchOne = false, switchTwo = false, switchLamp = false, amb1 = true, diff1 = false,\
-spec1 = true, amb2 = true, diff2 = false, spec2 = true, amb3 = true, diff3 = true, spec3 = true;
+spec1 = true, amb2 = true, diff2 = false, spec2 = true, amb3 = true, diff3 = true, spec3 = true, _switch = true;
 double windowHeight = 800, windowWidth = 600;
 double eyeX = 24.0, eyeY = 5.0, eyeZ = 35.0, refX = 0, refY = 0, refZ = 0;
 double theta = 180.0, y = 1.36, z = 7.97888;
+GLfloat Alpha = 0;
+GLfloat fanRotationAngle = 0.0f;
+
+enum {
+    CuaNK,		    //3
+    NumJointAngles,	//11
+    Quit			//12
+};
+
+GLfloat 
+tuong_tac[NumJointAngles] = {
+    0.0
+};
+
+GLint angle = CuaNK;
 
 static GLfloat v_cube[8][3] =
 {
@@ -81,7 +96,8 @@ void drawCube()
 }
 
 #pragma region Ve khoi lap phuong
-void drawCube1(GLfloat difX, GLfloat difY, GLfloat difZ, GLfloat ambX = 0, GLfloat ambY = 0, GLfloat ambZ = 0, GLfloat difT = 1, GLfloat ambT = 1, GLfloat shine = 50)
+void drawCube1(GLfloat difX, GLfloat difY, GLfloat difZ, GLfloat ambX = 0, GLfloat ambY = 0, GLfloat ambZ = 0, \
+    GLfloat difT = 1, GLfloat ambT = 1, GLfloat shine = 50)
 {
     GLfloat no_mat[] = { 0.0, 0.0, 0.0, ambT };
     GLfloat mat_ambient[] = { ambX, ambY, ambZ, ambT };
@@ -198,12 +214,13 @@ static GLubyte PquadIndices[1][4] =
 };
 
 #pragma region Vẽ hình chóp
-void drawpyramid(GLfloat difX, GLfloat difY, GLfloat difZ, GLfloat ambX, GLfloat ambY, GLfloat ambZ, GLfloat shine)
+void drawpyramid(GLfloat difX, GLfloat difY, GLfloat difZ, GLfloat ambX, GLfloat ambY, GLfloat ambZ, \
+    GLfloat difT = 1, GLfloat ambT = 1, GLfloat shine = 50)
 {
-    GLfloat no_mat[] = { 0.0, 0.0, 0.0, 1.0 };
-    GLfloat mat_ambient[] = { ambX, ambY, ambZ, 1.0 };
-    GLfloat mat_diffuse[] = { difX, difY, difZ, 1.0 };
-    GLfloat mat_specular[] = { 1.0, 1.0, 1.0, 1.0 };
+    GLfloat no_mat[] = { 0.0, 0.0, 0.0, ambT};
+    GLfloat mat_ambient[] = { ambX, ambY, ambZ, ambZ};
+    GLfloat mat_diffuse[] = { difX, difY, difZ, difT };
+    GLfloat mat_specular[] = { 1.0, 1.0, 1.0, difT };
     GLfloat mat_shininess[] = { shine };
 
     glMaterialfv(GL_FRONT, GL_AMBIENT, mat_ambient);
@@ -240,12 +257,13 @@ void drawpyramid(GLfloat difX, GLfloat difY, GLfloat difZ, GLfloat ambX, GLfloat
 #pragma endregion
 
 #pragma region Ve da giac 2D loi
-void polygon(GLfloat difX, GLfloat difY, GLfloat difZ, GLfloat ambX, GLfloat ambY, GLfloat ambZ, GLfloat shine)
+void polygon(GLfloat difX, GLfloat difY, GLfloat difZ, GLfloat ambX, GLfloat ambY, GLfloat ambZ, \
+    GLfloat difT = 1, GLfloat ambT = 1, GLfloat shine = 0)
 {
-    GLfloat no_mat[] = { 0.0, 0.0, 0.0, 1.0 };
+    GLfloat no_mat[] = { 0.0, 0.0, 0.0, ambT};
     GLfloat mat_ambient[] = { ambX, ambY, ambZ, 1.0 };
     GLfloat mat_diffuse[] = { difX, difY, difZ, 1.0 };
-    GLfloat mat_specular[] = { 1.0, 1.0, 1.0, 1.0 };
+    GLfloat mat_specular[] = { 1.0, 1.0, 1.0, difT };
     GLfloat mat_shininess[] = { shine };
 
     glMaterialfv(GL_FRONT, GL_AMBIENT, mat_ambient);
@@ -303,12 +321,13 @@ void polygonLine(GLfloat difX, GLfloat difY, GLfloat difZ, GLfloat ambX, GLfloat
 #pragma endregion
 
 #pragma region Ve hinh cau
-void drawSphere(GLfloat difX, GLfloat difY, GLfloat difZ, GLfloat ambX, GLfloat ambY, GLfloat ambZ, GLfloat shine = 90)
+void drawSphere(GLfloat difX, GLfloat difY, GLfloat difZ, GLfloat ambX, GLfloat ambY, GLfloat ambZ, \
+    GLfloat difT = 1, GLfloat ambT = 1, GLfloat shine = 90)
 {
-    GLfloat no_mat[] = { 0.0, 0.0, 0.0, 1.0 };
+    GLfloat no_mat[] = { 0.0, 0.0, 0.0, ambT };
     GLfloat mat_ambient[] = { ambX, ambY, ambZ, 1.0 };
     GLfloat mat_diffuse[] = { difX, difY, difZ, 1.0 };
-    GLfloat mat_specular[] = { 1.0, 1.0, 1.0, 1.0 };
+    GLfloat mat_specular[] = { 1.0, 1.0, 1.0, difT };
     GLfloat mat_shininess[] = { shine };
 
     glMaterialfv(GL_FRONT, GL_AMBIENT, mat_ambient);
@@ -316,7 +335,7 @@ void drawSphere(GLfloat difX, GLfloat difY, GLfloat difZ, GLfloat ambX, GLfloat 
     glMaterialfv(GL_FRONT, GL_SPECULAR, mat_specular);
     glMaterialfv(GL_FRONT, GL_SHININESS, mat_shininess);
 
-    glutSolidSphere(3.0, 20, 16);
+    glutSolidSphere(0.5, 20, 20);
 }
 #pragma endregion
 
@@ -593,10 +612,43 @@ void room()
     // The frone left in the room
     glPushMatrix();
     glTranslatef(12, 3.8, 0);
-    glScalef(0.05, 0.6, 6);
+    glScalef(0.05, 0.6, 4.35);
     drawCube1(0.852, 0.21875, 0.2305, 0.887, 0.3, 0.33);
     glPopMatrix();
+
+    // The glass frone left in the room
+    glPushMatrix();
+    glTranslatef(12, -5.05, 0);
+    glScalef(0.05, 2.95, 4.35);
+    drawCube1(0.625, 0.586, 0.587, 0.734, 0.624, 0.628, 0.8, 0.9);
+    glPopMatrix();
 #pragma endregion
+}
+
+void quat_tran() {
+
+    // De quat
+    glPushMatrix();
+    glTranslatef(10, 2, 30);
+    glScalef(0.2, 0.01, 1);
+    drawCube1(0.348, 0.547, 0.492, 0.465, 0.806, 0.824);
+    glPopMatrix();
+
+    // Bau quat
+    glPushMatrix();
+    glTranslatef(10, 2, 30);
+    glScalef(1, 0.2, 1);
+    drawSphere(0.348, 0.547, 0.492, 0.465, 0.806, 0.824);
+    glPopMatrix();
+
+}
+
+void cube() {
+    glPushMatrix();
+    glTranslatef(10, 2, 30);
+    glScalef(2, 2, 0.02);
+    drawCube1(0, 0, 0, 0, 1, 0);
+    glPopMatrix();
 }
 
 void bed()
@@ -1546,6 +1598,24 @@ void display(void)
     lightTwo();
     lampLight();
     room();
+
+
+    glPushMatrix();
+    glTranslatef(10, 2, 30);
+    glTranslatef(6, 0, 0);
+    glRotatef(tuong_tac[CuaNK], 0, 1, 0);
+    glTranslatef(-10, -2, -30);
+    glTranslatef(-6, 0, 0);
+    cube();
+    glPopMatrix();
+
+    //glPushMatrix();
+    //glTranslatef(10, 2, 30);
+    //glRotatef(fanRotationAngle, 0, 1, 0);
+    //glTranslatef(-10, -2, -30);
+    //quat_tran();
+    //glPopMatrix();
+
     //bed();
     //bedsideDrawer();
     //lamp();
@@ -1564,6 +1634,19 @@ void display(void)
     glDisable(GL_BLEND);
     glFlush();
     glutSwapBuffers();
+}
+
+void IdleFunc(void)
+{
+    // Cập nhật góc quay của cánh quạt
+    if (_switch) {
+        fanRotationAngle += 1.0f;
+        if (fanRotationAngle > 360.0f) {
+            fanRotationAngle -= 360.0f;
+        }
+        glutPostRedisplay();
+    }
+    glutPostRedisplay();
 }
 
 void KeyboardFunc(unsigned char key, int x, int y)
@@ -1681,6 +1764,23 @@ void SpecialFunc(int key, int x, int y)
     case GLUT_KEY_PAGE_DOWN:
         moveCamera(0.0, -1.0, 0.0);
         break;
+    case GLUT_KEY_END:
+        if (_switch) {
+            _switch = false;
+        }
+        else _switch = true;
+    case GLUT_KEY_F1:
+        tuong_tac[CuaNK] += 5;
+        if (tuong_tac[CuaNK] > 120) {
+            tuong_tac[CuaNK] -= 5;
+        }
+        break;
+    case GLUT_KEY_F2:
+        tuong_tac[CuaNK] -= 5;
+        if (tuong_tac[CuaNK] < 0) {
+            tuong_tac[CuaNK] += 5;
+        }
+        break;
     }
 }
 
@@ -1761,51 +1861,19 @@ void fullScreen(int w, int h)
     glMatrixMode(GL_MODELVIEW);                    //Get Back to the Modelview
 }
 
+void menu(int option)
+{
+    if (option == Quit) {
+        exit(EXIT_SUCCESS);
+    }
+
+    angle = option;
+}
 
 int main(int argc, char** argv)
 {
     glutInit(&argc, argv);
-
-    std::cout << "To move Eye point:" << std::endl;
-    std::cout << "w: up" << std::endl;
-    std::cout << "s: down" << std::endl;
-    std::cout << "a: left" << std::endl;
-    std::cout << "d: right" << std::endl;
-    std::cout << "i: zoom in" << std::endl;
-    std::cout << "o: zoom out" << std::endl;
-    std::cout << "      " << std::endl;
-    std::cout << "To move Camera point:" << std::endl;
-    std::cout << "j: up" << std::endl;
-    std::cout << "n: down" << std::endl;
-    std::cout << "b: left" << std::endl;
-    std::cout << "m: right" << std::endl;
-    std::cout << "l: move nearer" << std::endl;
-    std::cout << "k: move far" << std::endl;
-    std::cout << "      " << std::endl;
-    std::cout << "Press q to move to default position" << std::endl;
-    std::cout << "      " << std::endl;
-    std::cout << "For lighting:      " << std::endl;
-    std::cout << "Light source 1 [the light on the right on the screen      " << std::endl;
-    std::cout << "1: to turn on/off light one     " << std::endl;
-    std::cout << "4: to turn on/off ambient light one     " << std::endl;
-    std::cout << "5: to turn on/off diffusion light one     " << std::endl;
-    std::cout << "6: to turn on/off specular light one      " << std::endl;
-    std::cout << "      " << std::endl;
-    std::cout << "Light source 2 [the light on the left on the screen " << std::endl;
-    std::cout << "2: to turn on/off light two     " << std::endl;
-    std::cout << "7: to turn on/off ambient light two     " << std::endl;
-    std::cout << "8: to turn on/off diffusion light two     " << std::endl;
-    std::cout << "9: to turn on/off specular light two      " << std::endl;
-    std::cout << "      " << std::endl;
-    std::cout << "Lamp light (spot light)" << std::endl;
-    std::cout << "3: to turn on/off lamp     " << std::endl;
-    std::cout << "e: to turn on/off ambient lamp light    " << std::endl;
-    std::cout << "r: to turn on/off diffusion lamp light      " << std::endl;
-    std::cout << "t: to turn on/off specular lamp light      " << std::endl;
-    std::cout << "      " << std::endl;
-    std::cout << "____________________" << std::endl;
-    std::cout << "      " << std::endl;
-    std::cout << "      " << std::endl;
+    std::cout << "Design by Richard Jacob" << std::endl;
 
     glutInitDisplayMode(GLUT_DOUBLE | GLUT_RGB | GLUT_DEPTH);
 
@@ -1819,9 +1887,18 @@ int main(int argc, char** argv)
 
     glutReshapeFunc(fullScreen);
     glutDisplayFunc(display);
+    glutIdleFunc(IdleFunc);
     glutKeyboardFunc(KeyboardFunc);
     glutSpecialFunc(SpecialFunc);
-    glutIdleFunc(animate);
+
+    // tạo menu
+    glutCreateMenu(menu);
+    glutAddMenuEntry("Cua nha kho", CuaNK);
+    glutAddMenuEntry("quit", Quit);
+
+    // kích hoạt menu bằng nhấn nút giữa chuột
+    glutAttachMenu(GLUT_MIDDLE_BUTTON);
+    //glutIdleFunc(animate);
     glutMainLoop();
 
     return 0;
