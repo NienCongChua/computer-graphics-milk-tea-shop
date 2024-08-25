@@ -752,6 +752,17 @@ namespace Cua {
     }
 
     void CuaQuan() {
+        glPushMatrix();
+        glTranslatef(1.2, -4.8, 27.1);
+        glScalef(2.95, 2.85, 0.05);
+        drawCube1(0.625, 0.586, 0.587, 0.734, 0.624, 0.628, 0.85, 0.85);
+        glPopMatrix();
+
+        glPushMatrix();
+        glTranslatef(2.3, -1, 27.5);
+        glScalef(0.5, 0.5, 0.05);
+        drawSphere(0.852, 0.21875, 0.2305, 0.887, 0.3, 0.33);
+        glPopMatrix();
 
     }
 }
@@ -810,6 +821,60 @@ namespace QuatTran {
         drawSphere(0.348, 0.547, 0.492, 0.465, 0.806, 0.824);
         glPopMatrix();
     }
+}
+
+namespace TuLanh {
+    void detulanh() {
+        // De tu lanh
+        glPushMatrix();
+        glTranslatef(16.45, -5.05, 14);
+        glScalef(0.5, 0.4, 0.8);
+        drawCube1(0.836, 0.836, 0.836, 0.9, 0.9, 0.9);
+        glPopMatrix();
+    }
+
+    void VanKeTuLanh() {
+        glPushMatrix();
+        glTranslatef(16.4, -5.05, 14.3);
+        glScalef(0.01, 0.4, 0.03);
+        drawCube1(0.605, 0.605, 0.605, 0.605, 0.605, 0.605);
+        glPopMatrix();
+    }
+
+    void VeTuLanh() {
+        detulanh();
+        VanKeTuLanh();
+        glPushMatrix();
+        glTranslatef(0, 0, 0.4);
+        VanKeTuLanh();
+        glPopMatrix();
+        VanKeTuLanh();
+        glPushMatrix();
+        glTranslatef(0, 0, 0.8);
+        VanKeTuLanh();
+        glPopMatrix();
+        VanKeTuLanh();
+        glPushMatrix();
+        glTranslatef(0, 0, 1.2);
+        VanKeTuLanh();
+        glPopMatrix();
+        VanKeTuLanh();
+        glPushMatrix();
+        glTranslatef(0, 0, 1.6);
+        VanKeTuLanh();
+        glPopMatrix();
+    }
+
+    void VeThanTuLanh() {
+        glPushMatrix();
+        glTranslatef(16.45, -3.6, 14);
+        glScalef(0.5, 2.0, 0.03);
+        drawCube1(0.8, 0.8, 0.8, 0.8, 0.9, 0.9);
+        glPopMatrix();
+
+
+    }
+
 }
 
 void cube() {
@@ -1605,6 +1670,7 @@ void lightBulb1()
     glPushMatrix();
     glTranslatef(5, 5, 8);
     glScalef(0.2, 0.2, 0.2);
+
     glMaterialfv(GL_FRONT, GL_AMBIENT, no_mat);
     glMaterialfv(GL_FRONT, GL_DIFFUSE, mat_diffuse);
     glMaterialfv(GL_FRONT, GL_SPECULAR, no_mat);
@@ -1768,12 +1834,22 @@ void display(void)
     lampLight();
     room();
 
+    TuLanh::VeTuLanh();
+    TuLanh::VeThanTuLanh();
+
 #pragma region Vẽ cửa
+    // Cua ben trong
     glPushMatrix();
     glTranslatef(13, -5.04, 13);
     glRotatef(tuong_tac[CuaNK], 0, 1, 0);
     glTranslatef(-13, 5.04, -13);
     Cua::CuaNhaKho();
+    glPopMatrix();
+
+    // Cua ben ngoai
+    glPushMatrix();
+    glTranslatef(tuong_tac[CuaPK], 0, 0);
+    Cua::CuaQuan();
     glPopMatrix();
 #pragma endregion
 
@@ -1985,6 +2061,18 @@ void SpecialFunc(int key, int x, int y)
         tuong_tac[CuaNK] -= 5;
         if (tuong_tac[CuaNK] < 0) {
             tuong_tac[CuaNK] += 5;
+        }
+        break;
+    case GLUT_KEY_F3:
+        tuong_tac[CuaPK] += 0.1;
+        if (tuong_tac[CuaPK] >= 8) {
+            tuong_tac[CuaPK] -= 0.1;
+        }
+        break;
+    case GLUT_KEY_F4:
+        tuong_tac[CuaPK] -= 0.1;
+        if (tuong_tac[CuaPK] < 0) {
+            tuong_tac[CuaPK] += 0.1;
         }
         break;
     }
