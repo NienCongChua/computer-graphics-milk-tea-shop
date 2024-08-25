@@ -1,8 +1,7 @@
 ﻿//
 //  main.cpp
-//  lab 3 assignment
 //
-//  Created by Noushin Gauhar on 23/4/21.
+//  Created by Richard Jacob on 25/8/2024.
 //
 
 #pragma region Library
@@ -16,22 +15,28 @@
 #pragma endregion
 #define M_PI 3.14152
 
-GLboolean redFlag = true, switchOne = false, switchTwo = false, switchLamp = false, amb1 = true, diff1 = false,\
-spec1 = true, amb2 = true, diff2 = false, spec2 = true, amb3 = true, diff3 = true, spec3 = true, _switch = true;
+GLboolean redFlag = true, switchOne = false, switchTwo = false, switchLamp = false, \
+    amb1 = true, diff1 = false, spec1 = true, amb2 = true, diff2 = false, spec2 = true, \
+    amb3 = true, diff3 = true, spec3 = true;
 double windowHeight = 800, windowWidth = 600;
 double eyeX = 24.0, eyeY = 5.0, eyeZ = 35.0, refX = 0, refY = 0, refZ = 0;
 double theta = 180.0, y = 1.36, z = 7.97888;
-GLfloat Alpha = 0;
-GLfloat fanRotationAngle = 0.0f;
+GLfloat Alpha1 = 0, Alpha2 = 0, Alpha3 = 0;
+GLfloat fanRotationAngle1 = 0.0f, fanRotationAngle2 = 0.0f, fanRotationAngle3 = 0.0f,
+    fanRotationAngle4 = 0.0f;
+GLboolean _switch1 = true, _switch2 = false, _switch3 = false;
+// GLboolean doorSwitch1 = false;
 
 enum {
     CuaNK,		    //3
+    CuaPK,
     NumJointAngles,	//11
     Quit			//12
 };
 
-GLfloat 
+GLfloat
 tuong_tac[NumJointAngles] = {
+    0.0,
     0.0
 };
 
@@ -60,7 +65,8 @@ static GLubyte quadIndices[6][4] =
 };
 
 static void getNormal3p
-(GLfloat x1, GLfloat y1, GLfloat z1, GLfloat x2, GLfloat y2, GLfloat z2, GLfloat x3, GLfloat y3, GLfloat z3)
+(GLfloat x1, GLfloat y1, GLfloat z1, GLfloat x2, GLfloat y2, \
+    GLfloat z2, GLfloat x3, GLfloat y3, GLfloat z3)
 {
     GLfloat Ux, Uy, Uz, Vx, Vy, Vz, Nx, Ny, Nz;
 
@@ -620,27 +626,190 @@ void room()
     glPushMatrix();
     glTranslatef(12, -5.05, 0);
     glScalef(0.05, 2.95, 4.35);
-    drawCube1(0.625, 0.586, 0.587, 0.734, 0.624, 0.628, 0.8, 0.9);
+    drawCube1(0.625, 0.586, 0.587, 0.734, 0.624, 0.628, 0.8, 0.85);
     glPopMatrix();
+
+    // The glass frone top in the room
+    glPushMatrix();
+    glTranslatef(12, 2.602, 13);
+    glScalef(2, 0.45, 0.05);
+    drawCube1(0.625, 0.586, 0.587, 0.734, 0.624, 0.628, 0.8, 0.85);
+    glPopMatrix();
+
+    // The glass frone left bottom in the room
+    glPushMatrix();
+    glTranslatef(12, -5.05, 13);
+    glScalef(0.3, 2.95, 0.05);
+    drawCube1(0.625, 0.586, 0.587, 0.734, 0.624, 0.628, 0.8, 0.85);
+    glPopMatrix();
+
+    // The glass frone right bottom in the room
+    glPushMatrix();
+    glTranslatef(16.5, -5.05, 13);
+    glScalef(0.5, 2.95, 0.05);
+    drawCube1(0.625, 0.586, 0.587, 0.734, 0.624, 0.628, 0.8, 0.85);
+    glPopMatrix();
+
+    // The matix bottom
+    glPushMatrix();
+    glTranslatef(12, -5.05, 0);
+    glScalef(0.05, 0.15, 4.35);
+    drawCube1(0.2385, 0.2205, 0.2225, 0.2385, 0.2205, 0.2225);
+    glPopMatrix();
+    glPushMatrix();
+    glTranslatef(16.5, -5.05, 13);
+    glScalef(0.5, 0.15, 0.05);
+    drawCube1(0.2385, 0.2205, 0.2225, 0.2385, 0.2205, 0.2225);
+    glPopMatrix();
+    glPushMatrix();
+    glTranslatef(12, -5.05, 13);
+    glScalef(0.3, 0.15, 0.05);
+    drawCube1(0.2385, 0.2205, 0.2225, 0.2385, 0.2205, 0.2225);
+    glPopMatrix();
+
+    // Khung cua
+    glPushMatrix();
+    glTranslatef(12.9, -5.05, 13);
+    glScalef(0.01, 2.55, 0.05);
+    drawCube1(0.1, 0.1, 0.1, 0.1, 0.1, 0.1);
+    glPopMatrix();
+    glPushMatrix();
+    glTranslatef(16.5, -5.05, 13);
+    glScalef(0.01, 2.55, 0.05);
+    drawCube1(0.1, 0.1, 0.1, 0.1, 0.1, 0.1);
+    glPopMatrix();
+    glPushMatrix();
+    glTranslatef(12.9, 2.602, 13);
+    glScalef(1.2, 0.01, 0.05);
+    drawCube1(0.1, 0.1, 0.1, 0.1, 0.1, 0.1);
+    glPopMatrix();
+
 #pragma endregion
+
+    // Cua kinh ngoai
+    glPushMatrix();
+    glTranslatef(10, -5.05, 27);
+    glScalef(2.6, 3.6, 0.05);
+    drawCube1(0.625, 0.586, 0.587, 0.734, 0.624, 0.628, 0.3, 0.4);
+    glPopMatrix();
+
+    glPushMatrix();
+    glTranslatef(10, -5.05, 27.1);
+    glScalef(0.05, 2.95, 0.05);
+    drawCube1(0, 0, 0, 0, 0, 0);
+    glPopMatrix();
+
+    glPushMatrix();
+    glTranslatef(0, -5.0, 27);
+    glScalef(6, 0.05, 0.05);
+    drawCube1(0.05, 0.05, 0.05, 0.05, 0.05, 0.05);
+    glPopMatrix();
+
+    glPushMatrix();
+    glTranslatef(0, -5.05, 27.1);
+    glScalef(0.4, 2.95, 0.05);
+    drawCube1(0.625, 0.586, 0.587, 0.734, 0.624, 0.628, 0.3, 0.4);
+    glPopMatrix();
+
+    glPushMatrix();
+    glTranslatef(0, 3.75, 27);
+    glScalef(6, 0.05, 0.05);
+    drawCube1(0.05, 0.05, 0.05, 0.05, 0.05, 0.05);
+    glPopMatrix();
+
+    glPushMatrix();
+    glTranslatef(1.1, -5.05, 27.1);
+    glScalef(0.05, 2.95, 0.05);
+    drawCube1(0, 0, 0, 0, 0, 0);
+    glPopMatrix();
 }
 
-void quat_tran() {
+namespace Cua {
+    void CuaNhaKho() {
+        glPushMatrix();
+        glTranslatef(13, -5.04, 13);
+        glScalef(1.15, 2.549, 0.05);
+        drawCube1(0.625, 0.586, 0.587, 0.734, 0.624, 0.628, 0.95, 0.95);
+        glPopMatrix();
 
-    // De quat
-    glPushMatrix();
-    glTranslatef(10, 2, 30);
-    glScalef(0.2, 0.01, 1);
-    drawCube1(0.348, 0.547, 0.492, 0.465, 0.806, 0.824);
-    glPopMatrix();
+        glPushMatrix();
+        glTranslatef(16, -1, 13);
+        glScalef(0.05, 0.05, 0.15);
+        drawCube1(0.1, 0.1, 0.1, 0.1, 0.1, 0.1);
+        glPopMatrix();
 
-    // Bau quat
-    glPushMatrix();
-    glTranslatef(10, 2, 30);
-    glScalef(1, 0.2, 1);
-    drawSphere(0.348, 0.547, 0.492, 0.465, 0.806, 0.824);
-    glPopMatrix();
+        glPushMatrix();
+        glTranslatef(16, 0, 13);
+        glScalef(0.05, 0.05, 0.15);
+        drawCube1(0.1, 0.1, 0.1, 0.1, 0.1, 0.1);
+        glPopMatrix();
 
+        glPushMatrix();
+        glTranslatef(16, -1, 13.3);
+        glScalef(0.05, 0.35, 0.05);
+        drawCube1(0.1, 0.1, 0.1, 0.1, 0.1, 0.1);
+        glPopMatrix();
+    }
+
+    void CuaQuan() {
+
+    }
+}
+
+namespace Ghe {
+    void chanGhe() {
+
+    }
+}
+
+namespace QuatTran {
+    void quat_tran_s() {
+        glPushMatrix();
+        glTranslatef(9.75, 3, 30.35);
+        glScalef(0.3, 0.1, 0.3);
+        glRotatef(180, 1, 0, 0);
+        drawpyramid(0.348, 0.547, 0.492, 0.465, 0.806, 0.824);
+        glPopMatrix();
+
+        glPushMatrix();
+        glTranslatef(9.98, 2, 30);
+        glScalef(0.05, 0.3, 0.05);
+        drawCube1(0.348, 0.547, 0.492, 0.465, 0.806, 0.824);
+        glPopMatrix();
+    }
+
+    void quat_tran_q() {
+
+        // Canh quat
+        glPushMatrix();
+        glTranslatef(9.75, 2, 30);
+        glScalef(0.2, 0.01, 1);
+        drawCube1(0.348, 0.547, 0.492, 0.465, 0.806, 0.824);
+        glPopMatrix();
+
+        glPushMatrix();
+        glTranslatef(7.1, 2, 28.6);
+        glRotatef(60, 0, 1, 0);
+        glScalef(0.2, 0.01, 1);
+        drawCube1(0.348, 0.547, 0.492, 0.465, 0.806, 0.824);
+        glPopMatrix();
+
+        glPushMatrix();
+        glTranslatef(10.1, 2, 30.3);
+        glRotatef(120, 0, 1, 0);
+        glScalef(0.2, 0.01, 1);
+        drawCube1(0.348, 0.547, 0.492, 0.465, 0.806, 0.824);
+        glPopMatrix();
+    }
+
+    void bau_quat() {
+        // Bau quat
+        glPushMatrix();
+        glTranslatef(10, 2, 30);
+        glScalef(1, 0.2, 1);
+        drawSphere(0.348, 0.547, 0.492, 0.465, 0.806, 0.824);
+        glPopMatrix();
+    }
 }
 
 void cube() {
@@ -1599,22 +1768,40 @@ void display(void)
     lampLight();
     room();
 
+#pragma region Vẽ cửa
+    glPushMatrix();
+    glTranslatef(13, -5.04, 13);
+    glRotatef(tuong_tac[CuaNK], 0, 1, 0);
+    glTranslatef(-13, 5.04, -13);
+    Cua::CuaNhaKho();
+    glPopMatrix();
+#pragma endregion
+
+#pragma region Vẽ quạt trần
+    // Ve quat tran 1
+    glPushMatrix();
+    glTranslatef(-3, 2.6, -23);
+
+    QuatTran::quat_tran_s();    // Quạt trần static
+
+    glPushMatrix();
+    glTranslatef(9.75, 2, 30);
+    glTranslatef(0.3, 0, 0);
+    glRotatef(fanRotationAngle1, 0, 1, 0);
+    glTranslatef(-0.3, 0, 0);
+    glTranslatef(-9.75, -2, -30);
+    QuatTran::quat_tran_q();
+    glPopMatrix();
 
     glPushMatrix();
     glTranslatef(10, 2, 30);
-    glTranslatef(6, 0, 0);
-    glRotatef(tuong_tac[CuaNK], 0, 1, 0);
+    glRotatef(fanRotationAngle1, 0, 1, 0);
     glTranslatef(-10, -2, -30);
-    glTranslatef(-6, 0, 0);
-    cube();
+    QuatTran::bau_quat();
     glPopMatrix();
 
-    //glPushMatrix();
-    //glTranslatef(10, 2, 30);
-    //glRotatef(fanRotationAngle, 0, 1, 0);
-    //glTranslatef(-10, -2, -30);
-    //quat_tran();
-    //glPopMatrix();
+    glPopMatrix();
+#pragma endregion
 
     //bed();
     //bedsideDrawer();
@@ -1639,13 +1826,32 @@ void display(void)
 void IdleFunc(void)
 {
     // Cập nhật góc quay của cánh quạt
-    if (_switch) {
-        fanRotationAngle += 1.0f;
-        if (fanRotationAngle > 360.0f) {
-            fanRotationAngle -= 360.0f;
+    if (_switch1) {
+        fanRotationAngle1 += 1.0f;
+        if (fanRotationAngle1 > 360.0f) {
+            fanRotationAngle1 -= 360.0f;
         }
         glutPostRedisplay();
     }
+    glutPostRedisplay();
+
+    if (_switch2) {
+        fanRotationAngle2 += 1.0f;
+        if (fanRotationAngle2 > 360.0f) {
+            fanRotationAngle2 -= 360.0f;
+        }
+        glutPostRedisplay();
+    }
+    glutPostRedisplay();
+
+    if (_switch3) {
+        fanRotationAngle3 += 1.0f;
+        if (fanRotationAngle3 > 360.0f) {
+            fanRotationAngle3 -= 360.0f;
+        }
+        glutPostRedisplay();
+    }
+
     glutPostRedisplay();
 }
 
@@ -1765,13 +1971,13 @@ void SpecialFunc(int key, int x, int y)
         moveCamera(0.0, -1.0, 0.0);
         break;
     case GLUT_KEY_END:
-        if (_switch) {
-            _switch = false;
+        if (_switch1) {
+            _switch1 = false;
         }
-        else _switch = true;
+        else _switch1 = true;
     case GLUT_KEY_F1:
         tuong_tac[CuaNK] += 5;
-        if (tuong_tac[CuaNK] > 120) {
+        if (tuong_tac[CuaNK] > 100) {
             tuong_tac[CuaNK] -= 5;
         }
         break;
@@ -1879,7 +2085,7 @@ int main(int argc, char** argv)
 
     glutInitWindowPosition(100, 100);
     glutInitWindowSize(windowHeight, windowWidth);
-    glutCreateWindow("Bedroom");
+    glutCreateWindow("Milk Tea Shop");
 
     glShadeModel(GL_SMOOTH);
     glEnable(GL_DEPTH_TEST);
