@@ -30,6 +30,7 @@ GLboolean _switch1 = true, _switch2 = false, _switch3 = false;
 enum {
     CuaNK,		    //3
     CuaPK,
+    CuaTL,
     NumJointAngles,	//11
     Quit			//12
 };
@@ -37,6 +38,7 @@ enum {
 GLfloat
 tuong_tac[NumJointAngles] = {
     0.0,
+    0.0, 
     0.0
 };
 
@@ -765,6 +767,35 @@ namespace Cua {
         glPopMatrix();
 
     }
+
+    void CuaTuLanh() {
+        glPushMatrix();
+        glTranslatef(0.45, 0, 0);
+        glPushMatrix();
+        glTranslatef(16.0, -3.6, 13.55);
+        glScalef(0.01, 2, 0.79);
+        drawCube1(0.5, 0.5, 0.5, 0.5, 0.5, 0.5, 0.5, 0.5);
+        glPopMatrix();
+
+        glPushMatrix();
+        glTranslatef(15.8, -1.0, 13.7);
+        glScalef(0.07, 0.05, 0.05);
+        drawCube1(0.15, 0.15, 0.15, 0.15, 0.15, 0.15);
+        glPopMatrix();
+
+        glPushMatrix();
+        glTranslatef(15.8, 0, 13.7);
+        glScalef(0.07, 0.05, 0.05);
+        drawCube1(0.15, 0.15, 0.15, 0.15, 0.15, 0.15);
+        glPopMatrix();
+
+        glPushMatrix();
+        glTranslatef(15.8, -1.0, 13.7);
+        glScalef(0.05, 0.35, 0.05);
+        drawCube1(0.15, 0.15, 0.15, 0.15, 0.15, 0.15);
+        glPopMatrix();
+        glPopMatrix();
+    }
 }
 
 namespace Ghe {
@@ -831,6 +862,12 @@ namespace TuLanh {
         glScalef(0.5, 0.4, 0.8);
         drawCube1(0.836, 0.836, 0.836, 0.9, 0.9, 0.9);
         glPopMatrix();
+
+        glPushMatrix();
+        glTranslatef(16.45, 2.42, 14);
+        glScalef(0.5, 0.4, 0.8);
+        drawCube1(0.536, 0.536, 0.536, 0.7, 0.7, 0.7);
+        glPopMatrix();
     }
 
     void VanKeTuLanh() {
@@ -872,9 +909,463 @@ namespace TuLanh {
         drawCube1(0.8, 0.8, 0.8, 0.8, 0.9, 0.9);
         glPopMatrix();
 
+        glPushMatrix();
+        glTranslatef(16.45, -3.6, 16.3);
+        glScalef(0.5, 2.0, 0.03);
+        drawCube1(0.8, 0.8, 0.8, 0.8, 0.9, 0.9);
+        glPopMatrix();
 
+        glPushMatrix();
+        glTranslatef(17.65, -3.6, 14);
+        glScalef(0.02, 2.0, 0.8);
+        drawCube1(0.6, 0.6, 0.6, 0.65, 0.65, 0.65);
+        glPopMatrix();
+
+        glPushMatrix();
+        glTranslatef(16.45, -3.55, 14);
+        glScalef(0.5, 0.02, 0.8);
+        drawCube1(0.3, 0.3, 0.3, 0.4, 0.4, 0.4);
+        glPopMatrix();
+
+        glPushMatrix();
+        glTranslatef(16.45, 2.35, 14);
+        glScalef(0.5, 0.02, 0.8);
+        drawCube1(0.3, 0.3, 0.3, 0.4, 0.4, 0.4);
+        glPopMatrix();
+
+        // Ngan tu lanh
+        glPushMatrix();
+        glTranslatef(16.45, -2.5, 14);
+        glScalef(0.5, 0.02, 0.8);
+        drawCube1(0.4, 0.4, 0.4, 0.5, 0.5, 0.5);
+        glPopMatrix();
+
+        glPushMatrix();
+        glTranslatef(16.45, -1.4, 14);
+        glScalef(0.5, 0.02, 0.8);
+        drawCube1(0.4, 0.4, 0.4, 0.5, 0.5, 0.5);
+        glPopMatrix();
+
+        glPushMatrix();
+        glTranslatef(16.45, -0.3, 14);
+        glScalef(0.5, 0.02, 0.8);
+        drawCube1(0.4, 0.4, 0.4, 0.5, 0.5, 0.5);
+        glPopMatrix();
+
+        glPushMatrix();
+        glTranslatef(16.45, 0.8, 14);
+        glScalef(0.5, 0.02, 0.8);
+        drawCube1(0.4, 0.4, 0.4, 0.5, 0.5, 0.5);
+        glPopMatrix();
     }
 
+    void DoTrongTuLanh() {
+#pragma region Ngan tu lanh 1
+        // Ngan 1
+        glPushMatrix();
+        glTranslatef(17.3, -0.1, 14);
+        glScalef(0.3, 0.3, 0.3);
+        drawSphere(0.793, 0.543, 0.15625, 0.793, 0.543, 0.15625);
+        glPopMatrix();
+        glPushMatrix();
+        glTranslatef(16.9, -0.1, 14);
+        glScalef(0.3, 0.3, 0.3);
+        drawSphere(0.793, 0.543, 0.15625, 0.793, 0.543, 0.15625);
+        glPopMatrix();
+        glPushMatrix();
+        glTranslatef(17.2, -0.1, 14);
+        glScalef(0.3, 0.3, 0.3);
+        drawSphere(0.793, 0.543, 0.15625, 0.793, 0.543, 0.15625);
+        glPopMatrix();
+        glPushMatrix();
+        glTranslatef(17.3, -0.1, 14.3);
+        glScalef(0.3, 0.3, 0.3);
+        drawSphere(0.793, 0.543, 0.15625, 0.793, 0.543, 0.15625);
+        glPopMatrix();
+        glPushMatrix();
+        glTranslatef(16.9, -0.1, 14.3);
+        glScalef(0.3, 0.3, 0.3);
+        drawSphere(0.793, 0.543, 0.15625, 0.793, 0.543, 0.15625);
+        glPopMatrix();
+        glPushMatrix();
+        glTranslatef(17.2, -0.1, 14.3);
+        glScalef(0.3, 0.3, 0.3);
+        drawSphere(0.793, 0.543, 0.15625, 0.793, 0.543, 0.15625);
+        glPopMatrix();
+
+        glPushMatrix();
+        glTranslatef(17.3, -0.1, 14.6);
+        glScalef(0.3, 0.3, 0.3);
+        drawSphere(0.793, 0.543, 0.15625, 0.793, 0.543, 0.15625);
+        glPopMatrix();
+        glPushMatrix();
+        glTranslatef(16.9, -0.1, 14.6);
+        glScalef(0.3, 0.3, 0.3);
+        drawSphere(0.793, 0.543, 0.15625, 0.793, 0.543, 0.15625);
+        glPopMatrix();
+        glPushMatrix();
+        glTranslatef(17.2, -0.1, 14.6);
+        glScalef(0.3, 0.3, 0.3);
+        drawSphere(0.793, 0.543, 0.15625, 0.793, 0.543, 0.15625);
+        glPopMatrix();
+        glPushMatrix();
+        glTranslatef(17.3, -0.1, 14.9);
+        glScalef(0.3, 0.3, 0.3);
+        drawSphere(0.793, 0.543, 0.15625, 0.793, 0.543, 0.15625);
+        glPopMatrix();
+        glPushMatrix();
+        glTranslatef(16.9, -0.1, 14.9);
+        glScalef(0.3, 0.3, 0.3);
+        drawSphere(0.793, 0.543, 0.15625, 0.793, 0.543, 0.15625);
+        glPopMatrix();
+        glPushMatrix();
+        glTranslatef(17.2, -0.1, 14.9);
+        glScalef(0.3, 0.3, 0.3);
+        drawSphere(0.793, 0.543, 0.15625, 0.793, 0.543, 0.15625);
+        glPopMatrix();
+
+        glPushMatrix();
+        glTranslatef(17.3, -0.1, 15.2);
+        glScalef(0.3, 0.3, 0.3);
+        drawSphere(0.793, 0.543, 0.15625, 0.793, 0.543, 0.15625);
+        glPopMatrix();
+        glPushMatrix();
+        glTranslatef(16.9, -0.1, 15.2);
+        glScalef(0.3, 0.3, 0.3);
+        drawSphere(0.793, 0.543, 0.15625, 0.793, 0.543, 0.15625);
+        glPopMatrix();
+        glPushMatrix();
+        glTranslatef(17.2, -0.1, 15.2);
+        glScalef(0.3, 0.3, 0.3);
+        drawSphere(0.793, 0.543, 0.15625, 0.793, 0.543, 0.15625);
+        glPopMatrix();
+        glPushMatrix();
+        glTranslatef(17.3, -0.1, 15.5);
+        glScalef(0.3, 0.3, 0.3);
+        drawSphere(0.793, 0.543, 0.15625, 0.793, 0.543, 0.15625);
+        glPopMatrix();
+        glPushMatrix();
+        glTranslatef(16.9, -0.1, 15.5);
+        glScalef(0.3, 0.3, 0.3);
+        drawSphere(0.793, 0.543, 0.15625, 0.793, 0.543, 0.15625);
+        glPopMatrix();
+        glPushMatrix();
+        glTranslatef(17.2, -0.1, 15.5);
+        glScalef(0.3, 0.3, 0.3);
+        drawSphere(0.793, 0.543, 0.15625, 0.793, 0.543, 0.15625);
+        glPopMatrix();
+
+        /////////////////////////////////////////////////
+        glPushMatrix();
+        glTranslatef(0, 0, 0.12);
+
+        glPushMatrix();
+        glTranslatef(17.45, 0.1, 14);
+        glScalef(0.3, 0.3, 0.3);
+        drawSphere(0.793, 0.543, 0.15625, 0.793, 0.543, 0.15625);
+        glPopMatrix();
+        glPushMatrix();
+        glTranslatef(17.05, 0.1, 14);
+        glScalef(0.3, 0.3, 0.3);
+        drawSphere(0.793, 0.543, 0.15625, 0.793, 0.543, 0.15625);
+        glPopMatrix();
+        glPushMatrix();
+        glTranslatef(17.45, 0.1, 14.3);
+        glScalef(0.3, 0.3, 0.3);
+        drawSphere(0.793, 0.543, 0.15625, 0.793, 0.543, 0.15625);
+        glPopMatrix();
+        glPushMatrix();
+        glTranslatef(17.05, 0.1, 14.3);
+        glScalef(0.3, 0.3, 0.3);
+        drawSphere(0.793, 0.543, 0.15625, 0.793, 0.543, 0.15625);
+        glPopMatrix();
+
+        glPushMatrix();
+        glTranslatef(17.45, 0.1, 14.6);
+        glScalef(0.3, 0.3, 0.3);
+        drawSphere(0.793, 0.543, 0.15625, 0.793, 0.543, 0.15625);
+        glPopMatrix();
+        glPushMatrix();
+        glTranslatef(17.05, 0.1, 14.6);
+        glScalef(0.3, 0.3, 0.3);
+        drawSphere(0.793, 0.543, 0.15625, 0.793, 0.543, 0.15625);
+        glPopMatrix();
+        glPushMatrix();
+        glTranslatef(17.45, 0.1, 14.9);
+        glScalef(0.3, 0.3, 0.3);
+        drawSphere(0.793, 0.543, 0.15625, 0.793, 0.543, 0.15625);
+        glPopMatrix();
+        glPushMatrix();
+        glTranslatef(17.05, 0.1, 14.9);
+        glScalef(0.3, 0.3, 0.3);
+        drawSphere(0.793, 0.543, 0.15625, 0.793, 0.543, 0.15625);
+        glPopMatrix();
+        glPushMatrix();
+        glTranslatef(17.45, 0.1, 15.2);
+        glScalef(0.3, 0.3, 0.3);
+        drawSphere(0.793, 0.543, 0.15625, 0.793, 0.543, 0.15625);
+        glPopMatrix();
+        glPushMatrix();
+        glTranslatef(17.05, 0.1, 15.2);
+        glScalef(0.3, 0.3, 0.3);
+        drawSphere(0.793, 0.543, 0.15625, 0.793, 0.543, 0.15625);
+        glPopMatrix();
+
+        glPopMatrix();
+        glPushMatrix();
+        glTranslatef(17.15, 0.33, 14.3);
+        glScalef(0.3, 0.3, 0.3);
+        drawSphere(0.793, 0.543, 0.15625, 0.793, 0.543, 0.15625);
+        glPopMatrix();
+
+        glPushMatrix();
+        glTranslatef(17.15, 0.33, 14.6);
+        glScalef(0.3, 0.3, 0.3);
+        drawSphere(0.793, 0.543, 0.15625, 0.793, 0.543, 0.15625);
+        glPopMatrix();
+
+        glPushMatrix();
+        glTranslatef(17.15, 0.33, 14.9);
+        glScalef(0.3, 0.3, 0.3);
+        drawSphere(0.793, 0.543, 0.15625, 0.793, 0.543, 0.15625);
+        glPopMatrix();
+
+        glPushMatrix();
+        glTranslatef(17.15, 0.33, 15.2);
+        glScalef(0.3, 0.3, 0.3);
+        drawSphere(0.793, 0.543, 0.15625, 0.793, 0.543, 0.15625);
+        glPopMatrix();
+# pragma endregion
+
+#pragma region Ngan tu lanh 2
+        glPushMatrix();
+        glTranslatef(0, -1.1, 0);
+
+        glPushMatrix();
+        glTranslatef(17.3, -0.1, 14);
+        glScalef(0.3, 0.3, 0.3);
+        drawSphere(0.85, 0.723, 0.2, 0.85, 0.723, 0.2);
+        glPopMatrix();
+        glPushMatrix();
+        glTranslatef(16.9, -0.1, 14);
+        glScalef(0.3, 0.3, 0.3);
+        drawSphere(0.85, 0.723, 0.2, 0.85, 0.723, 0.2);
+        glPopMatrix();
+        glPushMatrix();
+        glTranslatef(17.2, -0.1, 14);
+        glScalef(0.3, 0.3, 0.3);
+        drawSphere(0.85, 0.723, 0.2, 0.85, 0.723, 0.2);
+        glPopMatrix();
+        glPushMatrix();
+        glTranslatef(17.3, -0.1, 14.3);
+        glScalef(0.3, 0.3, 0.3);
+        drawSphere(0.85, 0.723, 0.2, 0.85, 0.723, 0.2);
+        glPopMatrix();
+        glPushMatrix();
+        glTranslatef(16.9, -0.1, 14.3);
+        glScalef(0.3, 0.3, 0.3);
+        drawSphere(0.85, 0.723, 0.2, 0.85, 0.723, 0.2);
+        glPopMatrix();
+        glPushMatrix();
+        glTranslatef(17.2, -0.1, 14.3);
+        glScalef(0.3, 0.3, 0.3);
+        drawSphere(0.85, 0.723, 0.2, 0.85, 0.723, 0.2);
+        glPopMatrix();
+
+        glPushMatrix();
+        glTranslatef(17.3, -0.1, 14.6);
+        glScalef(0.3, 0.3, 0.3);
+        drawSphere(0.85, 0.723, 0.2, 0.85, 0.723, 0.2);
+        glPopMatrix();
+        glPushMatrix();
+        glTranslatef(16.9, -0.1, 14.6);
+        glScalef(0.3, 0.3, 0.3);
+        drawSphere(0.85, 0.723, 0.2, 0.85, 0.723, 0.2);
+        glPopMatrix();
+        glPushMatrix();
+        glTranslatef(17.2, -0.1, 14.6);
+        glScalef(0.3, 0.3, 0.3);
+        drawSphere(0.85, 0.723, 0.2, 0.85, 0.723, 0.2);
+        glPopMatrix();
+        glPushMatrix();
+        glTranslatef(17.3, -0.1, 14.9);
+        glScalef(0.3, 0.3, 0.3);
+        drawSphere(0.85, 0.723, 0.2, 0.85, 0.723, 0.2);
+        glPopMatrix();
+        glPushMatrix();
+        glTranslatef(16.9, -0.1, 14.9);
+        glScalef(0.3, 0.3, 0.3);
+        drawSphere(0.85, 0.723, 0.2, 0.85, 0.723, 0.2);
+        glPopMatrix();
+        glPushMatrix();
+        glTranslatef(17.2, -0.1, 14.9);
+        glScalef(0.3, 0.3, 0.3);
+        drawSphere(0.85, 0.723, 0.2, 0.85, 0.723, 0.2);
+        glPopMatrix();
+
+        glPushMatrix();
+        glTranslatef(17.3, -0.1, 15.2);
+        glScalef(0.3, 0.3, 0.3);
+        drawSphere(0.85, 0.723, 0.2, 0.85, 0.723, 0.2);
+        glPopMatrix();
+        glPushMatrix();
+        glTranslatef(16.9, -0.1, 15.2);
+        glScalef(0.3, 0.3, 0.3);
+        drawSphere(0.85, 0.723, 0.2, 0.85, 0.723, 0.2);
+        glPopMatrix();
+        glPushMatrix();
+        glTranslatef(17.2, -0.1, 15.2);
+        glScalef(0.3, 0.3, 0.3);
+        drawSphere(0.85, 0.723, 0.2, 0.85, 0.723, 0.2);
+        glPopMatrix();
+        glPushMatrix();
+        glTranslatef(17.3, -0.1, 15.5);
+        glScalef(0.3, 0.3, 0.3);
+        drawSphere(0.85, 0.723, 0.2, 0.85, 0.723, 0.2);
+        glPopMatrix();
+        glPushMatrix();
+        glTranslatef(16.9, -0.1, 15.5);
+        glScalef(0.3, 0.3, 0.3);
+        drawSphere(0.85, 0.723, 0.2, 0.85, 0.723, 0.2);
+        glPopMatrix();
+        glPushMatrix();
+        glTranslatef(17.2, -0.1, 15.5);
+        glScalef(0.3, 0.3, 0.3);
+        drawSphere(0.85, 0.723, 0.2, 0.85, 0.723, 0.2);
+        glPopMatrix();
+
+        /////////////////////////////////////////////////
+        glPushMatrix();
+        glTranslatef(0, 0, 0.12);
+
+        glPushMatrix();
+        glTranslatef(17.45, 0.1, 14);
+        glScalef(0.3, 0.3, 0.3);
+        drawSphere(0.85, 0.723, 0.2, 0.85, 0.723, 0.2);
+        glPopMatrix();
+        glPushMatrix();
+        glTranslatef(17.05, 0.1, 14);
+        glScalef(0.3, 0.3, 0.3);
+        drawSphere(0.85, 0.723, 0.2, 0.85, 0.723, 0.2);
+        glPopMatrix();
+        glPushMatrix();
+        glTranslatef(17.45, 0.1, 14.3);
+        glScalef(0.3, 0.3, 0.3);
+        drawSphere(0.85, 0.723, 0.2, 0.85, 0.723, 0.2);
+        glPopMatrix();
+        glPushMatrix();
+        glTranslatef(17.05, 0.1, 14.3);
+        glScalef(0.3, 0.3, 0.3);
+        drawSphere(0.85, 0.723, 0.2, 0.85, 0.723, 0.2);
+        glPopMatrix();
+
+        glPushMatrix();
+        glTranslatef(17.45, 0.1, 14.6);
+        glScalef(0.3, 0.3, 0.3);
+        drawSphere(0.85, 0.723, 0.2, 0.85, 0.723, 0.2);
+        glPopMatrix();
+        glPushMatrix();
+        glTranslatef(17.05, 0.1, 14.6);
+        glScalef(0.3, 0.3, 0.3);
+        drawSphere(0.85, 0.723, 0.2, 0.85, 0.723, 0.2);
+        glPopMatrix();
+        glPushMatrix();
+        glTranslatef(17.45, 0.1, 14.9);
+        glScalef(0.3, 0.3, 0.3);
+        drawSphere(0.85, 0.723, 0.2, 0.85, 0.723, 0.2);
+        glPopMatrix();
+        glPushMatrix();
+        glTranslatef(17.05, 0.1, 14.9);
+        glScalef(0.3, 0.3, 0.3);
+        drawSphere(0.85, 0.723, 0.2, 0.85, 0.723, 0.2);
+        glPopMatrix();
+        glPushMatrix();
+        glTranslatef(17.45, 0.1, 15.2);
+        glScalef(0.3, 0.3, 0.3);
+        drawSphere(0.85, 0.723, 0.2, 0.85, 0.723, 0.2);
+        glPopMatrix();
+        glPushMatrix();
+        glTranslatef(17.05, 0.1, 15.2);
+        glScalef(0.3, 0.3, 0.3);
+        drawSphere(0.85, 0.723, 0.2, 0.85, 0.723, 0.2);
+        glPopMatrix();
+
+        glPopMatrix();
+        glPushMatrix();
+        glTranslatef(17.15, 0.33, 14.3);
+        glScalef(0.3, 0.3, 0.3);
+        drawSphere(0.85, 0.723, 0.2, 0.85, 0.723, 0.2);
+        glPopMatrix();
+
+        glPushMatrix();
+        glTranslatef(17.15, 0.33, 14.6);
+        glScalef(0.3, 0.3, 0.3);
+        drawSphere(0.85, 0.723, 0.2, 0.85, 0.723, 0.2);
+        glPopMatrix();
+
+        glPushMatrix();
+        glTranslatef(17.15, 0.33, 14.9);
+        glScalef(0.3, 0.3, 0.3);
+        drawSphere(0.85, 0.723, 0.2, 0.85, 0.723, 0.2);
+        glPopMatrix();
+
+        glPushMatrix();
+        glTranslatef(17.15, 0.33, 15.2);
+        glScalef(0.3, 0.3, 0.3);
+        drawSphere(0.85, 0.723, 0.2, 0.85, 0.723, 0.2);
+        glPopMatrix();
+
+        glPopMatrix();
+#pragma endregion
+
+#pragma region Ngan tu lanh 3
+        glPushMatrix();
+        glTranslatef(0.55, -0.3, 0.03);
+        glPushMatrix();
+        glTranslatef(16.0, -2.2, 13.8);
+        glScalef(0.18, 0.15, 0.18);
+        drawCube1(0.684, 0.664, 0.637, 0.684, 0.664, 0.637);
+        glPopMatrix();
+
+        glPushMatrix();
+        glTranslatef(16.0, -1.8, 13.8);
+        glScalef(0.18, 0.02, 0.18);
+        drawCube1(0.2, 0.2, 0.2, 0.2, 0.2, 0.2);
+        glPopMatrix();
+
+        glPushMatrix();
+        glTranslatef(0, 0, 0.6);
+        glPushMatrix();
+        glTranslatef(16.0, -2.2, 13.8);
+        glScalef(0.18, 0.15, 0.18);
+        drawCube1(0.684, 0.664, 0.637, 0.684, 0.664, 0.637);
+        glPopMatrix();
+
+        glPushMatrix();
+        glTranslatef(16.0, -1.8, 13.8);
+        glScalef(0.18, 0.02, 0.18);
+        drawCube1(0.2, 0.2, 0.2, 0.2, 0.2, 0.2);
+        glPopMatrix();
+        glPopMatrix();
+
+        glPushMatrix();
+        glTranslatef(0, 0, 1.2);
+        glPushMatrix();
+        glTranslatef(16.0, -2.2, 13.8);
+        glScalef(0.18, 0.15, 0.18);
+        drawCube1(0.684, 0.664, 0.637, 0.684, 0.664, 0.637);
+        glPopMatrix();
+
+        glPushMatrix();
+        glTranslatef(16.0, -1.8, 13.8);
+        glScalef(0.18, 0.02, 0.18);
+        drawCube1(0.2, 0.2, 0.2, 0.2, 0.2, 0.2);
+        glPopMatrix();
+        glPopMatrix();
+        glPopMatrix();
+
+#pragma endregion
+    }
 }
 
 void cube() {
@@ -1834,8 +2325,12 @@ void display(void)
     lampLight();
     room();
 
+    glPushMatrix();
+    glTranslatef(0, 0, -0.5);
     TuLanh::VeTuLanh();
     TuLanh::VeThanTuLanh();
+    glPopMatrix();
+    TuLanh::DoTrongTuLanh();
 
 #pragma region Vẽ cửa
     // Cua ben trong
@@ -1850,6 +2345,16 @@ void display(void)
     glPushMatrix();
     glTranslatef(tuong_tac[CuaPK], 0, 0);
     Cua::CuaQuan();
+    glPopMatrix();
+
+    // Cua tu lanh
+    glPushMatrix();
+    glTranslatef(16.45, -3.6, 13.55);
+    glTranslatef(0, 0, 2.32);
+    glRotatef(tuong_tac[CuaTL], 0, 1, 0);
+    glTranslatef(0, 0, -2.32);
+    glTranslatef(-16.45, 3.6, -13.55);
+    Cua::CuaTuLanh();
     glPopMatrix();
 #pragma endregion
 
@@ -1950,12 +2455,6 @@ void KeyboardFunc(unsigned char key, int x, int y)
         break;
     case 'X': // Xoay camera xuống dưới theo trục X
         rotateCameraX(-5.0);
-        break;
-    case 'c': // Xoay theo chiều kim đồng hồ quanh trục Z (Roll)
-        rotateCameraZ(-5.0);
-        break;
-    case 'C': // Xoay ngược chiều kim đồng hồ quanh trục Z (Roll)
-        rotateCameraZ(5.0);
         break;
     case '1': //to turn on and off light one
         if (switchOne == false)
@@ -2075,6 +2574,18 @@ void SpecialFunc(int key, int x, int y)
             tuong_tac[CuaPK] += 0.1;
         }
         break;
+    case GLUT_KEY_F5:
+        tuong_tac[CuaTL] += 5;
+        if (tuong_tac[CuaTL] > 120) {
+            tuong_tac[CuaTL] -= 5;
+        }
+        break;
+    case GLUT_KEY_F6:
+        tuong_tac[CuaTL] -= 5;
+        if (tuong_tac[CuaTL] < 0) {
+            tuong_tac[CuaTL] += 5;
+        }
+        break;
     }
 }
 
@@ -2167,7 +2678,30 @@ void menu(int option)
 int main(int argc, char** argv)
 {
     glutInit(&argc, argv);
-    std::cout << "Design by Richard Jacob" << std::endl;
+    std::cout << "|-------------------- Huong Dan Su Dung --------------------|" << std::endl;
+    std::cout << "|    Phim    |                  Chuc nang                   |" << std::endl;
+    std::cout << "|-----------------------------------------------------------|" << std::endl;
+    std::cout << "| F1         |  Mo cua ben trong                            |" << std::endl;
+    std::cout << "| F2         |  Dong cua ben trong                          |" << std::endl;
+    std::cout << "| F3         |  Mo cua chinh                                |" << std::endl;
+    std::cout << "| F4         |  Dong cua chinh                              |" << std::endl;
+    std::cout << "| F5         |  Mo cua tu lanh                              |" << std::endl;
+    std::cout << "| F6         |  Dong cua tu lanh                            |" << std::endl;
+    std::cout << "| Key Up     |  Di chuyen camera vao trong                  |" << std::endl;
+    std::cout << "| Key Down   |  Di chuyen camera ra ngoai                   |" << std::endl;
+    std::cout << "| Key Right  |  Di chuyen camera sang phai                  |" << std::endl;
+    std::cout << "| Key Down   |  Di chuyen camera sang trai                  |" << std::endl;
+    std::cout << "| Page Up    |  Di chuyen camera len tren                   |" << std::endl;
+    std::cout << "| Page Down  |  Di chuyen camera xuong duoi                 |" << std::endl;
+    std::cout << "| z          |  Quay camera sang trai                       |" << std::endl;
+    std::cout << "| Z          |  Quay camera sang phai                       |" << std::endl;
+    std::cout << "| x          |  Quay camera xuong duoi                      |" << std::endl;
+    std::cout << "| X          |  Quay camera len tren                        |" << std::endl;
+    std::cout << "| q          |  Di chyen vao ben trong nha                  |" << std::endl;
+    std::cout << "| 1 - 9      |  Dieu khien anh sang                         |" << std::endl;
+    std::cout << "| End        |  Tat / Mo quat tran                          |" << std::endl;
+    std::cout << "|-----------------------------------------------------------|" << std::endl;
+    std::cout << std::endl << "                                      Design by Richard Jacob" << std::endl;
 
     glutInitDisplayMode(GLUT_DOUBLE | GLUT_RGB | GLUT_DEPTH);
 
@@ -2197,4 +2731,3 @@ int main(int argc, char** argv)
 
     return 0;
 }
-
