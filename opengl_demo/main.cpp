@@ -1556,6 +1556,35 @@ void IdleFunc(void)
         glutPostRedisplay();
     }
 
+    //if (_switchCua == false) {
+    //    if (angle == CuaPK) {
+    //        if (tuong_tac[angle] > 0) {
+    //            tuong_tac[angle] -= 0.01;
+    //        }
+    //        else {}
+    //    }
+    //    else {
+    //        if (tuong_tac[angle] > 0) {
+    //            tuong_tac[angle] -= 0.3;
+    //        }
+    //        else {}
+    //    }
+    //}
+    //else {
+    //    if (angle == CuaPK) {
+    //        if (tuong_tac[angle] < 8) {
+    //            tuong_tac[angle] += 0.01;
+    //        }
+    //        else {}
+    //    }
+    //    else {
+    //        if (tuong_tac[angle] < 100) {
+    //            tuong_tac[angle] += 0.3;
+    //        }
+    //        else {}
+    //    }
+    //}
+
     glutPostRedisplay();
 }
 
@@ -1579,6 +1608,12 @@ void KeyboardFunc(unsigned char key, int x, int y)
     case 'X': // Xoay camera xuống dưới theo trục X
         rotateCameraX(-5.0);
         break;
+    //case '|':
+    //    if (_switchCua) {
+    //        _switchCua = false;
+    //    }
+    //    else _switchCua = true;
+    //    break;
     case '1': //to turn on and off light one
         if (switchOne == false)
         {
@@ -1845,6 +1880,8 @@ int main(int argc, char** argv)
     // tạo menu
     glutCreateMenu(menu);
     glutAddMenuEntry("Cua nha kho", CuaNK);
+    glutAddMenuEntry("Cua quan", CuaPK);
+    glutAddMenuEntry("Cua tu lanh", CuaTL);
     glutAddMenuEntry("quit", Quit);
 
     // kích hoạt menu bằng nhấn nút giữa chuột

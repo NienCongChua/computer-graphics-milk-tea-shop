@@ -1403,14 +1403,14 @@ C:\Users\nienc\Desktop\computer-graphics-milk-tea-shop\opengl_demo\main.cpp(1494
 C:\Users\nienc\Desktop\computer-graphics-milk-tea-shop\opengl_demo\main.cpp(1502,22): warning C4305: 'argument': truncation from 'double' to 'GLfloat'
 C:\Users\nienc\Desktop\computer-graphics-milk-tea-shop\opengl_demo\main.cpp(1508,18): warning C4305: 'argument': truncation from 'double' to 'GLfloat'
 C:\Users\nienc\Desktop\computer-graphics-milk-tea-shop\opengl_demo\main.cpp(1510,18): warning C4305: 'argument': truncation from 'double' to 'GLfloat'
-C:\Users\nienc\Desktop\computer-graphics-milk-tea-shop\opengl_demo\main.cpp(1588,31): warning C4805: '==': unsafe mix of type 'GLboolean' and type 'bool' in operation
-C:\Users\nienc\Desktop\computer-graphics-milk-tea-shop\opengl_demo\main.cpp(1598,31): warning C4805: '==': unsafe mix of type 'GLboolean' and type 'bool' in operation
-C:\Users\nienc\Desktop\computer-graphics-milk-tea-shop\opengl_demo\main.cpp(1609,32): warning C4805: '==': unsafe mix of type 'GLboolean' and type 'bool' in operation
-C:\Users\nienc\Desktop\computer-graphics-milk-tea-shop\opengl_demo\main.cpp(1689,29): warning C4305: '+=': truncation from 'double' to 'GLfloat'
-C:\Users\nienc\Desktop\computer-graphics-milk-tea-shop\opengl_demo\main.cpp(1691,33): warning C4305: '-=': truncation from 'double' to 'GLfloat'
-C:\Users\nienc\Desktop\computer-graphics-milk-tea-shop\opengl_demo\main.cpp(1695,29): warning C4305: '-=': truncation from 'double' to 'GLfloat'
-C:\Users\nienc\Desktop\computer-graphics-milk-tea-shop\opengl_demo\main.cpp(1697,33): warning C4305: '+=': truncation from 'double' to 'GLfloat'
-C:\Users\nienc\Desktop\computer-graphics-milk-tea-shop\opengl_demo\main.cpp(1717,20): warning C4805: '==': unsafe mix of type 'GLboolean' and type 'bool' in operation
-C:\Users\nienc\Desktop\computer-graphics-milk-tea-shop\opengl_demo\main.cpp(1832,38): warning C4244: 'argument': conversion from 'double' to 'int', possible loss of data
-C:\Users\nienc\Desktop\computer-graphics-milk-tea-shop\opengl_demo\main.cpp(1832,24): warning C4244: 'argument': conversion from 'double' to 'int', possible loss of data
+C:\Users\nienc\Desktop\computer-graphics-milk-tea-shop\opengl_demo\main.cpp(1623,31): warning C4805: '==': unsafe mix of type 'GLboolean' and type 'bool' in operation
+C:\Users\nienc\Desktop\computer-graphics-milk-tea-shop\opengl_demo\main.cpp(1633,31): warning C4805: '==': unsafe mix of type 'GLboolean' and type 'bool' in operation
+C:\Users\nienc\Desktop\computer-graphics-milk-tea-shop\opengl_demo\main.cpp(1644,32): warning C4805: '==': unsafe mix of type 'GLboolean' and type 'bool' in operation
+C:\Users\nienc\Desktop\computer-graphics-milk-tea-shop\opengl_demo\main.cpp(1724,29): warning C4305: '+=': truncation from 'double' to 'GLfloat'
+C:\Users\nienc\Desktop\computer-graphics-milk-tea-shop\opengl_demo\main.cpp(1726,33): warning C4305: '-=': truncation from 'double' to 'GLfloat'
+C:\Users\nienc\Desktop\computer-graphics-milk-tea-shop\opengl_demo\main.cpp(1730,29): warning C4305: '-=': truncation from 'double' to 'GLfloat'
+C:\Users\nienc\Desktop\computer-graphics-milk-tea-shop\opengl_demo\main.cpp(1732,33): warning C4305: '+=': truncation from 'double' to 'GLfloat'
+C:\Users\nienc\Desktop\computer-graphics-milk-tea-shop\opengl_demo\main.cpp(1752,20): warning C4805: '==': unsafe mix of type 'GLboolean' and type 'bool' in operation
+C:\Users\nienc\Desktop\computer-graphics-milk-tea-shop\opengl_demo\main.cpp(1867,38): warning C4244: 'argument': conversion from 'double' to 'int', possible loss of data
+C:\Users\nienc\Desktop\computer-graphics-milk-tea-shop\opengl_demo\main.cpp(1867,24): warning C4244: 'argument': conversion from 'double' to 'int', possible loss of data
   opengl_demo.vcxproj -> C:\Users\nienc\Desktop\computer-graphics-milk-tea-shop\x64\Debug\opengl_demo.exe
