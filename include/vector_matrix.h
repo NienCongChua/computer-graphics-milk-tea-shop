@@ -448,7 +448,8 @@ vec3 reflect(const vec3& i, const vec3& n);
 vec3 refract(const vec3& i, const vec3& n, float eta);
 vec3 rotate(const vec3& u, float angle, const vec3& v);
 
-	// tích chéo
+	// tích chéo Tích chéo (cross product) của hai vector trong không gian 
+	// 3 chiều tạo ra một vector mới vuông góc với cả hai vector đầu vào
 vec3 cross(const vec3& u, const vec3& v)
 {
 	return vec3(u.y * v.z - u.z * v.y, u.z * v.x - u.x * v.z, u.x * v.y - u.y * v.x);
@@ -1581,4 +1582,3 @@ mat4 ortho(float left, float right, float bottom, float top, float znear, float 
 		0.0f						0.0f					0.0f					1.0f
 	*/
 }
-	
