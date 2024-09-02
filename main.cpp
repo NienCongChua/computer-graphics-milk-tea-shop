@@ -264,6 +264,21 @@ vec3 lightDirections[9] = {
 };
 GLuint lightDirectionLocation[9];
 
+enum {
+	_binhnuoc1,
+	_binhnuoc2,
+	_binhnuoc3,
+	_BinhNuoc
+};
+
+GLfloat NuocChay[_BinhNuoc] = {
+	0.0, 
+	0.0, 
+	0.0
+};
+GLint bn = _binhnuoc1;
+float _bn = 0;
+bool _switchBN[3] = { false };
 #pragma endregion
 
 #pragma region Default
@@ -572,6 +587,15 @@ namespace BinhNuoc {
 			translate(vec3(0, 10, -11.6)) *
 			scale(vec3(4, 0.5, 3.5));
 		FillColor(color(240.0, 240.0, 240.0));
+		cube();
+		model_mat_cpp = mvstack.pop();
+	}
+	void DongNuoc() {
+		mvstack.push(model_mat_cpp);
+		model_mat_cpp = model_mat_cpp *
+			translate(vec3(3.4025, 13.5, -13.995)) *
+			scale(vec3(0.15, 0.8, 0.15));
+		FillColor(color(0.0, 0.0, 255.0));
 		cube();
 		model_mat_cpp = mvstack.pop();
 	}
@@ -1595,10 +1619,27 @@ void DisplayFunc(void)
 
 	mvstack.push(model_mat_cpp);
 	model_mat_cpp = model_mat_cpp *
+		translate(vec3(0, -10 - NuocChay[_binhnuoc1], 10.5));
+	BinhNuoc::DongNuoc();
+	model_mat_cpp = mvstack.pop();
+
+	mvstack.push(model_mat_cpp);
+	model_mat_cpp = model_mat_cpp *
+		translate(vec3(0, -10 - NuocChay[_binhnuoc2], 13.8));
+	BinhNuoc::DongNuoc();
+	model_mat_cpp = mvstack.pop();
+
+	mvstack.push(model_mat_cpp);
+	model_mat_cpp = model_mat_cpp *
+		translate(vec3(0, -10 - NuocChay[_binhnuoc3], 17.1));
+	BinhNuoc::DongNuoc();
+	model_mat_cpp = mvstack.pop();
+
+	mvstack.push(model_mat_cpp);
+	model_mat_cpp = model_mat_cpp *
 		translate(vec3(0, -10, 17.1));
 	BinhNuoc::KeBen();
 	model_mat_cpp = mvstack.pop();
-
 #pragma endregion
 
 #pragma region Thung Rac
@@ -2167,6 +2208,27 @@ void IdleFunc1(void)
 		_cam = -_cam;
 	}
 	cameraAngle += _cam;
+
+	if (_switchBN[0] || NuocChay[_binhnuoc1] != 0.0) {
+		NuocChay[_binhnuoc1] += 0.01;
+		if (NuocChay[_binhnuoc1] > 5) {
+			NuocChay[_binhnuoc1] = 0.0;
+		}
+	}
+
+	if (_switchBN[1] || NuocChay[_binhnuoc2] != 0.0) {
+		NuocChay[_binhnuoc2] += 0.01;
+		if (NuocChay[_binhnuoc2] > 5) {
+			NuocChay[_binhnuoc2] = 0.0;
+		}
+	}
+
+	if (_switchBN[2] || NuocChay[_binhnuoc3] != 0.0) {
+		NuocChay[_binhnuoc3] += 0.01;
+		if (NuocChay[_binhnuoc3] > 5) {
+			NuocChay[_binhnuoc3] = 0.0;
+		}
+	}
 	glutPostRedisplay();
 }
 void IdleFunc(void)
@@ -2232,6 +2294,27 @@ void IdleFunc(void)
 		_cam = -_cam;
 	}
 	cameraAngle += _cam;
+
+	if (_switchBN[0] || NuocChay[_binhnuoc1] != 0.0) {
+		NuocChay[_binhnuoc1] += 0.01;
+		if (NuocChay[_binhnuoc1] > 5) {
+			NuocChay[_binhnuoc1] = 0.0;
+		}
+	}
+
+	if (_switchBN[1] || NuocChay[_binhnuoc2] != 0.0) {
+		NuocChay[_binhnuoc2] += 0.01;
+		if (NuocChay[_binhnuoc2] > 5) {
+			NuocChay[_binhnuoc2] = 0.0;
+		}
+	}
+
+	if (_switchBN[2] || NuocChay[_binhnuoc3] != 0.0) {
+		NuocChay[_binhnuoc3] += 0.01;
+		if (NuocChay[_binhnuoc3] > 5) {
+			NuocChay[_binhnuoc3] = 0.0;
+		}
+	}
 	glutPostRedisplay();
 }
 void IdleFunc2(void)
@@ -2296,6 +2379,27 @@ void IdleFunc2(void)
 		_cam = -_cam;
 	}
 	cameraAngle += _cam;
+
+	if (_switchBN[0] || NuocChay[_binhnuoc1] != 0.0) {
+		NuocChay[_binhnuoc1] += 0.01;
+		if (NuocChay[_binhnuoc1] > 5) {
+			NuocChay[_binhnuoc1] = 0.0;
+		}
+	}
+
+	if (_switchBN[1] || NuocChay[_binhnuoc2] != 0.0) {
+		NuocChay[_binhnuoc2] += 0.01;
+		if (NuocChay[_binhnuoc2] > 5) {
+			NuocChay[_binhnuoc2] = 0.0;
+		}
+	}
+
+	if (_switchBN[2] || NuocChay[_binhnuoc3] != 0.0) {
+		NuocChay[_binhnuoc3] += 0.01;
+		if (NuocChay[_binhnuoc3] > 5) {
+			NuocChay[_binhnuoc3] = 0.0;
+		}
+	}
 	glutPostRedisplay();
 }
 #pragma endregion
@@ -2430,6 +2534,20 @@ void KeyboardFunc(unsigned char key, int x, int y)
 			thetar[_napTR] += 5;
 		}
 		break;
+	case '.':
+		if (bn == _binhnuoc1) {
+			_switchBN[0] = !_switchBN[0];
+			break;
+		}
+		else if (bn == _binhnuoc2) {
+			_switchBN[1] = !_switchBN[1];
+			break;
+		}
+		else {
+			_switchBN[2] = !_switchBN[2];
+			break;
+		}
+		break;
 	}
 
 }
@@ -2478,6 +2596,7 @@ void menu(int option)
 	}
 	qt = option;
 	DichGhe = option;
+	bn = option;
 }
 #pragma endregion
 
@@ -2555,10 +2674,17 @@ int main(int argc, char* argv[])
 	glutAddMenuEntry("Quit", Quit);
 
 
+	int BinhNuocMenu = glutCreateMenu(menu);
+	glutAddMenuEntry("Binh 1", _binhnuoc1);
+	glutAddMenuEntry("Binh 2", _binhnuoc2);
+	glutAddMenuEntry("Binh 3", _binhnuoc3);
+	glutAddMenuEntry("Quit", Quit);
+
 	// Create the main menu and attach the submenus
 	int mainMenu = glutCreateMenu(menu);
 	glutAddSubMenu("Quat tran", QuatTranMenu);
 	glutAddSubMenu("Ghe", GheMenu);
+	glutAddSubMenu("Binh Nuoc", BinhNuocMenu);
 	glutAddMenuEntry("Quit", Quit);
 
 	glutAttachMenu(GLUT_RIGHT_BUTTON);

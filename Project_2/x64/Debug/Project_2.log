@@ -3,152 +3,148 @@ C:\Users\nienc\Documents\Zalo Received Files\Project_2\Project_2\include\Vector_
   (compiling source file 'main.cpp')
   
 C:\Users\nienc\Documents\Zalo Received Files\Project_2\Project_2\main.cpp(251,12): warning C4305: 'initializing': truncation from 'double' to 'float'
-C:\Users\nienc\Documents\Zalo Received Files\Project_2\Project_2\main.cpp(370,41): warning C4305: 'argument': truncation from 'double' to 'float'
-C:\Users\nienc\Documents\Zalo Received Files\Project_2\Project_2\main.cpp(370,36): warning C4305: 'argument': truncation from 'double' to 'float'
-C:\Users\nienc\Documents\Zalo Received Files\Project_2\Project_2\main.cpp(370,31): warning C4305: 'argument': truncation from 'double' to 'float'
-C:\Users\nienc\Documents\Zalo Received Files\Project_2\Project_2\main.cpp(371,62): warning C4244: 'argument': conversion from 'GLfloat' to 'int', possible loss of data
-C:\Users\nienc\Documents\Zalo Received Files\Project_2\Project_2\main.cpp(371,52): warning C4244: 'argument': conversion from 'GLfloat' to 'int', possible loss of data
-C:\Users\nienc\Documents\Zalo Received Files\Project_2\Project_2\main.cpp(371,42): warning C4244: 'argument': conversion from 'GLfloat' to 'int', possible loss of data
-C:\Users\nienc\Documents\Zalo Received Files\Project_2\Project_2\main.cpp(384,35): warning C4305: 'argument': truncation from 'double' to 'float'
-C:\Users\nienc\Documents\Zalo Received Files\Project_2\Project_2\main.cpp(384,30): warning C4305: 'argument': truncation from 'double' to 'float'
-C:\Users\nienc\Documents\Zalo Received Files\Project_2\Project_2\main.cpp(384,25): warning C4305: 'argument': truncation from 'double' to 'float'
-C:\Users\nienc\Documents\Zalo Received Files\Project_2\Project_2\main.cpp(385,30): warning C4305: 'argument': truncation from 'double' to 'float'
-C:\Users\nienc\Documents\Zalo Received Files\Project_2\Project_2\main.cpp(391,62): warning C4244: 'argument': conversion from 'int' to 'float', possible loss of data
-C:\Users\nienc\Documents\Zalo Received Files\Project_2\Project_2\main.cpp(484,33): warning C4244: 'argument': conversion from 'double' to 'int', possible loss of data
-C:\Users\nienc\Documents\Zalo Received Files\Project_2\Project_2\main.cpp(484,26): warning C4244: 'argument': conversion from 'double' to 'int', possible loss of data
-C:\Users\nienc\Documents\Zalo Received Files\Project_2\Project_2\main.cpp(484,19): warning C4244: 'argument': conversion from 'double' to 'int', possible loss of data
-C:\Users\nienc\Documents\Zalo Received Files\Project_2\Project_2\main.cpp(492,33): warning C4244: 'argument': conversion from 'double' to 'int', possible loss of data
-C:\Users\nienc\Documents\Zalo Received Files\Project_2\Project_2\main.cpp(492,26): warning C4244: 'argument': conversion from 'double' to 'int', possible loss of data
-C:\Users\nienc\Documents\Zalo Received Files\Project_2\Project_2\main.cpp(492,19): warning C4244: 'argument': conversion from 'double' to 'int', possible loss of data
-C:\Users\nienc\Documents\Zalo Received Files\Project_2\Project_2\main.cpp(500,33): warning C4244: 'argument': conversion from 'double' to 'int', possible loss of data
-C:\Users\nienc\Documents\Zalo Received Files\Project_2\Project_2\main.cpp(500,26): warning C4244: 'argument': conversion from 'double' to 'int', possible loss of data
-C:\Users\nienc\Documents\Zalo Received Files\Project_2\Project_2\main.cpp(500,19): warning C4244: 'argument': conversion from 'double' to 'int', possible loss of data
-C:\Users\nienc\Documents\Zalo Received Files\Project_2\Project_2\main.cpp(507,18): warning C4305: 'argument': truncation from 'double' to 'float'
-C:\Users\nienc\Documents\Zalo Received Files\Project_2\Project_2\main.cpp(508,33): warning C4244: 'argument': conversion from 'double' to 'int', possible loss of data
-C:\Users\nienc\Documents\Zalo Received Files\Project_2\Project_2\main.cpp(508,26): warning C4244: 'argument': conversion from 'double' to 'int', possible loss of data
-C:\Users\nienc\Documents\Zalo Received Files\Project_2\Project_2\main.cpp(508,19): warning C4244: 'argument': conversion from 'double' to 'int', possible loss of data
-C:\Users\nienc\Documents\Zalo Received Files\Project_2\Project_2\main.cpp(515,18): warning C4305: 'argument': truncation from 'double' to 'float'
-C:\Users\nienc\Documents\Zalo Received Files\Project_2\Project_2\main.cpp(516,33): warning C4244: 'argument': conversion from 'double' to 'int', possible loss of data
-C:\Users\nienc\Documents\Zalo Received Files\Project_2\Project_2\main.cpp(516,26): warning C4244: 'argument': conversion from 'double' to 'int', possible loss of data
-C:\Users\nienc\Documents\Zalo Received Files\Project_2\Project_2\main.cpp(516,19): warning C4244: 'argument': conversion from 'double' to 'int', possible loss of data
-C:\Users\nienc\Documents\Zalo Received Files\Project_2\Project_2\main.cpp(525,33): warning C4244: 'argument': conversion from 'double' to 'int', possible loss of data
-C:\Users\nienc\Documents\Zalo Received Files\Project_2\Project_2\main.cpp(525,26): warning C4244: 'argument': conversion from 'double' to 'int', possible loss of data
-C:\Users\nienc\Documents\Zalo Received Files\Project_2\Project_2\main.cpp(525,19): warning C4244: 'argument': conversion from 'double' to 'int', possible loss of data
-C:\Users\nienc\Documents\Zalo Received Files\Project_2\Project_2\main.cpp(531,22): warning C4305: 'argument': truncation from 'double' to 'float'
-C:\Users\nienc\Documents\Zalo Received Files\Project_2\Project_2\main.cpp(532,25): warning C4305: 'argument': truncation from 'double' to 'float'
-C:\Users\nienc\Documents\Zalo Received Files\Project_2\Project_2\main.cpp(532,20): warning C4305: 'argument': truncation from 'double' to 'float'
-C:\Users\nienc\Documents\Zalo Received Files\Project_2\Project_2\main.cpp(532,15): warning C4305: 'argument': truncation from 'double' to 'float'
-C:\Users\nienc\Documents\Zalo Received Files\Project_2\Project_2\main.cpp(533,29): warning C4244: 'argument': conversion from 'double' to 'int', possible loss of data
-C:\Users\nienc\Documents\Zalo Received Files\Project_2\Project_2\main.cpp(533,24): warning C4244: 'argument': conversion from 'double' to 'int', possible loss of data
-C:\Users\nienc\Documents\Zalo Received Files\Project_2\Project_2\main.cpp(533,19): warning C4244: 'argument': conversion from 'double' to 'int', possible loss of data
-C:\Users\nienc\Documents\Zalo Received Files\Project_2\Project_2\main.cpp(539,19): warning C4305: 'argument': truncation from 'double' to 'float'
-C:\Users\nienc\Documents\Zalo Received Files\Project_2\Project_2\main.cpp(540,25): warning C4305: 'argument': truncation from 'double' to 'float'
-C:\Users\nienc\Documents\Zalo Received Files\Project_2\Project_2\main.cpp(540,20): warning C4305: 'argument': truncation from 'double' to 'float'
-C:\Users\nienc\Documents\Zalo Received Files\Project_2\Project_2\main.cpp(540,15): warning C4305: 'argument': truncation from 'double' to 'float'
-C:\Users\nienc\Documents\Zalo Received Files\Project_2\Project_2\main.cpp(541,29): warning C4244: 'argument': conversion from 'double' to 'int', possible loss of data
-C:\Users\nienc\Documents\Zalo Received Files\Project_2\Project_2\main.cpp(541,24): warning C4244: 'argument': conversion from 'double' to 'int', possible loss of data
-C:\Users\nienc\Documents\Zalo Received Files\Project_2\Project_2\main.cpp(541,19): warning C4244: 'argument': conversion from 'double' to 'int', possible loss of data
-C:\Users\nienc\Documents\Zalo Received Files\Project_2\Project_2\main.cpp(547,30): warning C4305: 'argument': truncation from 'double' to 'float'
-C:\Users\nienc\Documents\Zalo Received Files\Project_2\Project_2\main.cpp(547,24): warning C4305: 'argument': truncation from 'double' to 'float'
-C:\Users\nienc\Documents\Zalo Received Files\Project_2\Project_2\main.cpp(547,19): warning C4305: 'argument': truncation from 'double' to 'float'
-C:\Users\nienc\Documents\Zalo Received Files\Project_2\Project_2\main.cpp(548,20): warning C4305: 'argument': truncation from 'double' to 'float'
-C:\Users\nienc\Documents\Zalo Received Files\Project_2\Project_2\main.cpp(548,15): warning C4305: 'argument': truncation from 'double' to 'float'
-C:\Users\nienc\Documents\Zalo Received Files\Project_2\Project_2\main.cpp(549,29): warning C4244: 'argument': conversion from 'double' to 'int', possible loss of data
-C:\Users\nienc\Documents\Zalo Received Files\Project_2\Project_2\main.cpp(549,24): warning C4244: 'argument': conversion from 'double' to 'int', possible loss of data
-C:\Users\nienc\Documents\Zalo Received Files\Project_2\Project_2\main.cpp(549,19): warning C4244: 'argument': conversion from 'double' to 'int', possible loss of data
-C:\Users\nienc\Documents\Zalo Received Files\Project_2\Project_2\main.cpp(556,27): warning C4305: 'argument': truncation from 'double' to 'float'
-C:\Users\nienc\Documents\Zalo Received Files\Project_2\Project_2\main.cpp(558,33): warning C4244: 'argument': conversion from 'double' to 'int', possible loss of data
-C:\Users\nienc\Documents\Zalo Received Files\Project_2\Project_2\main.cpp(558,26): warning C4244: 'argument': conversion from 'double' to 'int', possible loss of data
-C:\Users\nienc\Documents\Zalo Received Files\Project_2\Project_2\main.cpp(558,19): warning C4244: 'argument': conversion from 'double' to 'int', possible loss of data
-C:\Users\nienc\Documents\Zalo Received Files\Project_2\Project_2\main.cpp(564,27): warning C4305: 'argument': truncation from 'double' to 'float'
-C:\Users\nienc\Documents\Zalo Received Files\Project_2\Project_2\main.cpp(566,33): warning C4244: 'argument': conversion from 'double' to 'int', possible loss of data
-C:\Users\nienc\Documents\Zalo Received Files\Project_2\Project_2\main.cpp(566,26): warning C4244: 'argument': conversion from 'double' to 'int', possible loss of data
-C:\Users\nienc\Documents\Zalo Received Files\Project_2\Project_2\main.cpp(566,19): warning C4244: 'argument': conversion from 'double' to 'int', possible loss of data
-C:\Users\nienc\Documents\Zalo Received Files\Project_2\Project_2\main.cpp(572,26): warning C4305: 'argument': truncation from 'double' to 'float'
-C:\Users\nienc\Documents\Zalo Received Files\Project_2\Project_2\main.cpp(574,33): warning C4244: 'argument': conversion from 'double' to 'int', possible loss of data
-C:\Users\nienc\Documents\Zalo Received Files\Project_2\Project_2\main.cpp(574,26): warning C4244: 'argument': conversion from 'double' to 'int', possible loss of data
-C:\Users\nienc\Documents\Zalo Received Files\Project_2\Project_2\main.cpp(574,19): warning C4244: 'argument': conversion from 'double' to 'int', possible loss of data
-C:\Users\nienc\Documents\Zalo Received Files\Project_2\Project_2\main.cpp(586,33): warning C4244: 'argument': conversion from 'double' to 'int', possible loss of data
-C:\Users\nienc\Documents\Zalo Received Files\Project_2\Project_2\main.cpp(586,26): warning C4244: 'argument': conversion from 'double' to 'int', possible loss of data
-C:\Users\nienc\Documents\Zalo Received Files\Project_2\Project_2\main.cpp(586,19): warning C4244: 'argument': conversion from 'double' to 'int', possible loss of data
-C:\Users\nienc\Documents\Zalo Received Files\Project_2\Project_2\main.cpp(594,33): warning C4244: 'argument': conversion from 'double' to 'int', possible loss of data
-C:\Users\nienc\Documents\Zalo Received Files\Project_2\Project_2\main.cpp(594,26): warning C4244: 'argument': conversion from 'double' to 'int', possible loss of data
-C:\Users\nienc\Documents\Zalo Received Files\Project_2\Project_2\main.cpp(594,19): warning C4244: 'argument': conversion from 'double' to 'int', possible loss of data
-C:\Users\nienc\Documents\Zalo Received Files\Project_2\Project_2\main.cpp(602,31): warning C4244: 'argument': conversion from 'double' to 'int', possible loss of data
-C:\Users\nienc\Documents\Zalo Received Files\Project_2\Project_2\main.cpp(602,19): warning C4244: 'argument': conversion from 'double' to 'int', possible loss of data
+C:\Users\nienc\Documents\Zalo Received Files\Project_2\Project_2\main.cpp(385,41): warning C4305: 'argument': truncation from 'double' to 'float'
+C:\Users\nienc\Documents\Zalo Received Files\Project_2\Project_2\main.cpp(385,36): warning C4305: 'argument': truncation from 'double' to 'float'
+C:\Users\nienc\Documents\Zalo Received Files\Project_2\Project_2\main.cpp(385,31): warning C4305: 'argument': truncation from 'double' to 'float'
+C:\Users\nienc\Documents\Zalo Received Files\Project_2\Project_2\main.cpp(386,62): warning C4244: 'argument': conversion from 'GLfloat' to 'int', possible loss of data
+C:\Users\nienc\Documents\Zalo Received Files\Project_2\Project_2\main.cpp(386,52): warning C4244: 'argument': conversion from 'GLfloat' to 'int', possible loss of data
+C:\Users\nienc\Documents\Zalo Received Files\Project_2\Project_2\main.cpp(386,42): warning C4244: 'argument': conversion from 'GLfloat' to 'int', possible loss of data
+C:\Users\nienc\Documents\Zalo Received Files\Project_2\Project_2\main.cpp(399,35): warning C4305: 'argument': truncation from 'double' to 'float'
+C:\Users\nienc\Documents\Zalo Received Files\Project_2\Project_2\main.cpp(399,30): warning C4305: 'argument': truncation from 'double' to 'float'
+C:\Users\nienc\Documents\Zalo Received Files\Project_2\Project_2\main.cpp(399,25): warning C4305: 'argument': truncation from 'double' to 'float'
+C:\Users\nienc\Documents\Zalo Received Files\Project_2\Project_2\main.cpp(400,30): warning C4305: 'argument': truncation from 'double' to 'float'
+C:\Users\nienc\Documents\Zalo Received Files\Project_2\Project_2\main.cpp(406,62): warning C4244: 'argument': conversion from 'int' to 'float', possible loss of data
+C:\Users\nienc\Documents\Zalo Received Files\Project_2\Project_2\main.cpp(499,33): warning C4244: 'argument': conversion from 'double' to 'int', possible loss of data
+C:\Users\nienc\Documents\Zalo Received Files\Project_2\Project_2\main.cpp(499,26): warning C4244: 'argument': conversion from 'double' to 'int', possible loss of data
+C:\Users\nienc\Documents\Zalo Received Files\Project_2\Project_2\main.cpp(499,19): warning C4244: 'argument': conversion from 'double' to 'int', possible loss of data
+C:\Users\nienc\Documents\Zalo Received Files\Project_2\Project_2\main.cpp(507,33): warning C4244: 'argument': conversion from 'double' to 'int', possible loss of data
+C:\Users\nienc\Documents\Zalo Received Files\Project_2\Project_2\main.cpp(507,26): warning C4244: 'argument': conversion from 'double' to 'int', possible loss of data
+C:\Users\nienc\Documents\Zalo Received Files\Project_2\Project_2\main.cpp(507,19): warning C4244: 'argument': conversion from 'double' to 'int', possible loss of data
+C:\Users\nienc\Documents\Zalo Received Files\Project_2\Project_2\main.cpp(515,33): warning C4244: 'argument': conversion from 'double' to 'int', possible loss of data
+C:\Users\nienc\Documents\Zalo Received Files\Project_2\Project_2\main.cpp(515,26): warning C4244: 'argument': conversion from 'double' to 'int', possible loss of data
+C:\Users\nienc\Documents\Zalo Received Files\Project_2\Project_2\main.cpp(515,19): warning C4244: 'argument': conversion from 'double' to 'int', possible loss of data
+C:\Users\nienc\Documents\Zalo Received Files\Project_2\Project_2\main.cpp(522,18): warning C4305: 'argument': truncation from 'double' to 'float'
+C:\Users\nienc\Documents\Zalo Received Files\Project_2\Project_2\main.cpp(523,33): warning C4244: 'argument': conversion from 'double' to 'int', possible loss of data
+C:\Users\nienc\Documents\Zalo Received Files\Project_2\Project_2\main.cpp(523,26): warning C4244: 'argument': conversion from 'double' to 'int', possible loss of data
+C:\Users\nienc\Documents\Zalo Received Files\Project_2\Project_2\main.cpp(523,19): warning C4244: 'argument': conversion from 'double' to 'int', possible loss of data
+C:\Users\nienc\Documents\Zalo Received Files\Project_2\Project_2\main.cpp(530,18): warning C4305: 'argument': truncation from 'double' to 'float'
+C:\Users\nienc\Documents\Zalo Received Files\Project_2\Project_2\main.cpp(531,33): warning C4244: 'argument': conversion from 'double' to 'int', possible loss of data
+C:\Users\nienc\Documents\Zalo Received Files\Project_2\Project_2\main.cpp(531,26): warning C4244: 'argument': conversion from 'double' to 'int', possible loss of data
+C:\Users\nienc\Documents\Zalo Received Files\Project_2\Project_2\main.cpp(531,19): warning C4244: 'argument': conversion from 'double' to 'int', possible loss of data
+C:\Users\nienc\Documents\Zalo Received Files\Project_2\Project_2\main.cpp(540,33): warning C4244: 'argument': conversion from 'double' to 'int', possible loss of data
+C:\Users\nienc\Documents\Zalo Received Files\Project_2\Project_2\main.cpp(540,26): warning C4244: 'argument': conversion from 'double' to 'int', possible loss of data
+C:\Users\nienc\Documents\Zalo Received Files\Project_2\Project_2\main.cpp(540,19): warning C4244: 'argument': conversion from 'double' to 'int', possible loss of data
+C:\Users\nienc\Documents\Zalo Received Files\Project_2\Project_2\main.cpp(546,22): warning C4305: 'argument': truncation from 'double' to 'float'
+C:\Users\nienc\Documents\Zalo Received Files\Project_2\Project_2\main.cpp(547,25): warning C4305: 'argument': truncation from 'double' to 'float'
+C:\Users\nienc\Documents\Zalo Received Files\Project_2\Project_2\main.cpp(547,20): warning C4305: 'argument': truncation from 'double' to 'float'
+C:\Users\nienc\Documents\Zalo Received Files\Project_2\Project_2\main.cpp(547,15): warning C4305: 'argument': truncation from 'double' to 'float'
+C:\Users\nienc\Documents\Zalo Received Files\Project_2\Project_2\main.cpp(548,29): warning C4244: 'argument': conversion from 'double' to 'int', possible loss of data
+C:\Users\nienc\Documents\Zalo Received Files\Project_2\Project_2\main.cpp(548,24): warning C4244: 'argument': conversion from 'double' to 'int', possible loss of data
+C:\Users\nienc\Documents\Zalo Received Files\Project_2\Project_2\main.cpp(548,19): warning C4244: 'argument': conversion from 'double' to 'int', possible loss of data
+C:\Users\nienc\Documents\Zalo Received Files\Project_2\Project_2\main.cpp(554,19): warning C4305: 'argument': truncation from 'double' to 'float'
+C:\Users\nienc\Documents\Zalo Received Files\Project_2\Project_2\main.cpp(555,25): warning C4305: 'argument': truncation from 'double' to 'float'
+C:\Users\nienc\Documents\Zalo Received Files\Project_2\Project_2\main.cpp(555,20): warning C4305: 'argument': truncation from 'double' to 'float'
+C:\Users\nienc\Documents\Zalo Received Files\Project_2\Project_2\main.cpp(555,15): warning C4305: 'argument': truncation from 'double' to 'float'
+C:\Users\nienc\Documents\Zalo Received Files\Project_2\Project_2\main.cpp(556,29): warning C4244: 'argument': conversion from 'double' to 'int', possible loss of data
+C:\Users\nienc\Documents\Zalo Received Files\Project_2\Project_2\main.cpp(556,24): warning C4244: 'argument': conversion from 'double' to 'int', possible loss of data
+C:\Users\nienc\Documents\Zalo Received Files\Project_2\Project_2\main.cpp(556,19): warning C4244: 'argument': conversion from 'double' to 'int', possible loss of data
+C:\Users\nienc\Documents\Zalo Received Files\Project_2\Project_2\main.cpp(562,30): warning C4305: 'argument': truncation from 'double' to 'float'
+C:\Users\nienc\Documents\Zalo Received Files\Project_2\Project_2\main.cpp(562,24): warning C4305: 'argument': truncation from 'double' to 'float'
+C:\Users\nienc\Documents\Zalo Received Files\Project_2\Project_2\main.cpp(562,19): warning C4305: 'argument': truncation from 'double' to 'float'
+C:\Users\nienc\Documents\Zalo Received Files\Project_2\Project_2\main.cpp(563,20): warning C4305: 'argument': truncation from 'double' to 'float'
+C:\Users\nienc\Documents\Zalo Received Files\Project_2\Project_2\main.cpp(563,15): warning C4305: 'argument': truncation from 'double' to 'float'
+C:\Users\nienc\Documents\Zalo Received Files\Project_2\Project_2\main.cpp(564,29): warning C4244: 'argument': conversion from 'double' to 'int', possible loss of data
+C:\Users\nienc\Documents\Zalo Received Files\Project_2\Project_2\main.cpp(564,24): warning C4244: 'argument': conversion from 'double' to 'int', possible loss of data
+C:\Users\nienc\Documents\Zalo Received Files\Project_2\Project_2\main.cpp(564,19): warning C4244: 'argument': conversion from 'double' to 'int', possible loss of data
+C:\Users\nienc\Documents\Zalo Received Files\Project_2\Project_2\main.cpp(571,27): warning C4305: 'argument': truncation from 'double' to 'float'
+C:\Users\nienc\Documents\Zalo Received Files\Project_2\Project_2\main.cpp(573,33): warning C4244: 'argument': conversion from 'double' to 'int', possible loss of data
+C:\Users\nienc\Documents\Zalo Received Files\Project_2\Project_2\main.cpp(573,26): warning C4244: 'argument': conversion from 'double' to 'int', possible loss of data
+C:\Users\nienc\Documents\Zalo Received Files\Project_2\Project_2\main.cpp(573,19): warning C4244: 'argument': conversion from 'double' to 'int', possible loss of data
+C:\Users\nienc\Documents\Zalo Received Files\Project_2\Project_2\main.cpp(579,27): warning C4305: 'argument': truncation from 'double' to 'float'
+C:\Users\nienc\Documents\Zalo Received Files\Project_2\Project_2\main.cpp(581,33): warning C4244: 'argument': conversion from 'double' to 'int', possible loss of data
+C:\Users\nienc\Documents\Zalo Received Files\Project_2\Project_2\main.cpp(581,26): warning C4244: 'argument': conversion from 'double' to 'int', possible loss of data
+C:\Users\nienc\Documents\Zalo Received Files\Project_2\Project_2\main.cpp(581,19): warning C4244: 'argument': conversion from 'double' to 'int', possible loss of data
+C:\Users\nienc\Documents\Zalo Received Files\Project_2\Project_2\main.cpp(587,26): warning C4305: 'argument': truncation from 'double' to 'float'
+C:\Users\nienc\Documents\Zalo Received Files\Project_2\Project_2\main.cpp(589,33): warning C4244: 'argument': conversion from 'double' to 'int', possible loss of data
+C:\Users\nienc\Documents\Zalo Received Files\Project_2\Project_2\main.cpp(589,26): warning C4244: 'argument': conversion from 'double' to 'int', possible loss of data
+C:\Users\nienc\Documents\Zalo Received Files\Project_2\Project_2\main.cpp(589,19): warning C4244: 'argument': conversion from 'double' to 'int', possible loss of data
+C:\Users\nienc\Documents\Zalo Received Files\Project_2\Project_2\main.cpp(596,33): warning C4305: 'argument': truncation from 'double' to 'float'
+C:\Users\nienc\Documents\Zalo Received Files\Project_2\Project_2\main.cpp(596,19): warning C4305: 'argument': truncation from 'double' to 'float'
+C:\Users\nienc\Documents\Zalo Received Files\Project_2\Project_2\main.cpp(597,26): warning C4305: 'argument': truncation from 'double' to 'float'
+C:\Users\nienc\Documents\Zalo Received Files\Project_2\Project_2\main.cpp(597,21): warning C4305: 'argument': truncation from 'double' to 'float'
+C:\Users\nienc\Documents\Zalo Received Files\Project_2\Project_2\main.cpp(597,15): warning C4305: 'argument': truncation from 'double' to 'float'
+C:\Users\nienc\Documents\Zalo Received Files\Project_2\Project_2\main.cpp(598,29): warning C4244: 'argument': conversion from 'double' to 'int', possible loss of data
+C:\Users\nienc\Documents\Zalo Received Files\Project_2\Project_2\main.cpp(598,24): warning C4244: 'argument': conversion from 'double' to 'int', possible loss of data
+C:\Users\nienc\Documents\Zalo Received Files\Project_2\Project_2\main.cpp(598,19): warning C4244: 'argument': conversion from 'double' to 'int', possible loss of data
 C:\Users\nienc\Documents\Zalo Received Files\Project_2\Project_2\main.cpp(610,33): warning C4244: 'argument': conversion from 'double' to 'int', possible loss of data
 C:\Users\nienc\Documents\Zalo Received Files\Project_2\Project_2\main.cpp(610,26): warning C4244: 'argument': conversion from 'double' to 'int', possible loss of data
 C:\Users\nienc\Documents\Zalo Received Files\Project_2\Project_2\main.cpp(610,19): warning C4244: 'argument': conversion from 'double' to 'int', possible loss of data
-C:\Users\nienc\Documents\Zalo Received Files\Project_2\Project_2\main.cpp(619,33): warning C4244: 'argument': conversion from 'double' to 'int', possible loss of data
-C:\Users\nienc\Documents\Zalo Received Files\Project_2\Project_2\main.cpp(619,26): warning C4244: 'argument': conversion from 'double' to 'int', possible loss of data
-C:\Users\nienc\Documents\Zalo Received Files\Project_2\Project_2\main.cpp(619,19): warning C4244: 'argument': conversion from 'double' to 'int', possible loss of data
-C:\Users\nienc\Documents\Zalo Received Files\Project_2\Project_2\main.cpp(630,19): warning C4305: 'argument': truncation from 'double' to 'float'
-C:\Users\nienc\Documents\Zalo Received Files\Project_2\Project_2\main.cpp(631,33): warning C4244: 'argument': conversion from 'double' to 'int', possible loss of data
-C:\Users\nienc\Documents\Zalo Received Files\Project_2\Project_2\main.cpp(631,26): warning C4244: 'argument': conversion from 'double' to 'int', possible loss of data
-C:\Users\nienc\Documents\Zalo Received Files\Project_2\Project_2\main.cpp(631,19): warning C4244: 'argument': conversion from 'double' to 'int', possible loss of data
-C:\Users\nienc\Documents\Zalo Received Files\Project_2\Project_2\main.cpp(639,33): warning C4244: 'argument': conversion from 'double' to 'int', possible loss of data
-C:\Users\nienc\Documents\Zalo Received Files\Project_2\Project_2\main.cpp(639,26): warning C4244: 'argument': conversion from 'double' to 'int', possible loss of data
-C:\Users\nienc\Documents\Zalo Received Files\Project_2\Project_2\main.cpp(639,19): warning C4244: 'argument': conversion from 'double' to 'int', possible loss of data
-C:\Users\nienc\Documents\Zalo Received Files\Project_2\Project_2\main.cpp(646,23): warning C4305: 'argument': truncation from 'double' to 'float'
-C:\Users\nienc\Documents\Zalo Received Files\Project_2\Project_2\main.cpp(647,33): warning C4244: 'argument': conversion from 'double' to 'int', possible loss of data
-C:\Users\nienc\Documents\Zalo Received Files\Project_2\Project_2\main.cpp(647,26): warning C4244: 'argument': conversion from 'double' to 'int', possible loss of data
-C:\Users\nienc\Documents\Zalo Received Files\Project_2\Project_2\main.cpp(647,19): warning C4244: 'argument': conversion from 'double' to 'int', possible loss of data
+C:\Users\nienc\Documents\Zalo Received Files\Project_2\Project_2\main.cpp(618,33): warning C4244: 'argument': conversion from 'double' to 'int', possible loss of data
+C:\Users\nienc\Documents\Zalo Received Files\Project_2\Project_2\main.cpp(618,26): warning C4244: 'argument': conversion from 'double' to 'int', possible loss of data
+C:\Users\nienc\Documents\Zalo Received Files\Project_2\Project_2\main.cpp(618,19): warning C4244: 'argument': conversion from 'double' to 'int', possible loss of data
+C:\Users\nienc\Documents\Zalo Received Files\Project_2\Project_2\main.cpp(626,31): warning C4244: 'argument': conversion from 'double' to 'int', possible loss of data
+C:\Users\nienc\Documents\Zalo Received Files\Project_2\Project_2\main.cpp(626,19): warning C4244: 'argument': conversion from 'double' to 'int', possible loss of data
+C:\Users\nienc\Documents\Zalo Received Files\Project_2\Project_2\main.cpp(634,33): warning C4244: 'argument': conversion from 'double' to 'int', possible loss of data
+C:\Users\nienc\Documents\Zalo Received Files\Project_2\Project_2\main.cpp(634,26): warning C4244: 'argument': conversion from 'double' to 'int', possible loss of data
+C:\Users\nienc\Documents\Zalo Received Files\Project_2\Project_2\main.cpp(634,19): warning C4244: 'argument': conversion from 'double' to 'int', possible loss of data
+C:\Users\nienc\Documents\Zalo Received Files\Project_2\Project_2\main.cpp(643,33): warning C4244: 'argument': conversion from 'double' to 'int', possible loss of data
+C:\Users\nienc\Documents\Zalo Received Files\Project_2\Project_2\main.cpp(643,26): warning C4244: 'argument': conversion from 'double' to 'int', possible loss of data
+C:\Users\nienc\Documents\Zalo Received Files\Project_2\Project_2\main.cpp(643,19): warning C4244: 'argument': conversion from 'double' to 'int', possible loss of data
 C:\Users\nienc\Documents\Zalo Received Files\Project_2\Project_2\main.cpp(654,19): warning C4305: 'argument': truncation from 'double' to 'float'
 C:\Users\nienc\Documents\Zalo Received Files\Project_2\Project_2\main.cpp(655,33): warning C4244: 'argument': conversion from 'double' to 'int', possible loss of data
 C:\Users\nienc\Documents\Zalo Received Files\Project_2\Project_2\main.cpp(655,26): warning C4244: 'argument': conversion from 'double' to 'int', possible loss of data
 C:\Users\nienc\Documents\Zalo Received Files\Project_2\Project_2\main.cpp(655,19): warning C4244: 'argument': conversion from 'double' to 'int', possible loss of data
-C:\Users\nienc\Documents\Zalo Received Files\Project_2\Project_2\main.cpp(662,15): warning C4305: 'argument': truncation from 'double' to 'float'
 C:\Users\nienc\Documents\Zalo Received Files\Project_2\Project_2\main.cpp(663,33): warning C4244: 'argument': conversion from 'double' to 'int', possible loss of data
 C:\Users\nienc\Documents\Zalo Received Files\Project_2\Project_2\main.cpp(663,26): warning C4244: 'argument': conversion from 'double' to 'int', possible loss of data
 C:\Users\nienc\Documents\Zalo Received Files\Project_2\Project_2\main.cpp(663,19): warning C4244: 'argument': conversion from 'double' to 'int', possible loss of data
-C:\Users\nienc\Documents\Zalo Received Files\Project_2\Project_2\main.cpp(670,15): warning C4305: 'argument': truncation from 'double' to 'float'
+C:\Users\nienc\Documents\Zalo Received Files\Project_2\Project_2\main.cpp(670,23): warning C4305: 'argument': truncation from 'double' to 'float'
 C:\Users\nienc\Documents\Zalo Received Files\Project_2\Project_2\main.cpp(671,33): warning C4244: 'argument': conversion from 'double' to 'int', possible loss of data
 C:\Users\nienc\Documents\Zalo Received Files\Project_2\Project_2\main.cpp(671,26): warning C4244: 'argument': conversion from 'double' to 'int', possible loss of data
 C:\Users\nienc\Documents\Zalo Received Files\Project_2\Project_2\main.cpp(671,19): warning C4244: 'argument': conversion from 'double' to 'int', possible loss of data
-C:\Users\nienc\Documents\Zalo Received Files\Project_2\Project_2\main.cpp(678,15): warning C4305: 'argument': truncation from 'double' to 'float'
+C:\Users\nienc\Documents\Zalo Received Files\Project_2\Project_2\main.cpp(678,19): warning C4305: 'argument': truncation from 'double' to 'float'
 C:\Users\nienc\Documents\Zalo Received Files\Project_2\Project_2\main.cpp(679,33): warning C4244: 'argument': conversion from 'double' to 'int', possible loss of data
 C:\Users\nienc\Documents\Zalo Received Files\Project_2\Project_2\main.cpp(679,26): warning C4244: 'argument': conversion from 'double' to 'int', possible loss of data
 C:\Users\nienc\Documents\Zalo Received Files\Project_2\Project_2\main.cpp(679,19): warning C4244: 'argument': conversion from 'double' to 'int', possible loss of data
 C:\Users\nienc\Documents\Zalo Received Files\Project_2\Project_2\main.cpp(686,15): warning C4305: 'argument': truncation from 'double' to 'float'
-C:\Users\nienc\Documents\Zalo Received Files\Project_2\Project_2\main.cpp(694,22): warning C4305: 'argument': truncation from 'double' to 'float'
-C:\Users\nienc\Documents\Zalo Received Files\Project_2\Project_2\main.cpp(702,22): warning C4305: 'argument': truncation from 'double' to 'float'
-C:\Users\nienc\Documents\Zalo Received Files\Project_2\Project_2\main.cpp(710,23): warning C4305: 'argument': truncation from 'double' to 'float'
+C:\Users\nienc\Documents\Zalo Received Files\Project_2\Project_2\main.cpp(687,33): warning C4244: 'argument': conversion from 'double' to 'int', possible loss of data
+C:\Users\nienc\Documents\Zalo Received Files\Project_2\Project_2\main.cpp(687,26): warning C4244: 'argument': conversion from 'double' to 'int', possible loss of data
+C:\Users\nienc\Documents\Zalo Received Files\Project_2\Project_2\main.cpp(687,19): warning C4244: 'argument': conversion from 'double' to 'int', possible loss of data
+C:\Users\nienc\Documents\Zalo Received Files\Project_2\Project_2\main.cpp(694,15): warning C4305: 'argument': truncation from 'double' to 'float'
+C:\Users\nienc\Documents\Zalo Received Files\Project_2\Project_2\main.cpp(695,33): warning C4244: 'argument': conversion from 'double' to 'int', possible loss of data
+C:\Users\nienc\Documents\Zalo Received Files\Project_2\Project_2\main.cpp(695,26): warning C4244: 'argument': conversion from 'double' to 'int', possible loss of data
+C:\Users\nienc\Documents\Zalo Received Files\Project_2\Project_2\main.cpp(695,19): warning C4244: 'argument': conversion from 'double' to 'int', possible loss of data
+C:\Users\nienc\Documents\Zalo Received Files\Project_2\Project_2\main.cpp(702,15): warning C4305: 'argument': truncation from 'double' to 'float'
+C:\Users\nienc\Documents\Zalo Received Files\Project_2\Project_2\main.cpp(703,33): warning C4244: 'argument': conversion from 'double' to 'int', possible loss of data
+C:\Users\nienc\Documents\Zalo Received Files\Project_2\Project_2\main.cpp(703,26): warning C4244: 'argument': conversion from 'double' to 'int', possible loss of data
+C:\Users\nienc\Documents\Zalo Received Files\Project_2\Project_2\main.cpp(703,19): warning C4244: 'argument': conversion from 'double' to 'int', possible loss of data
+C:\Users\nienc\Documents\Zalo Received Files\Project_2\Project_2\main.cpp(710,15): warning C4305: 'argument': truncation from 'double' to 'float'
 C:\Users\nienc\Documents\Zalo Received Files\Project_2\Project_2\main.cpp(718,22): warning C4305: 'argument': truncation from 'double' to 'float'
-C:\Users\nienc\Documents\Zalo Received Files\Project_2\Project_2\main.cpp(730,15): warning C4305: 'argument': truncation from 'double' to 'float'
-C:\Users\nienc\Documents\Zalo Received Files\Project_2\Project_2\main.cpp(731,33): warning C4244: 'argument': conversion from 'double' to 'int', possible loss of data
-C:\Users\nienc\Documents\Zalo Received Files\Project_2\Project_2\main.cpp(731,26): warning C4244: 'argument': conversion from 'double' to 'int', possible loss of data
-C:\Users\nienc\Documents\Zalo Received Files\Project_2\Project_2\main.cpp(731,19): warning C4244: 'argument': conversion from 'double' to 'int', possible loss of data
-C:\Users\nienc\Documents\Zalo Received Files\Project_2\Project_2\main.cpp(740,33): warning C4244: 'argument': conversion from 'double' to 'int', possible loss of data
-C:\Users\nienc\Documents\Zalo Received Files\Project_2\Project_2\main.cpp(740,26): warning C4244: 'argument': conversion from 'double' to 'int', possible loss of data
-C:\Users\nienc\Documents\Zalo Received Files\Project_2\Project_2\main.cpp(740,19): warning C4244: 'argument': conversion from 'double' to 'int', possible loss of data
-C:\Users\nienc\Documents\Zalo Received Files\Project_2\Project_2\main.cpp(750,33): warning C4244: 'argument': conversion from 'double' to 'int', possible loss of data
-C:\Users\nienc\Documents\Zalo Received Files\Project_2\Project_2\main.cpp(750,26): warning C4244: 'argument': conversion from 'double' to 'int', possible loss of data
-C:\Users\nienc\Documents\Zalo Received Files\Project_2\Project_2\main.cpp(750,19): warning C4244: 'argument': conversion from 'double' to 'int', possible loss of data
-C:\Users\nienc\Documents\Zalo Received Files\Project_2\Project_2\main.cpp(758,33): warning C4244: 'argument': conversion from 'double' to 'int', possible loss of data
-C:\Users\nienc\Documents\Zalo Received Files\Project_2\Project_2\main.cpp(758,26): warning C4244: 'argument': conversion from 'double' to 'int', possible loss of data
-C:\Users\nienc\Documents\Zalo Received Files\Project_2\Project_2\main.cpp(758,19): warning C4244: 'argument': conversion from 'double' to 'int', possible loss of data
-C:\Users\nienc\Documents\Zalo Received Files\Project_2\Project_2\main.cpp(766,33): warning C4244: 'argument': conversion from 'double' to 'int', possible loss of data
-C:\Users\nienc\Documents\Zalo Received Files\Project_2\Project_2\main.cpp(766,26): warning C4244: 'argument': conversion from 'double' to 'int', possible loss of data
-C:\Users\nienc\Documents\Zalo Received Files\Project_2\Project_2\main.cpp(766,19): warning C4244: 'argument': conversion from 'double' to 'int', possible loss of data
+C:\Users\nienc\Documents\Zalo Received Files\Project_2\Project_2\main.cpp(726,22): warning C4305: 'argument': truncation from 'double' to 'float'
+C:\Users\nienc\Documents\Zalo Received Files\Project_2\Project_2\main.cpp(734,23): warning C4305: 'argument': truncation from 'double' to 'float'
+C:\Users\nienc\Documents\Zalo Received Files\Project_2\Project_2\main.cpp(742,22): warning C4305: 'argument': truncation from 'double' to 'float'
+C:\Users\nienc\Documents\Zalo Received Files\Project_2\Project_2\main.cpp(754,15): warning C4305: 'argument': truncation from 'double' to 'float'
+C:\Users\nienc\Documents\Zalo Received Files\Project_2\Project_2\main.cpp(755,33): warning C4244: 'argument': conversion from 'double' to 'int', possible loss of data
+C:\Users\nienc\Documents\Zalo Received Files\Project_2\Project_2\main.cpp(755,26): warning C4244: 'argument': conversion from 'double' to 'int', possible loss of data
+C:\Users\nienc\Documents\Zalo Received Files\Project_2\Project_2\main.cpp(755,19): warning C4244: 'argument': conversion from 'double' to 'int', possible loss of data
+C:\Users\nienc\Documents\Zalo Received Files\Project_2\Project_2\main.cpp(764,33): warning C4244: 'argument': conversion from 'double' to 'int', possible loss of data
+C:\Users\nienc\Documents\Zalo Received Files\Project_2\Project_2\main.cpp(764,26): warning C4244: 'argument': conversion from 'double' to 'int', possible loss of data
+C:\Users\nienc\Documents\Zalo Received Files\Project_2\Project_2\main.cpp(764,19): warning C4244: 'argument': conversion from 'double' to 'int', possible loss of data
 C:\Users\nienc\Documents\Zalo Received Files\Project_2\Project_2\main.cpp(774,33): warning C4244: 'argument': conversion from 'double' to 'int', possible loss of data
 C:\Users\nienc\Documents\Zalo Received Files\Project_2\Project_2\main.cpp(774,26): warning C4244: 'argument': conversion from 'double' to 'int', possible loss of data
 C:\Users\nienc\Documents\Zalo Received Files\Project_2\Project_2\main.cpp(774,19): warning C4244: 'argument': conversion from 'double' to 'int', possible loss of data
 C:\Users\nienc\Documents\Zalo Received Files\Project_2\Project_2\main.cpp(782,33): warning C4244: 'argument': conversion from 'double' to 'int', possible loss of data
 C:\Users\nienc\Documents\Zalo Received Files\Project_2\Project_2\main.cpp(782,26): warning C4244: 'argument': conversion from 'double' to 'int', possible loss of data
 C:\Users\nienc\Documents\Zalo Received Files\Project_2\Project_2\main.cpp(782,19): warning C4244: 'argument': conversion from 'double' to 'int', possible loss of data
-C:\Users\nienc\Documents\Zalo Received Files\Project_2\Project_2\main.cpp(793,23): warning C4305: 'argument': truncation from 'double' to 'float'
-C:\Users\nienc\Documents\Zalo Received Files\Project_2\Project_2\main.cpp(838,33): warning C4244: 'argument': conversion from 'double' to 'int', possible loss of data
-C:\Users\nienc\Documents\Zalo Received Files\Project_2\Project_2\main.cpp(838,26): warning C4244: 'argument': conversion from 'double' to 'int', possible loss of data
-C:\Users\nienc\Documents\Zalo Received Files\Project_2\Project_2\main.cpp(838,19): warning C4244: 'argument': conversion from 'double' to 'int', possible loss of data
-C:\Users\nienc\Documents\Zalo Received Files\Project_2\Project_2\main.cpp(844,25): warning C4305: 'argument': truncation from 'double' to 'float'
-C:\Users\nienc\Documents\Zalo Received Files\Project_2\Project_2\main.cpp(846,33): warning C4244: 'argument': conversion from 'double' to 'int', possible loss of data
-C:\Users\nienc\Documents\Zalo Received Files\Project_2\Project_2\main.cpp(846,26): warning C4244: 'argument': conversion from 'double' to 'int', possible loss of data
-C:\Users\nienc\Documents\Zalo Received Files\Project_2\Project_2\main.cpp(846,19): warning C4244: 'argument': conversion from 'double' to 'int', possible loss of data
-C:\Users\nienc\Documents\Zalo Received Files\Project_2\Project_2\main.cpp(852,25): warning C4305: 'argument': truncation from 'double' to 'float'
-C:\Users\nienc\Documents\Zalo Received Files\Project_2\Project_2\main.cpp(854,33): warning C4244: 'argument': conversion from 'double' to 'int', possible loss of data
-C:\Users\nienc\Documents\Zalo Received Files\Project_2\Project_2\main.cpp(854,26): warning C4244: 'argument': conversion from 'double' to 'int', possible loss of data
-C:\Users\nienc\Documents\Zalo Received Files\Project_2\Project_2\main.cpp(854,19): warning C4244: 'argument': conversion from 'double' to 'int', possible loss of data
-C:\Users\nienc\Documents\Zalo Received Files\Project_2\Project_2\main.cpp(860,25): warning C4305: 'argument': truncation from 'double' to 'float'
+C:\Users\nienc\Documents\Zalo Received Files\Project_2\Project_2\main.cpp(790,33): warning C4244: 'argument': conversion from 'double' to 'int', possible loss of data
+C:\Users\nienc\Documents\Zalo Received Files\Project_2\Project_2\main.cpp(790,26): warning C4244: 'argument': conversion from 'double' to 'int', possible loss of data
+C:\Users\nienc\Documents\Zalo Received Files\Project_2\Project_2\main.cpp(790,19): warning C4244: 'argument': conversion from 'double' to 'int', possible loss of data
+C:\Users\nienc\Documents\Zalo Received Files\Project_2\Project_2\main.cpp(798,33): warning C4244: 'argument': conversion from 'double' to 'int', possible loss of data
+C:\Users\nienc\Documents\Zalo Received Files\Project_2\Project_2\main.cpp(798,26): warning C4244: 'argument': conversion from 'double' to 'int', possible loss of data
+C:\Users\nienc\Documents\Zalo Received Files\Project_2\Project_2\main.cpp(798,19): warning C4244: 'argument': conversion from 'double' to 'int', possible loss of data
+C:\Users\nienc\Documents\Zalo Received Files\Project_2\Project_2\main.cpp(806,33): warning C4244: 'argument': conversion from 'double' to 'int', possible loss of data
+C:\Users\nienc\Documents\Zalo Received Files\Project_2\Project_2\main.cpp(806,26): warning C4244: 'argument': conversion from 'double' to 'int', possible loss of data
+C:\Users\nienc\Documents\Zalo Received Files\Project_2\Project_2\main.cpp(806,19): warning C4244: 'argument': conversion from 'double' to 'int', possible loss of data
+C:\Users\nienc\Documents\Zalo Received Files\Project_2\Project_2\main.cpp(817,23): warning C4305: 'argument': truncation from 'double' to 'float'
 C:\Users\nienc\Documents\Zalo Received Files\Project_2\Project_2\main.cpp(862,33): warning C4244: 'argument': conversion from 'double' to 'int', possible loss of data
 C:\Users\nienc\Documents\Zalo Received Files\Project_2\Project_2\main.cpp(862,26): warning C4244: 'argument': conversion from 'double' to 'int', possible loss of data
 C:\Users\nienc\Documents\Zalo Received Files\Project_2\Project_2\main.cpp(862,19): warning C4244: 'argument': conversion from 'double' to 'int', possible loss of data
@@ -156,45 +152,42 @@ C:\Users\nienc\Documents\Zalo Received Files\Project_2\Project_2\main.cpp(868,25
 C:\Users\nienc\Documents\Zalo Received Files\Project_2\Project_2\main.cpp(870,33): warning C4244: 'argument': conversion from 'double' to 'int', possible loss of data
 C:\Users\nienc\Documents\Zalo Received Files\Project_2\Project_2\main.cpp(870,26): warning C4244: 'argument': conversion from 'double' to 'int', possible loss of data
 C:\Users\nienc\Documents\Zalo Received Files\Project_2\Project_2\main.cpp(870,19): warning C4244: 'argument': conversion from 'double' to 'int', possible loss of data
+C:\Users\nienc\Documents\Zalo Received Files\Project_2\Project_2\main.cpp(876,25): warning C4305: 'argument': truncation from 'double' to 'float'
 C:\Users\nienc\Documents\Zalo Received Files\Project_2\Project_2\main.cpp(878,33): warning C4244: 'argument': conversion from 'double' to 'int', possible loss of data
 C:\Users\nienc\Documents\Zalo Received Files\Project_2\Project_2\main.cpp(878,26): warning C4244: 'argument': conversion from 'double' to 'int', possible loss of data
 C:\Users\nienc\Documents\Zalo Received Files\Project_2\Project_2\main.cpp(878,19): warning C4244: 'argument': conversion from 'double' to 'int', possible loss of data
-C:\Users\nienc\Documents\Zalo Received Files\Project_2\Project_2\main.cpp(886,18): warning C4305: 'argument': truncation from 'double' to 'float'
-C:\Users\nienc\Documents\Zalo Received Files\Project_2\Project_2\main.cpp(887,33): warning C4244: 'argument': conversion from 'double' to 'int', possible loss of data
-C:\Users\nienc\Documents\Zalo Received Files\Project_2\Project_2\main.cpp(887,26): warning C4244: 'argument': conversion from 'double' to 'int', possible loss of data
-C:\Users\nienc\Documents\Zalo Received Files\Project_2\Project_2\main.cpp(887,19): warning C4244: 'argument': conversion from 'double' to 'int', possible loss of data
-C:\Users\nienc\Documents\Zalo Received Files\Project_2\Project_2\main.cpp(893,22): warning C4305: 'argument': truncation from 'double' to 'float'
-C:\Users\nienc\Documents\Zalo Received Files\Project_2\Project_2\main.cpp(894,18): warning C4305: 'argument': truncation from 'double' to 'float'
-C:\Users\nienc\Documents\Zalo Received Files\Project_2\Project_2\main.cpp(895,33): warning C4244: 'argument': conversion from 'double' to 'int', possible loss of data
-C:\Users\nienc\Documents\Zalo Received Files\Project_2\Project_2\main.cpp(895,26): warning C4244: 'argument': conversion from 'double' to 'int', possible loss of data
-C:\Users\nienc\Documents\Zalo Received Files\Project_2\Project_2\main.cpp(895,19): warning C4244: 'argument': conversion from 'double' to 'int', possible loss of data
-C:\Users\nienc\Documents\Zalo Received Files\Project_2\Project_2\main.cpp(902,24): warning C4305: 'argument': truncation from 'double' to 'float'
-C:\Users\nienc\Documents\Zalo Received Files\Project_2\Project_2\main.cpp(903,33): warning C4244: 'argument': conversion from 'double' to 'int', possible loss of data
-C:\Users\nienc\Documents\Zalo Received Files\Project_2\Project_2\main.cpp(903,26): warning C4244: 'argument': conversion from 'double' to 'int', possible loss of data
-C:\Users\nienc\Documents\Zalo Received Files\Project_2\Project_2\main.cpp(903,19): warning C4244: 'argument': conversion from 'double' to 'int', possible loss of data
-C:\Users\nienc\Documents\Zalo Received Files\Project_2\Project_2\main.cpp(910,24): warning C4305: 'argument': truncation from 'double' to 'float'
+C:\Users\nienc\Documents\Zalo Received Files\Project_2\Project_2\main.cpp(884,25): warning C4305: 'argument': truncation from 'double' to 'float'
+C:\Users\nienc\Documents\Zalo Received Files\Project_2\Project_2\main.cpp(886,33): warning C4244: 'argument': conversion from 'double' to 'int', possible loss of data
+C:\Users\nienc\Documents\Zalo Received Files\Project_2\Project_2\main.cpp(886,26): warning C4244: 'argument': conversion from 'double' to 'int', possible loss of data
+C:\Users\nienc\Documents\Zalo Received Files\Project_2\Project_2\main.cpp(886,19): warning C4244: 'argument': conversion from 'double' to 'int', possible loss of data
+C:\Users\nienc\Documents\Zalo Received Files\Project_2\Project_2\main.cpp(892,25): warning C4305: 'argument': truncation from 'double' to 'float'
+C:\Users\nienc\Documents\Zalo Received Files\Project_2\Project_2\main.cpp(894,33): warning C4244: 'argument': conversion from 'double' to 'int', possible loss of data
+C:\Users\nienc\Documents\Zalo Received Files\Project_2\Project_2\main.cpp(894,26): warning C4244: 'argument': conversion from 'double' to 'int', possible loss of data
+C:\Users\nienc\Documents\Zalo Received Files\Project_2\Project_2\main.cpp(894,19): warning C4244: 'argument': conversion from 'double' to 'int', possible loss of data
+C:\Users\nienc\Documents\Zalo Received Files\Project_2\Project_2\main.cpp(902,33): warning C4244: 'argument': conversion from 'double' to 'int', possible loss of data
+C:\Users\nienc\Documents\Zalo Received Files\Project_2\Project_2\main.cpp(902,26): warning C4244: 'argument': conversion from 'double' to 'int', possible loss of data
+C:\Users\nienc\Documents\Zalo Received Files\Project_2\Project_2\main.cpp(902,19): warning C4244: 'argument': conversion from 'double' to 'int', possible loss of data
+C:\Users\nienc\Documents\Zalo Received Files\Project_2\Project_2\main.cpp(910,18): warning C4305: 'argument': truncation from 'double' to 'float'
 C:\Users\nienc\Documents\Zalo Received Files\Project_2\Project_2\main.cpp(911,33): warning C4244: 'argument': conversion from 'double' to 'int', possible loss of data
 C:\Users\nienc\Documents\Zalo Received Files\Project_2\Project_2\main.cpp(911,26): warning C4244: 'argument': conversion from 'double' to 'int', possible loss of data
 C:\Users\nienc\Documents\Zalo Received Files\Project_2\Project_2\main.cpp(911,19): warning C4244: 'argument': conversion from 'double' to 'int', possible loss of data
-C:\Users\nienc\Documents\Zalo Received Files\Project_2\Project_2\main.cpp(919,15): warning C4305: 'argument': truncation from 'double' to 'float'
-C:\Users\nienc\Documents\Zalo Received Files\Project_2\Project_2\main.cpp(920,33): warning C4244: 'argument': conversion from 'double' to 'int', possible loss of data
-C:\Users\nienc\Documents\Zalo Received Files\Project_2\Project_2\main.cpp(920,26): warning C4244: 'argument': conversion from 'double' to 'int', possible loss of data
-C:\Users\nienc\Documents\Zalo Received Files\Project_2\Project_2\main.cpp(920,19): warning C4244: 'argument': conversion from 'double' to 'int', possible loss of data
-C:\Users\nienc\Documents\Zalo Received Files\Project_2\Project_2\main.cpp(928,33): warning C4244: 'argument': conversion from 'double' to 'int', possible loss of data
-C:\Users\nienc\Documents\Zalo Received Files\Project_2\Project_2\main.cpp(928,26): warning C4244: 'argument': conversion from 'double' to 'int', possible loss of data
-C:\Users\nienc\Documents\Zalo Received Files\Project_2\Project_2\main.cpp(928,19): warning C4244: 'argument': conversion from 'double' to 'int', possible loss of data
-C:\Users\nienc\Documents\Zalo Received Files\Project_2\Project_2\main.cpp(934,22): warning C4305: 'argument': truncation from 'double' to 'float'
-C:\Users\nienc\Documents\Zalo Received Files\Project_2\Project_2\main.cpp(935,18): warning C4305: 'argument': truncation from 'double' to 'float'
-C:\Users\nienc\Documents\Zalo Received Files\Project_2\Project_2\main.cpp(936,33): warning C4244: 'argument': conversion from 'double' to 'int', possible loss of data
-C:\Users\nienc\Documents\Zalo Received Files\Project_2\Project_2\main.cpp(936,26): warning C4244: 'argument': conversion from 'double' to 'int', possible loss of data
-C:\Users\nienc\Documents\Zalo Received Files\Project_2\Project_2\main.cpp(936,19): warning C4244: 'argument': conversion from 'double' to 'int', possible loss of data
-C:\Users\nienc\Documents\Zalo Received Files\Project_2\Project_2\main.cpp(942,22): warning C4305: 'argument': truncation from 'double' to 'float'
-C:\Users\nienc\Documents\Zalo Received Files\Project_2\Project_2\main.cpp(943,18): warning C4305: 'argument': truncation from 'double' to 'float'
+C:\Users\nienc\Documents\Zalo Received Files\Project_2\Project_2\main.cpp(917,22): warning C4305: 'argument': truncation from 'double' to 'float'
+C:\Users\nienc\Documents\Zalo Received Files\Project_2\Project_2\main.cpp(918,18): warning C4305: 'argument': truncation from 'double' to 'float'
+C:\Users\nienc\Documents\Zalo Received Files\Project_2\Project_2\main.cpp(919,33): warning C4244: 'argument': conversion from 'double' to 'int', possible loss of data
+C:\Users\nienc\Documents\Zalo Received Files\Project_2\Project_2\main.cpp(919,26): warning C4244: 'argument': conversion from 'double' to 'int', possible loss of data
+C:\Users\nienc\Documents\Zalo Received Files\Project_2\Project_2\main.cpp(919,19): warning C4244: 'argument': conversion from 'double' to 'int', possible loss of data
+C:\Users\nienc\Documents\Zalo Received Files\Project_2\Project_2\main.cpp(926,24): warning C4305: 'argument': truncation from 'double' to 'float'
+C:\Users\nienc\Documents\Zalo Received Files\Project_2\Project_2\main.cpp(927,33): warning C4244: 'argument': conversion from 'double' to 'int', possible loss of data
+C:\Users\nienc\Documents\Zalo Received Files\Project_2\Project_2\main.cpp(927,26): warning C4244: 'argument': conversion from 'double' to 'int', possible loss of data
+C:\Users\nienc\Documents\Zalo Received Files\Project_2\Project_2\main.cpp(927,19): warning C4244: 'argument': conversion from 'double' to 'int', possible loss of data
+C:\Users\nienc\Documents\Zalo Received Files\Project_2\Project_2\main.cpp(934,24): warning C4305: 'argument': truncation from 'double' to 'float'
+C:\Users\nienc\Documents\Zalo Received Files\Project_2\Project_2\main.cpp(935,33): warning C4244: 'argument': conversion from 'double' to 'int', possible loss of data
+C:\Users\nienc\Documents\Zalo Received Files\Project_2\Project_2\main.cpp(935,26): warning C4244: 'argument': conversion from 'double' to 'int', possible loss of data
+C:\Users\nienc\Documents\Zalo Received Files\Project_2\Project_2\main.cpp(935,19): warning C4244: 'argument': conversion from 'double' to 'int', possible loss of data
+C:\Users\nienc\Documents\Zalo Received Files\Project_2\Project_2\main.cpp(943,15): warning C4305: 'argument': truncation from 'double' to 'float'
 C:\Users\nienc\Documents\Zalo Received Files\Project_2\Project_2\main.cpp(944,33): warning C4244: 'argument': conversion from 'double' to 'int', possible loss of data
 C:\Users\nienc\Documents\Zalo Received Files\Project_2\Project_2\main.cpp(944,26): warning C4244: 'argument': conversion from 'double' to 'int', possible loss of data
 C:\Users\nienc\Documents\Zalo Received Files\Project_2\Project_2\main.cpp(944,19): warning C4244: 'argument': conversion from 'double' to 'int', possible loss of data
-C:\Users\nienc\Documents\Zalo Received Files\Project_2\Project_2\main.cpp(950,22): warning C4305: 'argument': truncation from 'double' to 'float'
-C:\Users\nienc\Documents\Zalo Received Files\Project_2\Project_2\main.cpp(951,18): warning C4305: 'argument': truncation from 'double' to 'float'
 C:\Users\nienc\Documents\Zalo Received Files\Project_2\Project_2\main.cpp(952,33): warning C4244: 'argument': conversion from 'double' to 'int', possible loss of data
 C:\Users\nienc\Documents\Zalo Received Files\Project_2\Project_2\main.cpp(952,26): warning C4244: 'argument': conversion from 'double' to 'int', possible loss of data
 C:\Users\nienc\Documents\Zalo Received Files\Project_2\Project_2\main.cpp(952,19): warning C4244: 'argument': conversion from 'double' to 'int', possible loss of data
@@ -203,263 +196,289 @@ C:\Users\nienc\Documents\Zalo Received Files\Project_2\Project_2\main.cpp(959,18
 C:\Users\nienc\Documents\Zalo Received Files\Project_2\Project_2\main.cpp(960,33): warning C4244: 'argument': conversion from 'double' to 'int', possible loss of data
 C:\Users\nienc\Documents\Zalo Received Files\Project_2\Project_2\main.cpp(960,26): warning C4244: 'argument': conversion from 'double' to 'int', possible loss of data
 C:\Users\nienc\Documents\Zalo Received Files\Project_2\Project_2\main.cpp(960,19): warning C4244: 'argument': conversion from 'double' to 'int', possible loss of data
-C:\Users\nienc\Documents\Zalo Received Files\Project_2\Project_2\main.cpp(968,22): warning C4305: 'argument': truncation from 'double' to 'float'
-C:\Users\nienc\Documents\Zalo Received Files\Project_2\Project_2\main.cpp(969,15): warning C4305: 'argument': truncation from 'double' to 'float'
-C:\Users\nienc\Documents\Zalo Received Files\Project_2\Project_2\main.cpp(970,33): warning C4244: 'argument': conversion from 'double' to 'int', possible loss of data
-C:\Users\nienc\Documents\Zalo Received Files\Project_2\Project_2\main.cpp(970,26): warning C4244: 'argument': conversion from 'double' to 'int', possible loss of data
-C:\Users\nienc\Documents\Zalo Received Files\Project_2\Project_2\main.cpp(970,19): warning C4244: 'argument': conversion from 'double' to 'int', possible loss of data
-C:\Users\nienc\Documents\Zalo Received Files\Project_2\Project_2\main.cpp(977,25): warning C4305: 'argument': truncation from 'double' to 'float'
-C:\Users\nienc\Documents\Zalo Received Files\Project_2\Project_2\main.cpp(977,20): warning C4305: 'argument': truncation from 'double' to 'float'
-C:\Users\nienc\Documents\Zalo Received Files\Project_2\Project_2\main.cpp(977,15): warning C4305: 'argument': truncation from 'double' to 'float'
-C:\Users\nienc\Documents\Zalo Received Files\Project_2\Project_2\main.cpp(978,33): warning C4244: 'argument': conversion from 'double' to 'int', possible loss of data
-C:\Users\nienc\Documents\Zalo Received Files\Project_2\Project_2\main.cpp(978,26): warning C4244: 'argument': conversion from 'double' to 'int', possible loss of data
-C:\Users\nienc\Documents\Zalo Received Files\Project_2\Project_2\main.cpp(978,19): warning C4244: 'argument': conversion from 'double' to 'int', possible loss of data
-C:\Users\nienc\Documents\Zalo Received Files\Project_2\Project_2\main.cpp(985,25): warning C4305: 'argument': truncation from 'double' to 'float'
-C:\Users\nienc\Documents\Zalo Received Files\Project_2\Project_2\main.cpp(985,20): warning C4305: 'argument': truncation from 'double' to 'float'
-C:\Users\nienc\Documents\Zalo Received Files\Project_2\Project_2\main.cpp(985,15): warning C4305: 'argument': truncation from 'double' to 'float'
-C:\Users\nienc\Documents\Zalo Received Files\Project_2\Project_2\main.cpp(986,33): warning C4244: 'argument': conversion from 'double' to 'int', possible loss of data
-C:\Users\nienc\Documents\Zalo Received Files\Project_2\Project_2\main.cpp(986,26): warning C4244: 'argument': conversion from 'double' to 'int', possible loss of data
-C:\Users\nienc\Documents\Zalo Received Files\Project_2\Project_2\main.cpp(986,19): warning C4244: 'argument': conversion from 'double' to 'int', possible loss of data
-C:\Users\nienc\Documents\Zalo Received Files\Project_2\Project_2\main.cpp(993,25): warning C4305: 'argument': truncation from 'double' to 'float'
-C:\Users\nienc\Documents\Zalo Received Files\Project_2\Project_2\main.cpp(993,20): warning C4305: 'argument': truncation from 'double' to 'float'
+C:\Users\nienc\Documents\Zalo Received Files\Project_2\Project_2\main.cpp(966,22): warning C4305: 'argument': truncation from 'double' to 'float'
+C:\Users\nienc\Documents\Zalo Received Files\Project_2\Project_2\main.cpp(967,18): warning C4305: 'argument': truncation from 'double' to 'float'
+C:\Users\nienc\Documents\Zalo Received Files\Project_2\Project_2\main.cpp(968,33): warning C4244: 'argument': conversion from 'double' to 'int', possible loss of data
+C:\Users\nienc\Documents\Zalo Received Files\Project_2\Project_2\main.cpp(968,26): warning C4244: 'argument': conversion from 'double' to 'int', possible loss of data
+C:\Users\nienc\Documents\Zalo Received Files\Project_2\Project_2\main.cpp(968,19): warning C4244: 'argument': conversion from 'double' to 'int', possible loss of data
+C:\Users\nienc\Documents\Zalo Received Files\Project_2\Project_2\main.cpp(974,22): warning C4305: 'argument': truncation from 'double' to 'float'
+C:\Users\nienc\Documents\Zalo Received Files\Project_2\Project_2\main.cpp(975,18): warning C4305: 'argument': truncation from 'double' to 'float'
+C:\Users\nienc\Documents\Zalo Received Files\Project_2\Project_2\main.cpp(976,33): warning C4244: 'argument': conversion from 'double' to 'int', possible loss of data
+C:\Users\nienc\Documents\Zalo Received Files\Project_2\Project_2\main.cpp(976,26): warning C4244: 'argument': conversion from 'double' to 'int', possible loss of data
+C:\Users\nienc\Documents\Zalo Received Files\Project_2\Project_2\main.cpp(976,19): warning C4244: 'argument': conversion from 'double' to 'int', possible loss of data
+C:\Users\nienc\Documents\Zalo Received Files\Project_2\Project_2\main.cpp(982,22): warning C4305: 'argument': truncation from 'double' to 'float'
+C:\Users\nienc\Documents\Zalo Received Files\Project_2\Project_2\main.cpp(983,18): warning C4305: 'argument': truncation from 'double' to 'float'
+C:\Users\nienc\Documents\Zalo Received Files\Project_2\Project_2\main.cpp(984,33): warning C4244: 'argument': conversion from 'double' to 'int', possible loss of data
+C:\Users\nienc\Documents\Zalo Received Files\Project_2\Project_2\main.cpp(984,26): warning C4244: 'argument': conversion from 'double' to 'int', possible loss of data
+C:\Users\nienc\Documents\Zalo Received Files\Project_2\Project_2\main.cpp(984,19): warning C4244: 'argument': conversion from 'double' to 'int', possible loss of data
+C:\Users\nienc\Documents\Zalo Received Files\Project_2\Project_2\main.cpp(992,22): warning C4305: 'argument': truncation from 'double' to 'float'
 C:\Users\nienc\Documents\Zalo Received Files\Project_2\Project_2\main.cpp(993,15): warning C4305: 'argument': truncation from 'double' to 'float'
 C:\Users\nienc\Documents\Zalo Received Files\Project_2\Project_2\main.cpp(994,33): warning C4244: 'argument': conversion from 'double' to 'int', possible loss of data
 C:\Users\nienc\Documents\Zalo Received Files\Project_2\Project_2\main.cpp(994,26): warning C4244: 'argument': conversion from 'double' to 'int', possible loss of data
 C:\Users\nienc\Documents\Zalo Received Files\Project_2\Project_2\main.cpp(994,19): warning C4244: 'argument': conversion from 'double' to 'int', possible loss of data
-C:\Users\nienc\Documents\Zalo Received Files\Project_2\Project_2\main.cpp(1017,114): warning C4305: 'argument': truncation from 'double' to 'float'
-C:\Users\nienc\Documents\Zalo Received Files\Project_2\Project_2\main.cpp(1017,108): warning C4305: 'argument': truncation from 'double' to 'float'
-C:\Users\nienc\Documents\Zalo Received Files\Project_2\Project_2\main.cpp(1024,81): warning C4305: 'argument': truncation from 'double' to 'float'
-C:\Users\nienc\Documents\Zalo Received Files\Project_2\Project_2\main.cpp(1031,58): warning C4305: 'argument': truncation from 'double' to 'float'
-C:\Users\nienc\Documents\Zalo Received Files\Project_2\Project_2\main.cpp(1031,84): warning C4305: 'argument': truncation from 'double' to 'float'
-C:\Users\nienc\Documents\Zalo Received Files\Project_2\Project_2\main.cpp(1038,50): warning C4305: 'argument': truncation from 'double' to 'float'
-C:\Users\nienc\Documents\Zalo Received Files\Project_2\Project_2\main.cpp(1038,77): warning C4305: 'argument': truncation from 'double' to 'float'
-C:\Users\nienc\Documents\Zalo Received Files\Project_2\Project_2\main.cpp(1045,62): warning C4305: 'argument': truncation from 'double' to 'float'
-C:\Users\nienc\Documents\Zalo Received Files\Project_2\Project_2\main.cpp(1045,56): warning C4305: 'argument': truncation from 'double' to 'float'
-C:\Users\nienc\Documents\Zalo Received Files\Project_2\Project_2\main.cpp(1045,50): warning C4305: 'argument': truncation from 'double' to 'float'
-C:\Users\nienc\Documents\Zalo Received Files\Project_2\Project_2\main.cpp(1045,123): warning C4305: 'argument': truncation from 'double' to 'float'
-C:\Users\nienc\Documents\Zalo Received Files\Project_2\Project_2\main.cpp(1045,118): warning C4305: 'argument': truncation from 'double' to 'float'
-C:\Users\nienc\Documents\Zalo Received Files\Project_2\Project_2\main.cpp(1045,113): warning C4305: 'argument': truncation from 'double' to 'float'
-C:\Users\nienc\Documents\Zalo Received Files\Project_2\Project_2\main.cpp(1056,28): warning C4305: 'argument': truncation from 'double' to 'float'
-C:\Users\nienc\Documents\Zalo Received Files\Project_2\Project_2\main.cpp(1058,33): warning C4244: 'argument': conversion from 'double' to 'int', possible loss of data
-C:\Users\nienc\Documents\Zalo Received Files\Project_2\Project_2\main.cpp(1058,26): warning C4244: 'argument': conversion from 'double' to 'int', possible loss of data
-C:\Users\nienc\Documents\Zalo Received Files\Project_2\Project_2\main.cpp(1058,19): warning C4244: 'argument': conversion from 'double' to 'int', possible loss of data
-C:\Users\nienc\Documents\Zalo Received Files\Project_2\Project_2\main.cpp(1066,33): warning C4244: 'argument': conversion from 'double' to 'int', possible loss of data
-C:\Users\nienc\Documents\Zalo Received Files\Project_2\Project_2\main.cpp(1066,26): warning C4244: 'argument': conversion from 'double' to 'int', possible loss of data
-C:\Users\nienc\Documents\Zalo Received Files\Project_2\Project_2\main.cpp(1066,19): warning C4244: 'argument': conversion from 'double' to 'int', possible loss of data
-C:\Users\nienc\Documents\Zalo Received Files\Project_2\Project_2\main.cpp(1072,31): warning C4305: 'argument': truncation from 'double' to 'float'
-C:\Users\nienc\Documents\Zalo Received Files\Project_2\Project_2\main.cpp(1072,19): warning C4305: 'argument': truncation from 'double' to 'float'
-C:\Users\nienc\Documents\Zalo Received Files\Project_2\Project_2\main.cpp(1074,33): warning C4244: 'argument': conversion from 'double' to 'int', possible loss of data
-C:\Users\nienc\Documents\Zalo Received Files\Project_2\Project_2\main.cpp(1074,26): warning C4244: 'argument': conversion from 'double' to 'int', possible loss of data
-C:\Users\nienc\Documents\Zalo Received Files\Project_2\Project_2\main.cpp(1074,19): warning C4244: 'argument': conversion from 'double' to 'int', possible loss of data
-C:\Users\nienc\Documents\Zalo Received Files\Project_2\Project_2\main.cpp(1083,32): warning C4244: 'argument': conversion from 'double' to 'int', possible loss of data
-C:\Users\nienc\Documents\Zalo Received Files\Project_2\Project_2\main.cpp(1083,26): warning C4244: 'argument': conversion from 'double' to 'int', possible loss of data
-C:\Users\nienc\Documents\Zalo Received Files\Project_2\Project_2\main.cpp(1083,19): warning C4244: 'argument': conversion from 'double' to 'int', possible loss of data
-C:\Users\nienc\Documents\Zalo Received Files\Project_2\Project_2\main.cpp(1091,32): warning C4244: 'argument': conversion from 'double' to 'int', possible loss of data
-C:\Users\nienc\Documents\Zalo Received Files\Project_2\Project_2\main.cpp(1091,26): warning C4244: 'argument': conversion from 'double' to 'int', possible loss of data
-C:\Users\nienc\Documents\Zalo Received Files\Project_2\Project_2\main.cpp(1091,19): warning C4244: 'argument': conversion from 'double' to 'int', possible loss of data
-C:\Users\nienc\Documents\Zalo Received Files\Project_2\Project_2\main.cpp(1099,32): warning C4244: 'argument': conversion from 'double' to 'int', possible loss of data
-C:\Users\nienc\Documents\Zalo Received Files\Project_2\Project_2\main.cpp(1099,26): warning C4244: 'argument': conversion from 'double' to 'int', possible loss of data
-C:\Users\nienc\Documents\Zalo Received Files\Project_2\Project_2\main.cpp(1099,19): warning C4244: 'argument': conversion from 'double' to 'int', possible loss of data
+C:\Users\nienc\Documents\Zalo Received Files\Project_2\Project_2\main.cpp(1001,25): warning C4305: 'argument': truncation from 'double' to 'float'
+C:\Users\nienc\Documents\Zalo Received Files\Project_2\Project_2\main.cpp(1001,20): warning C4305: 'argument': truncation from 'double' to 'float'
+C:\Users\nienc\Documents\Zalo Received Files\Project_2\Project_2\main.cpp(1001,15): warning C4305: 'argument': truncation from 'double' to 'float'
+C:\Users\nienc\Documents\Zalo Received Files\Project_2\Project_2\main.cpp(1002,33): warning C4244: 'argument': conversion from 'double' to 'int', possible loss of data
+C:\Users\nienc\Documents\Zalo Received Files\Project_2\Project_2\main.cpp(1002,26): warning C4244: 'argument': conversion from 'double' to 'int', possible loss of data
+C:\Users\nienc\Documents\Zalo Received Files\Project_2\Project_2\main.cpp(1002,19): warning C4244: 'argument': conversion from 'double' to 'int', possible loss of data
+C:\Users\nienc\Documents\Zalo Received Files\Project_2\Project_2\main.cpp(1009,25): warning C4305: 'argument': truncation from 'double' to 'float'
+C:\Users\nienc\Documents\Zalo Received Files\Project_2\Project_2\main.cpp(1009,20): warning C4305: 'argument': truncation from 'double' to 'float'
+C:\Users\nienc\Documents\Zalo Received Files\Project_2\Project_2\main.cpp(1009,15): warning C4305: 'argument': truncation from 'double' to 'float'
+C:\Users\nienc\Documents\Zalo Received Files\Project_2\Project_2\main.cpp(1010,33): warning C4244: 'argument': conversion from 'double' to 'int', possible loss of data
+C:\Users\nienc\Documents\Zalo Received Files\Project_2\Project_2\main.cpp(1010,26): warning C4244: 'argument': conversion from 'double' to 'int', possible loss of data
+C:\Users\nienc\Documents\Zalo Received Files\Project_2\Project_2\main.cpp(1010,19): warning C4244: 'argument': conversion from 'double' to 'int', possible loss of data
+C:\Users\nienc\Documents\Zalo Received Files\Project_2\Project_2\main.cpp(1017,25): warning C4305: 'argument': truncation from 'double' to 'float'
+C:\Users\nienc\Documents\Zalo Received Files\Project_2\Project_2\main.cpp(1017,20): warning C4305: 'argument': truncation from 'double' to 'float'
+C:\Users\nienc\Documents\Zalo Received Files\Project_2\Project_2\main.cpp(1017,15): warning C4305: 'argument': truncation from 'double' to 'float'
+C:\Users\nienc\Documents\Zalo Received Files\Project_2\Project_2\main.cpp(1018,33): warning C4244: 'argument': conversion from 'double' to 'int', possible loss of data
+C:\Users\nienc\Documents\Zalo Received Files\Project_2\Project_2\main.cpp(1018,26): warning C4244: 'argument': conversion from 'double' to 'int', possible loss of data
+C:\Users\nienc\Documents\Zalo Received Files\Project_2\Project_2\main.cpp(1018,19): warning C4244: 'argument': conversion from 'double' to 'int', possible loss of data
+C:\Users\nienc\Documents\Zalo Received Files\Project_2\Project_2\main.cpp(1041,114): warning C4305: 'argument': truncation from 'double' to 'float'
+C:\Users\nienc\Documents\Zalo Received Files\Project_2\Project_2\main.cpp(1041,108): warning C4305: 'argument': truncation from 'double' to 'float'
+C:\Users\nienc\Documents\Zalo Received Files\Project_2\Project_2\main.cpp(1048,81): warning C4305: 'argument': truncation from 'double' to 'float'
+C:\Users\nienc\Documents\Zalo Received Files\Project_2\Project_2\main.cpp(1055,58): warning C4305: 'argument': truncation from 'double' to 'float'
+C:\Users\nienc\Documents\Zalo Received Files\Project_2\Project_2\main.cpp(1055,84): warning C4305: 'argument': truncation from 'double' to 'float'
+C:\Users\nienc\Documents\Zalo Received Files\Project_2\Project_2\main.cpp(1062,50): warning C4305: 'argument': truncation from 'double' to 'float'
+C:\Users\nienc\Documents\Zalo Received Files\Project_2\Project_2\main.cpp(1062,77): warning C4305: 'argument': truncation from 'double' to 'float'
+C:\Users\nienc\Documents\Zalo Received Files\Project_2\Project_2\main.cpp(1069,62): warning C4305: 'argument': truncation from 'double' to 'float'
+C:\Users\nienc\Documents\Zalo Received Files\Project_2\Project_2\main.cpp(1069,56): warning C4305: 'argument': truncation from 'double' to 'float'
+C:\Users\nienc\Documents\Zalo Received Files\Project_2\Project_2\main.cpp(1069,50): warning C4305: 'argument': truncation from 'double' to 'float'
+C:\Users\nienc\Documents\Zalo Received Files\Project_2\Project_2\main.cpp(1069,123): warning C4305: 'argument': truncation from 'double' to 'float'
+C:\Users\nienc\Documents\Zalo Received Files\Project_2\Project_2\main.cpp(1069,118): warning C4305: 'argument': truncation from 'double' to 'float'
+C:\Users\nienc\Documents\Zalo Received Files\Project_2\Project_2\main.cpp(1069,113): warning C4305: 'argument': truncation from 'double' to 'float'
+C:\Users\nienc\Documents\Zalo Received Files\Project_2\Project_2\main.cpp(1080,28): warning C4305: 'argument': truncation from 'double' to 'float'
+C:\Users\nienc\Documents\Zalo Received Files\Project_2\Project_2\main.cpp(1082,33): warning C4244: 'argument': conversion from 'double' to 'int', possible loss of data
+C:\Users\nienc\Documents\Zalo Received Files\Project_2\Project_2\main.cpp(1082,26): warning C4244: 'argument': conversion from 'double' to 'int', possible loss of data
+C:\Users\nienc\Documents\Zalo Received Files\Project_2\Project_2\main.cpp(1082,19): warning C4244: 'argument': conversion from 'double' to 'int', possible loss of data
+C:\Users\nienc\Documents\Zalo Received Files\Project_2\Project_2\main.cpp(1090,33): warning C4244: 'argument': conversion from 'double' to 'int', possible loss of data
+C:\Users\nienc\Documents\Zalo Received Files\Project_2\Project_2\main.cpp(1090,26): warning C4244: 'argument': conversion from 'double' to 'int', possible loss of data
+C:\Users\nienc\Documents\Zalo Received Files\Project_2\Project_2\main.cpp(1090,19): warning C4244: 'argument': conversion from 'double' to 'int', possible loss of data
+C:\Users\nienc\Documents\Zalo Received Files\Project_2\Project_2\main.cpp(1096,31): warning C4305: 'argument': truncation from 'double' to 'float'
+C:\Users\nienc\Documents\Zalo Received Files\Project_2\Project_2\main.cpp(1096,19): warning C4305: 'argument': truncation from 'double' to 'float'
+C:\Users\nienc\Documents\Zalo Received Files\Project_2\Project_2\main.cpp(1098,33): warning C4244: 'argument': conversion from 'double' to 'int', possible loss of data
+C:\Users\nienc\Documents\Zalo Received Files\Project_2\Project_2\main.cpp(1098,26): warning C4244: 'argument': conversion from 'double' to 'int', possible loss of data
+C:\Users\nienc\Documents\Zalo Received Files\Project_2\Project_2\main.cpp(1098,19): warning C4244: 'argument': conversion from 'double' to 'int', possible loss of data
 C:\Users\nienc\Documents\Zalo Received Files\Project_2\Project_2\main.cpp(1107,32): warning C4244: 'argument': conversion from 'double' to 'int', possible loss of data
 C:\Users\nienc\Documents\Zalo Received Files\Project_2\Project_2\main.cpp(1107,26): warning C4244: 'argument': conversion from 'double' to 'int', possible loss of data
 C:\Users\nienc\Documents\Zalo Received Files\Project_2\Project_2\main.cpp(1107,19): warning C4244: 'argument': conversion from 'double' to 'int', possible loss of data
 C:\Users\nienc\Documents\Zalo Received Files\Project_2\Project_2\main.cpp(1115,32): warning C4244: 'argument': conversion from 'double' to 'int', possible loss of data
 C:\Users\nienc\Documents\Zalo Received Files\Project_2\Project_2\main.cpp(1115,26): warning C4244: 'argument': conversion from 'double' to 'int', possible loss of data
 C:\Users\nienc\Documents\Zalo Received Files\Project_2\Project_2\main.cpp(1115,19): warning C4244: 'argument': conversion from 'double' to 'int', possible loss of data
-C:\Users\nienc\Documents\Zalo Received Files\Project_2\Project_2\main.cpp(1124,32): warning C4244: 'argument': conversion from 'double' to 'int', possible loss of data
-C:\Users\nienc\Documents\Zalo Received Files\Project_2\Project_2\main.cpp(1124,26): warning C4244: 'argument': conversion from 'double' to 'int', possible loss of data
-C:\Users\nienc\Documents\Zalo Received Files\Project_2\Project_2\main.cpp(1124,19): warning C4244: 'argument': conversion from 'double' to 'int', possible loss of data
-C:\Users\nienc\Documents\Zalo Received Files\Project_2\Project_2\main.cpp(1133,32): warning C4244: 'argument': conversion from 'double' to 'int', possible loss of data
-C:\Users\nienc\Documents\Zalo Received Files\Project_2\Project_2\main.cpp(1133,26): warning C4244: 'argument': conversion from 'double' to 'int', possible loss of data
-C:\Users\nienc\Documents\Zalo Received Files\Project_2\Project_2\main.cpp(1133,19): warning C4244: 'argument': conversion from 'double' to 'int', possible loss of data
-C:\Users\nienc\Documents\Zalo Received Files\Project_2\Project_2\main.cpp(1144,20): warning C4305: 'argument': truncation from 'double' to 'float'
-C:\Users\nienc\Documents\Zalo Received Files\Project_2\Project_2\main.cpp(1145,32): warning C4244: 'argument': conversion from 'double' to 'int', possible loss of data
-C:\Users\nienc\Documents\Zalo Received Files\Project_2\Project_2\main.cpp(1145,25): warning C4244: 'argument': conversion from 'double' to 'int', possible loss of data
-C:\Users\nienc\Documents\Zalo Received Files\Project_2\Project_2\main.cpp(1151,31): warning C4305: 'argument': truncation from 'double' to 'float'
-C:\Users\nienc\Documents\Zalo Received Files\Project_2\Project_2\main.cpp(1151,19): warning C4305: 'argument': truncation from 'double' to 'float'
-C:\Users\nienc\Documents\Zalo Received Files\Project_2\Project_2\main.cpp(1152,25): warning C4305: 'argument': truncation from 'double' to 'float'
-C:\Users\nienc\Documents\Zalo Received Files\Project_2\Project_2\main.cpp(1152,15): warning C4305: 'argument': truncation from 'double' to 'float'
-C:\Users\nienc\Documents\Zalo Received Files\Project_2\Project_2\main.cpp(1153,31): warning C4244: 'argument': conversion from 'double' to 'int', possible loss of data
-C:\Users\nienc\Documents\Zalo Received Files\Project_2\Project_2\main.cpp(1153,24): warning C4244: 'argument': conversion from 'double' to 'int', possible loss of data
-C:\Users\nienc\Documents\Zalo Received Files\Project_2\Project_2\main.cpp(1162,25): warning C4305: 'argument': truncation from 'double' to 'float'
-C:\Users\nienc\Documents\Zalo Received Files\Project_2\Project_2\main.cpp(1162,20): warning C4305: 'argument': truncation from 'double' to 'float'
-C:\Users\nienc\Documents\Zalo Received Files\Project_2\Project_2\main.cpp(1162,15): warning C4305: 'argument': truncation from 'double' to 'float'
-C:\Users\nienc\Documents\Zalo Received Files\Project_2\Project_2\main.cpp(1163,31): warning C4244: 'argument': conversion from 'double' to 'int', possible loss of data
-C:\Users\nienc\Documents\Zalo Received Files\Project_2\Project_2\main.cpp(1163,24): warning C4244: 'argument': conversion from 'double' to 'int', possible loss of data
-C:\Users\nienc\Documents\Zalo Received Files\Project_2\Project_2\main.cpp(1169,24): warning C4305: 'argument': truncation from 'double' to 'float'
-C:\Users\nienc\Documents\Zalo Received Files\Project_2\Project_2\main.cpp(1169,19): warning C4305: 'argument': truncation from 'double' to 'float'
-C:\Users\nienc\Documents\Zalo Received Files\Project_2\Project_2\main.cpp(1170,20): warning C4305: 'argument': truncation from 'double' to 'float'
-C:\Users\nienc\Documents\Zalo Received Files\Project_2\Project_2\main.cpp(1170,15): warning C4305: 'argument': truncation from 'double' to 'float'
-C:\Users\nienc\Documents\Zalo Received Files\Project_2\Project_2\main.cpp(1171,31): warning C4244: 'argument': conversion from 'double' to 'int', possible loss of data
-C:\Users\nienc\Documents\Zalo Received Files\Project_2\Project_2\main.cpp(1171,24): warning C4244: 'argument': conversion from 'double' to 'int', possible loss of data
-C:\Users\nienc\Documents\Zalo Received Files\Project_2\Project_2\main.cpp(1177,24): warning C4305: 'argument': truncation from 'double' to 'float'
-C:\Users\nienc\Documents\Zalo Received Files\Project_2\Project_2\main.cpp(1177,19): warning C4305: 'argument': truncation from 'double' to 'float'
-C:\Users\nienc\Documents\Zalo Received Files\Project_2\Project_2\main.cpp(1178,20): warning C4305: 'argument': truncation from 'double' to 'float'
-C:\Users\nienc\Documents\Zalo Received Files\Project_2\Project_2\main.cpp(1178,15): warning C4305: 'argument': truncation from 'double' to 'float'
-C:\Users\nienc\Documents\Zalo Received Files\Project_2\Project_2\main.cpp(1179,31): warning C4244: 'argument': conversion from 'double' to 'int', possible loss of data
-C:\Users\nienc\Documents\Zalo Received Files\Project_2\Project_2\main.cpp(1179,24): warning C4244: 'argument': conversion from 'double' to 'int', possible loss of data
-C:\Users\nienc\Documents\Zalo Received Files\Project_2\Project_2\main.cpp(1185,30): warning C4305: 'argument': truncation from 'double' to 'float'
-C:\Users\nienc\Documents\Zalo Received Files\Project_2\Project_2\main.cpp(1185,24): warning C4305: 'argument': truncation from 'double' to 'float'
-C:\Users\nienc\Documents\Zalo Received Files\Project_2\Project_2\main.cpp(1185,19): warning C4305: 'argument': truncation from 'double' to 'float'
-C:\Users\nienc\Documents\Zalo Received Files\Project_2\Project_2\main.cpp(1186,24): warning C4305: 'argument': truncation from 'double' to 'float'
-C:\Users\nienc\Documents\Zalo Received Files\Project_2\Project_2\main.cpp(1186,18): warning C4305: 'argument': truncation from 'double' to 'float'
+C:\Users\nienc\Documents\Zalo Received Files\Project_2\Project_2\main.cpp(1123,32): warning C4244: 'argument': conversion from 'double' to 'int', possible loss of data
+C:\Users\nienc\Documents\Zalo Received Files\Project_2\Project_2\main.cpp(1123,26): warning C4244: 'argument': conversion from 'double' to 'int', possible loss of data
+C:\Users\nienc\Documents\Zalo Received Files\Project_2\Project_2\main.cpp(1123,19): warning C4244: 'argument': conversion from 'double' to 'int', possible loss of data
+C:\Users\nienc\Documents\Zalo Received Files\Project_2\Project_2\main.cpp(1131,32): warning C4244: 'argument': conversion from 'double' to 'int', possible loss of data
+C:\Users\nienc\Documents\Zalo Received Files\Project_2\Project_2\main.cpp(1131,26): warning C4244: 'argument': conversion from 'double' to 'int', possible loss of data
+C:\Users\nienc\Documents\Zalo Received Files\Project_2\Project_2\main.cpp(1131,19): warning C4244: 'argument': conversion from 'double' to 'int', possible loss of data
+C:\Users\nienc\Documents\Zalo Received Files\Project_2\Project_2\main.cpp(1139,32): warning C4244: 'argument': conversion from 'double' to 'int', possible loss of data
+C:\Users\nienc\Documents\Zalo Received Files\Project_2\Project_2\main.cpp(1139,26): warning C4244: 'argument': conversion from 'double' to 'int', possible loss of data
+C:\Users\nienc\Documents\Zalo Received Files\Project_2\Project_2\main.cpp(1139,19): warning C4244: 'argument': conversion from 'double' to 'int', possible loss of data
+C:\Users\nienc\Documents\Zalo Received Files\Project_2\Project_2\main.cpp(1148,32): warning C4244: 'argument': conversion from 'double' to 'int', possible loss of data
+C:\Users\nienc\Documents\Zalo Received Files\Project_2\Project_2\main.cpp(1148,26): warning C4244: 'argument': conversion from 'double' to 'int', possible loss of data
+C:\Users\nienc\Documents\Zalo Received Files\Project_2\Project_2\main.cpp(1148,19): warning C4244: 'argument': conversion from 'double' to 'int', possible loss of data
+C:\Users\nienc\Documents\Zalo Received Files\Project_2\Project_2\main.cpp(1157,32): warning C4244: 'argument': conversion from 'double' to 'int', possible loss of data
+C:\Users\nienc\Documents\Zalo Received Files\Project_2\Project_2\main.cpp(1157,26): warning C4244: 'argument': conversion from 'double' to 'int', possible loss of data
+C:\Users\nienc\Documents\Zalo Received Files\Project_2\Project_2\main.cpp(1157,19): warning C4244: 'argument': conversion from 'double' to 'int', possible loss of data
+C:\Users\nienc\Documents\Zalo Received Files\Project_2\Project_2\main.cpp(1168,20): warning C4305: 'argument': truncation from 'double' to 'float'
+C:\Users\nienc\Documents\Zalo Received Files\Project_2\Project_2\main.cpp(1169,32): warning C4244: 'argument': conversion from 'double' to 'int', possible loss of data
+C:\Users\nienc\Documents\Zalo Received Files\Project_2\Project_2\main.cpp(1169,25): warning C4244: 'argument': conversion from 'double' to 'int', possible loss of data
+C:\Users\nienc\Documents\Zalo Received Files\Project_2\Project_2\main.cpp(1175,31): warning C4305: 'argument': truncation from 'double' to 'float'
+C:\Users\nienc\Documents\Zalo Received Files\Project_2\Project_2\main.cpp(1175,19): warning C4305: 'argument': truncation from 'double' to 'float'
+C:\Users\nienc\Documents\Zalo Received Files\Project_2\Project_2\main.cpp(1176,25): warning C4305: 'argument': truncation from 'double' to 'float'
+C:\Users\nienc\Documents\Zalo Received Files\Project_2\Project_2\main.cpp(1176,15): warning C4305: 'argument': truncation from 'double' to 'float'
+C:\Users\nienc\Documents\Zalo Received Files\Project_2\Project_2\main.cpp(1177,31): warning C4244: 'argument': conversion from 'double' to 'int', possible loss of data
+C:\Users\nienc\Documents\Zalo Received Files\Project_2\Project_2\main.cpp(1177,24): warning C4244: 'argument': conversion from 'double' to 'int', possible loss of data
+C:\Users\nienc\Documents\Zalo Received Files\Project_2\Project_2\main.cpp(1186,25): warning C4305: 'argument': truncation from 'double' to 'float'
+C:\Users\nienc\Documents\Zalo Received Files\Project_2\Project_2\main.cpp(1186,20): warning C4305: 'argument': truncation from 'double' to 'float'
+C:\Users\nienc\Documents\Zalo Received Files\Project_2\Project_2\main.cpp(1186,15): warning C4305: 'argument': truncation from 'double' to 'float'
 C:\Users\nienc\Documents\Zalo Received Files\Project_2\Project_2\main.cpp(1187,31): warning C4244: 'argument': conversion from 'double' to 'int', possible loss of data
 C:\Users\nienc\Documents\Zalo Received Files\Project_2\Project_2\main.cpp(1187,24): warning C4244: 'argument': conversion from 'double' to 'int', possible loss of data
-C:\Users\nienc\Documents\Zalo Received Files\Project_2\Project_2\main.cpp(1193,31): warning C4305: 'argument': truncation from 'double' to 'float'
-C:\Users\nienc\Documents\Zalo Received Files\Project_2\Project_2\main.cpp(1193,25): warning C4305: 'argument': truncation from 'double' to 'float'
+C:\Users\nienc\Documents\Zalo Received Files\Project_2\Project_2\main.cpp(1193,24): warning C4305: 'argument': truncation from 'double' to 'float'
 C:\Users\nienc\Documents\Zalo Received Files\Project_2\Project_2\main.cpp(1193,19): warning C4305: 'argument': truncation from 'double' to 'float'
-C:\Users\nienc\Documents\Zalo Received Files\Project_2\Project_2\main.cpp(1194,24): warning C4305: 'argument': truncation from 'double' to 'float'
-C:\Users\nienc\Documents\Zalo Received Files\Project_2\Project_2\main.cpp(1194,18): warning C4305: 'argument': truncation from 'double' to 'float'
+C:\Users\nienc\Documents\Zalo Received Files\Project_2\Project_2\main.cpp(1194,20): warning C4305: 'argument': truncation from 'double' to 'float'
+C:\Users\nienc\Documents\Zalo Received Files\Project_2\Project_2\main.cpp(1194,15): warning C4305: 'argument': truncation from 'double' to 'float'
 C:\Users\nienc\Documents\Zalo Received Files\Project_2\Project_2\main.cpp(1195,31): warning C4244: 'argument': conversion from 'double' to 'int', possible loss of data
 C:\Users\nienc\Documents\Zalo Received Files\Project_2\Project_2\main.cpp(1195,24): warning C4244: 'argument': conversion from 'double' to 'int', possible loss of data
-C:\Users\nienc\Documents\Zalo Received Files\Project_2\Project_2\main.cpp(1206,18): warning C4305: 'argument': truncation from 'double' to 'float'
-C:\Users\nienc\Documents\Zalo Received Files\Project_2\Project_2\main.cpp(1214,21): warning C4305: 'argument': truncation from 'double' to 'float'
-C:\Users\nienc\Documents\Zalo Received Files\Project_2\Project_2\main.cpp(1234,23): warning C4305: 'argument': truncation from 'double' to 'float'
-C:\Users\nienc\Documents\Zalo Received Files\Project_2\Project_2\main.cpp(1235,33): warning C4244: 'argument': conversion from 'double' to 'int', possible loss of data
-C:\Users\nienc\Documents\Zalo Received Files\Project_2\Project_2\main.cpp(1235,26): warning C4244: 'argument': conversion from 'double' to 'int', possible loss of data
-C:\Users\nienc\Documents\Zalo Received Files\Project_2\Project_2\main.cpp(1235,19): warning C4244: 'argument': conversion from 'double' to 'int', possible loss of data
-C:\Users\nienc\Documents\Zalo Received Files\Project_2\Project_2\main.cpp(1242,23): warning C4305: 'argument': truncation from 'double' to 'float'
-C:\Users\nienc\Documents\Zalo Received Files\Project_2\Project_2\main.cpp(1243,33): warning C4244: 'argument': conversion from 'double' to 'int', possible loss of data
-C:\Users\nienc\Documents\Zalo Received Files\Project_2\Project_2\main.cpp(1243,26): warning C4244: 'argument': conversion from 'double' to 'int', possible loss of data
-C:\Users\nienc\Documents\Zalo Received Files\Project_2\Project_2\main.cpp(1243,19): warning C4244: 'argument': conversion from 'double' to 'int', possible loss of data
-C:\Users\nienc\Documents\Zalo Received Files\Project_2\Project_2\main.cpp(1250,22): warning C4305: 'argument': truncation from 'double' to 'float'
-C:\Users\nienc\Documents\Zalo Received Files\Project_2\Project_2\main.cpp(1251,32): warning C4244: 'argument': conversion from 'double' to 'int', possible loss of data
-C:\Users\nienc\Documents\Zalo Received Files\Project_2\Project_2\main.cpp(1251,26): warning C4244: 'argument': conversion from 'double' to 'int', possible loss of data
-C:\Users\nienc\Documents\Zalo Received Files\Project_2\Project_2\main.cpp(1251,19): warning C4244: 'argument': conversion from 'double' to 'int', possible loss of data
-C:\Users\nienc\Documents\Zalo Received Files\Project_2\Project_2\main.cpp(1260,24): warning C4305: 'argument': truncation from 'double' to 'float'
-C:\Users\nienc\Documents\Zalo Received Files\Project_2\Project_2\main.cpp(1260,15): warning C4305: 'argument': truncation from 'double' to 'float'
-C:\Users\nienc\Documents\Zalo Received Files\Project_2\Project_2\main.cpp(1261,32): warning C4244: 'argument': conversion from 'double' to 'int', possible loss of data
-C:\Users\nienc\Documents\Zalo Received Files\Project_2\Project_2\main.cpp(1261,26): warning C4244: 'argument': conversion from 'double' to 'int', possible loss of data
-C:\Users\nienc\Documents\Zalo Received Files\Project_2\Project_2\main.cpp(1261,19): warning C4244: 'argument': conversion from 'double' to 'int', possible loss of data
-C:\Users\nienc\Documents\Zalo Received Files\Project_2\Project_2\main.cpp(1268,24): warning C4305: 'argument': truncation from 'double' to 'float'
-C:\Users\nienc\Documents\Zalo Received Files\Project_2\Project_2\main.cpp(1268,15): warning C4305: 'argument': truncation from 'double' to 'float'
-C:\Users\nienc\Documents\Zalo Received Files\Project_2\Project_2\main.cpp(1269,32): warning C4244: 'argument': conversion from 'double' to 'int', possible loss of data
-C:\Users\nienc\Documents\Zalo Received Files\Project_2\Project_2\main.cpp(1269,26): warning C4244: 'argument': conversion from 'double' to 'int', possible loss of data
-C:\Users\nienc\Documents\Zalo Received Files\Project_2\Project_2\main.cpp(1269,19): warning C4244: 'argument': conversion from 'double' to 'int', possible loss of data
-C:\Users\nienc\Documents\Zalo Received Files\Project_2\Project_2\main.cpp(1276,24): warning C4305: 'argument': truncation from 'double' to 'float'
-C:\Users\nienc\Documents\Zalo Received Files\Project_2\Project_2\main.cpp(1276,19): warning C4305: 'argument': truncation from 'double' to 'float'
-C:\Users\nienc\Documents\Zalo Received Files\Project_2\Project_2\main.cpp(1277,32): warning C4244: 'argument': conversion from 'double' to 'int', possible loss of data
-C:\Users\nienc\Documents\Zalo Received Files\Project_2\Project_2\main.cpp(1277,26): warning C4244: 'argument': conversion from 'double' to 'int', possible loss of data
-C:\Users\nienc\Documents\Zalo Received Files\Project_2\Project_2\main.cpp(1277,19): warning C4244: 'argument': conversion from 'double' to 'int', possible loss of data
+C:\Users\nienc\Documents\Zalo Received Files\Project_2\Project_2\main.cpp(1201,24): warning C4305: 'argument': truncation from 'double' to 'float'
+C:\Users\nienc\Documents\Zalo Received Files\Project_2\Project_2\main.cpp(1201,19): warning C4305: 'argument': truncation from 'double' to 'float'
+C:\Users\nienc\Documents\Zalo Received Files\Project_2\Project_2\main.cpp(1202,20): warning C4305: 'argument': truncation from 'double' to 'float'
+C:\Users\nienc\Documents\Zalo Received Files\Project_2\Project_2\main.cpp(1202,15): warning C4305: 'argument': truncation from 'double' to 'float'
+C:\Users\nienc\Documents\Zalo Received Files\Project_2\Project_2\main.cpp(1203,31): warning C4244: 'argument': conversion from 'double' to 'int', possible loss of data
+C:\Users\nienc\Documents\Zalo Received Files\Project_2\Project_2\main.cpp(1203,24): warning C4244: 'argument': conversion from 'double' to 'int', possible loss of data
+C:\Users\nienc\Documents\Zalo Received Files\Project_2\Project_2\main.cpp(1209,30): warning C4305: 'argument': truncation from 'double' to 'float'
+C:\Users\nienc\Documents\Zalo Received Files\Project_2\Project_2\main.cpp(1209,24): warning C4305: 'argument': truncation from 'double' to 'float'
+C:\Users\nienc\Documents\Zalo Received Files\Project_2\Project_2\main.cpp(1209,19): warning C4305: 'argument': truncation from 'double' to 'float'
+C:\Users\nienc\Documents\Zalo Received Files\Project_2\Project_2\main.cpp(1210,24): warning C4305: 'argument': truncation from 'double' to 'float'
+C:\Users\nienc\Documents\Zalo Received Files\Project_2\Project_2\main.cpp(1210,18): warning C4305: 'argument': truncation from 'double' to 'float'
+C:\Users\nienc\Documents\Zalo Received Files\Project_2\Project_2\main.cpp(1211,31): warning C4244: 'argument': conversion from 'double' to 'int', possible loss of data
+C:\Users\nienc\Documents\Zalo Received Files\Project_2\Project_2\main.cpp(1211,24): warning C4244: 'argument': conversion from 'double' to 'int', possible loss of data
+C:\Users\nienc\Documents\Zalo Received Files\Project_2\Project_2\main.cpp(1217,31): warning C4305: 'argument': truncation from 'double' to 'float'
+C:\Users\nienc\Documents\Zalo Received Files\Project_2\Project_2\main.cpp(1217,25): warning C4305: 'argument': truncation from 'double' to 'float'
+C:\Users\nienc\Documents\Zalo Received Files\Project_2\Project_2\main.cpp(1217,19): warning C4305: 'argument': truncation from 'double' to 'float'
+C:\Users\nienc\Documents\Zalo Received Files\Project_2\Project_2\main.cpp(1218,24): warning C4305: 'argument': truncation from 'double' to 'float'
+C:\Users\nienc\Documents\Zalo Received Files\Project_2\Project_2\main.cpp(1218,18): warning C4305: 'argument': truncation from 'double' to 'float'
+C:\Users\nienc\Documents\Zalo Received Files\Project_2\Project_2\main.cpp(1219,31): warning C4244: 'argument': conversion from 'double' to 'int', possible loss of data
+C:\Users\nienc\Documents\Zalo Received Files\Project_2\Project_2\main.cpp(1219,24): warning C4244: 'argument': conversion from 'double' to 'int', possible loss of data
+C:\Users\nienc\Documents\Zalo Received Files\Project_2\Project_2\main.cpp(1230,18): warning C4305: 'argument': truncation from 'double' to 'float'
+C:\Users\nienc\Documents\Zalo Received Files\Project_2\Project_2\main.cpp(1238,21): warning C4305: 'argument': truncation from 'double' to 'float'
+C:\Users\nienc\Documents\Zalo Received Files\Project_2\Project_2\main.cpp(1258,23): warning C4305: 'argument': truncation from 'double' to 'float'
+C:\Users\nienc\Documents\Zalo Received Files\Project_2\Project_2\main.cpp(1259,33): warning C4244: 'argument': conversion from 'double' to 'int', possible loss of data
+C:\Users\nienc\Documents\Zalo Received Files\Project_2\Project_2\main.cpp(1259,26): warning C4244: 'argument': conversion from 'double' to 'int', possible loss of data
+C:\Users\nienc\Documents\Zalo Received Files\Project_2\Project_2\main.cpp(1259,19): warning C4244: 'argument': conversion from 'double' to 'int', possible loss of data
+C:\Users\nienc\Documents\Zalo Received Files\Project_2\Project_2\main.cpp(1266,23): warning C4305: 'argument': truncation from 'double' to 'float'
+C:\Users\nienc\Documents\Zalo Received Files\Project_2\Project_2\main.cpp(1267,33): warning C4244: 'argument': conversion from 'double' to 'int', possible loss of data
+C:\Users\nienc\Documents\Zalo Received Files\Project_2\Project_2\main.cpp(1267,26): warning C4244: 'argument': conversion from 'double' to 'int', possible loss of data
+C:\Users\nienc\Documents\Zalo Received Files\Project_2\Project_2\main.cpp(1267,19): warning C4244: 'argument': conversion from 'double' to 'int', possible loss of data
+C:\Users\nienc\Documents\Zalo Received Files\Project_2\Project_2\main.cpp(1274,22): warning C4305: 'argument': truncation from 'double' to 'float'
+C:\Users\nienc\Documents\Zalo Received Files\Project_2\Project_2\main.cpp(1275,32): warning C4244: 'argument': conversion from 'double' to 'int', possible loss of data
+C:\Users\nienc\Documents\Zalo Received Files\Project_2\Project_2\main.cpp(1275,26): warning C4244: 'argument': conversion from 'double' to 'int', possible loss of data
+C:\Users\nienc\Documents\Zalo Received Files\Project_2\Project_2\main.cpp(1275,19): warning C4244: 'argument': conversion from 'double' to 'int', possible loss of data
 C:\Users\nienc\Documents\Zalo Received Files\Project_2\Project_2\main.cpp(1284,24): warning C4305: 'argument': truncation from 'double' to 'float'
-C:\Users\nienc\Documents\Zalo Received Files\Project_2\Project_2\main.cpp(1284,19): warning C4305: 'argument': truncation from 'double' to 'float'
+C:\Users\nienc\Documents\Zalo Received Files\Project_2\Project_2\main.cpp(1284,15): warning C4305: 'argument': truncation from 'double' to 'float'
 C:\Users\nienc\Documents\Zalo Received Files\Project_2\Project_2\main.cpp(1285,32): warning C4244: 'argument': conversion from 'double' to 'int', possible loss of data
 C:\Users\nienc\Documents\Zalo Received Files\Project_2\Project_2\main.cpp(1285,26): warning C4244: 'argument': conversion from 'double' to 'int', possible loss of data
 C:\Users\nienc\Documents\Zalo Received Files\Project_2\Project_2\main.cpp(1285,19): warning C4244: 'argument': conversion from 'double' to 'int', possible loss of data
-C:\Users\nienc\Documents\Zalo Received Files\Project_2\Project_2\main.cpp(1291,25): warning C4305: 'argument': truncation from 'double' to 'float'
-C:\Users\nienc\Documents\Zalo Received Files\Project_2\Project_2\main.cpp(1291,19): warning C4305: 'argument': truncation from 'double' to 'float'
-C:\Users\nienc\Documents\Zalo Received Files\Project_2\Project_2\main.cpp(1292,27): warning C4305: 'argument': truncation from 'double' to 'float'
-C:\Users\nienc\Documents\Zalo Received Files\Project_2\Project_2\main.cpp(1292,21): warning C4305: 'argument': truncation from 'double' to 'float'
+C:\Users\nienc\Documents\Zalo Received Files\Project_2\Project_2\main.cpp(1292,24): warning C4305: 'argument': truncation from 'double' to 'float'
 C:\Users\nienc\Documents\Zalo Received Files\Project_2\Project_2\main.cpp(1292,15): warning C4305: 'argument': truncation from 'double' to 'float'
-C:\Users\nienc\Documents\Zalo Received Files\Project_2\Project_2\main.cpp(1293,33): warning C4244: 'argument': conversion from 'double' to 'int', possible loss of data
+C:\Users\nienc\Documents\Zalo Received Files\Project_2\Project_2\main.cpp(1293,32): warning C4244: 'argument': conversion from 'double' to 'int', possible loss of data
 C:\Users\nienc\Documents\Zalo Received Files\Project_2\Project_2\main.cpp(1293,26): warning C4244: 'argument': conversion from 'double' to 'int', possible loss of data
 C:\Users\nienc\Documents\Zalo Received Files\Project_2\Project_2\main.cpp(1293,19): warning C4244: 'argument': conversion from 'double' to 'int', possible loss of data
-C:\Users\nienc\Documents\Zalo Received Files\Project_2\Project_2\main.cpp(1321,21): warning C4305: 'argument': truncation from 'double' to 'float'
-C:\Users\nienc\Documents\Zalo Received Files\Project_2\Project_2\main.cpp(1328,27): warning C4305: 'argument': truncation from 'double' to 'float'
-C:\Users\nienc\Documents\Zalo Received Files\Project_2\Project_2\main.cpp(1329,21): warning C4305: 'argument': truncation from 'double' to 'float'
-C:\Users\nienc\Documents\Zalo Received Files\Project_2\Project_2\main.cpp(1347,15): warning C4305: 'argument': truncation from 'double' to 'float'
-C:\Users\nienc\Documents\Zalo Received Files\Project_2\Project_2\main.cpp(1354,28): warning C4305: 'argument': truncation from 'double' to 'float'
-C:\Users\nienc\Documents\Zalo Received Files\Project_2\Project_2\main.cpp(1355,21): warning C4305: 'argument': truncation from 'double' to 'float'
-C:\Users\nienc\Documents\Zalo Received Files\Project_2\Project_2\main.cpp(1363,21): warning C4305: 'argument': truncation from 'double' to 'float'
-C:\Users\nienc\Documents\Zalo Received Files\Project_2\Project_2\main.cpp(1376,33): warning C4244: 'argument': conversion from 'double' to 'int', possible loss of data
-C:\Users\nienc\Documents\Zalo Received Files\Project_2\Project_2\main.cpp(1376,26): warning C4244: 'argument': conversion from 'double' to 'int', possible loss of data
-C:\Users\nienc\Documents\Zalo Received Files\Project_2\Project_2\main.cpp(1376,19): warning C4244: 'argument': conversion from 'double' to 'int', possible loss of data
-C:\Users\nienc\Documents\Zalo Received Files\Project_2\Project_2\main.cpp(1384,33): warning C4244: 'argument': conversion from 'double' to 'int', possible loss of data
-C:\Users\nienc\Documents\Zalo Received Files\Project_2\Project_2\main.cpp(1384,26): warning C4244: 'argument': conversion from 'double' to 'int', possible loss of data
-C:\Users\nienc\Documents\Zalo Received Files\Project_2\Project_2\main.cpp(1384,19): warning C4244: 'argument': conversion from 'double' to 'int', possible loss of data
-C:\Users\nienc\Documents\Zalo Received Files\Project_2\Project_2\main.cpp(1400,26): warning C4305: 'argument': truncation from 'double' to 'float'
-C:\Users\nienc\Documents\Zalo Received Files\Project_2\Project_2\main.cpp(1417,18): warning C4305: 'argument': truncation from 'double' to 'float'
-C:\Users\nienc\Documents\Zalo Received Files\Project_2\Project_2\main.cpp(1436,23): warning C4305: 'argument': truncation from 'double' to 'float'
-C:\Users\nienc\Documents\Zalo Received Files\Project_2\Project_2\main.cpp(1437,24): warning C4305: 'argument': truncation from 'double' to 'float'
-C:\Users\nienc\Documents\Zalo Received Files\Project_2\Project_2\main.cpp(1437,15): warning C4305: 'argument': truncation from 'double' to 'float'
-C:\Users\nienc\Documents\Zalo Received Files\Project_2\Project_2\main.cpp(1444,19): warning C4305: 'argument': truncation from 'double' to 'float'
-C:\Users\nienc\Documents\Zalo Received Files\Project_2\Project_2\main.cpp(1445,15): warning C4305: 'argument': truncation from 'double' to 'float'
-C:\Users\nienc\Documents\Zalo Received Files\Project_2\Project_2\main.cpp(1452,23): warning C4305: 'argument': truncation from 'double' to 'float'
-C:\Users\nienc\Documents\Zalo Received Files\Project_2\Project_2\main.cpp(1453,24): warning C4305: 'argument': truncation from 'double' to 'float'
-C:\Users\nienc\Documents\Zalo Received Files\Project_2\Project_2\main.cpp(1453,15): warning C4305: 'argument': truncation from 'double' to 'float'
-C:\Users\nienc\Documents\Zalo Received Files\Project_2\Project_2\main.cpp(1460,19): warning C4305: 'argument': truncation from 'double' to 'float'
+C:\Users\nienc\Documents\Zalo Received Files\Project_2\Project_2\main.cpp(1300,24): warning C4305: 'argument': truncation from 'double' to 'float'
+C:\Users\nienc\Documents\Zalo Received Files\Project_2\Project_2\main.cpp(1300,19): warning C4305: 'argument': truncation from 'double' to 'float'
+C:\Users\nienc\Documents\Zalo Received Files\Project_2\Project_2\main.cpp(1301,32): warning C4244: 'argument': conversion from 'double' to 'int', possible loss of data
+C:\Users\nienc\Documents\Zalo Received Files\Project_2\Project_2\main.cpp(1301,26): warning C4244: 'argument': conversion from 'double' to 'int', possible loss of data
+C:\Users\nienc\Documents\Zalo Received Files\Project_2\Project_2\main.cpp(1301,19): warning C4244: 'argument': conversion from 'double' to 'int', possible loss of data
+C:\Users\nienc\Documents\Zalo Received Files\Project_2\Project_2\main.cpp(1308,24): warning C4305: 'argument': truncation from 'double' to 'float'
+C:\Users\nienc\Documents\Zalo Received Files\Project_2\Project_2\main.cpp(1308,19): warning C4305: 'argument': truncation from 'double' to 'float'
+C:\Users\nienc\Documents\Zalo Received Files\Project_2\Project_2\main.cpp(1309,32): warning C4244: 'argument': conversion from 'double' to 'int', possible loss of data
+C:\Users\nienc\Documents\Zalo Received Files\Project_2\Project_2\main.cpp(1309,26): warning C4244: 'argument': conversion from 'double' to 'int', possible loss of data
+C:\Users\nienc\Documents\Zalo Received Files\Project_2\Project_2\main.cpp(1309,19): warning C4244: 'argument': conversion from 'double' to 'int', possible loss of data
+C:\Users\nienc\Documents\Zalo Received Files\Project_2\Project_2\main.cpp(1315,25): warning C4305: 'argument': truncation from 'double' to 'float'
+C:\Users\nienc\Documents\Zalo Received Files\Project_2\Project_2\main.cpp(1315,19): warning C4305: 'argument': truncation from 'double' to 'float'
+C:\Users\nienc\Documents\Zalo Received Files\Project_2\Project_2\main.cpp(1316,27): warning C4305: 'argument': truncation from 'double' to 'float'
+C:\Users\nienc\Documents\Zalo Received Files\Project_2\Project_2\main.cpp(1316,21): warning C4305: 'argument': truncation from 'double' to 'float'
+C:\Users\nienc\Documents\Zalo Received Files\Project_2\Project_2\main.cpp(1316,15): warning C4305: 'argument': truncation from 'double' to 'float'
+C:\Users\nienc\Documents\Zalo Received Files\Project_2\Project_2\main.cpp(1317,33): warning C4244: 'argument': conversion from 'double' to 'int', possible loss of data
+C:\Users\nienc\Documents\Zalo Received Files\Project_2\Project_2\main.cpp(1317,26): warning C4244: 'argument': conversion from 'double' to 'int', possible loss of data
+C:\Users\nienc\Documents\Zalo Received Files\Project_2\Project_2\main.cpp(1317,19): warning C4244: 'argument': conversion from 'double' to 'int', possible loss of data
+C:\Users\nienc\Documents\Zalo Received Files\Project_2\Project_2\main.cpp(1345,21): warning C4305: 'argument': truncation from 'double' to 'float'
+C:\Users\nienc\Documents\Zalo Received Files\Project_2\Project_2\main.cpp(1352,27): warning C4305: 'argument': truncation from 'double' to 'float'
+C:\Users\nienc\Documents\Zalo Received Files\Project_2\Project_2\main.cpp(1353,21): warning C4305: 'argument': truncation from 'double' to 'float'
+C:\Users\nienc\Documents\Zalo Received Files\Project_2\Project_2\main.cpp(1371,15): warning C4305: 'argument': truncation from 'double' to 'float'
+C:\Users\nienc\Documents\Zalo Received Files\Project_2\Project_2\main.cpp(1378,28): warning C4305: 'argument': truncation from 'double' to 'float'
+C:\Users\nienc\Documents\Zalo Received Files\Project_2\Project_2\main.cpp(1379,21): warning C4305: 'argument': truncation from 'double' to 'float'
+C:\Users\nienc\Documents\Zalo Received Files\Project_2\Project_2\main.cpp(1387,21): warning C4305: 'argument': truncation from 'double' to 'float'
+C:\Users\nienc\Documents\Zalo Received Files\Project_2\Project_2\main.cpp(1400,33): warning C4244: 'argument': conversion from 'double' to 'int', possible loss of data
+C:\Users\nienc\Documents\Zalo Received Files\Project_2\Project_2\main.cpp(1400,26): warning C4244: 'argument': conversion from 'double' to 'int', possible loss of data
+C:\Users\nienc\Documents\Zalo Received Files\Project_2\Project_2\main.cpp(1400,19): warning C4244: 'argument': conversion from 'double' to 'int', possible loss of data
+C:\Users\nienc\Documents\Zalo Received Files\Project_2\Project_2\main.cpp(1408,33): warning C4244: 'argument': conversion from 'double' to 'int', possible loss of data
+C:\Users\nienc\Documents\Zalo Received Files\Project_2\Project_2\main.cpp(1408,26): warning C4244: 'argument': conversion from 'double' to 'int', possible loss of data
+C:\Users\nienc\Documents\Zalo Received Files\Project_2\Project_2\main.cpp(1408,19): warning C4244: 'argument': conversion from 'double' to 'int', possible loss of data
+C:\Users\nienc\Documents\Zalo Received Files\Project_2\Project_2\main.cpp(1424,26): warning C4305: 'argument': truncation from 'double' to 'float'
+C:\Users\nienc\Documents\Zalo Received Files\Project_2\Project_2\main.cpp(1441,18): warning C4305: 'argument': truncation from 'double' to 'float'
+C:\Users\nienc\Documents\Zalo Received Files\Project_2\Project_2\main.cpp(1460,23): warning C4305: 'argument': truncation from 'double' to 'float'
+C:\Users\nienc\Documents\Zalo Received Files\Project_2\Project_2\main.cpp(1461,24): warning C4305: 'argument': truncation from 'double' to 'float'
 C:\Users\nienc\Documents\Zalo Received Files\Project_2\Project_2\main.cpp(1461,15): warning C4305: 'argument': truncation from 'double' to 'float'
-C:\Users\nienc\Documents\Zalo Received Files\Project_2\Project_2\main.cpp(1472,20): warning C4305: 'argument': truncation from 'double' to 'float'
-C:\Users\nienc\Documents\Zalo Received Files\Project_2\Project_2\main.cpp(1481,25): warning C4305: 'argument': truncation from 'double' to 'float'
-C:\Users\nienc\Documents\Zalo Received Files\Project_2\Project_2\main.cpp(1488,25): warning C4305: 'argument': truncation from 'double' to 'float'
-C:\Users\nienc\Documents\Zalo Received Files\Project_2\Project_2\main.cpp(1489,25): warning C4305: 'argument': truncation from 'double' to 'float'
-C:\Users\nienc\Documents\Zalo Received Files\Project_2\Project_2\main.cpp(1586,26): warning C4305: 'argument': truncation from 'double' to 'float'
-C:\Users\nienc\Documents\Zalo Received Files\Project_2\Project_2\main.cpp(1592,26): warning C4305: 'argument': truncation from 'double' to 'float'
-C:\Users\nienc\Documents\Zalo Received Files\Project_2\Project_2\main.cpp(1598,26): warning C4305: 'argument': truncation from 'double' to 'float'
-C:\Users\nienc\Documents\Zalo Received Files\Project_2\Project_2\main.cpp(1758,22): warning C4305: 'argument': truncation from 'double' to 'float'
-C:\Users\nienc\Documents\Zalo Received Files\Project_2\Project_2\main.cpp(1765,61): warning C4305: 'argument': truncation from 'double' to 'float'
-C:\Users\nienc\Documents\Zalo Received Files\Project_2\Project_2\main.cpp(1765,56): warning C4305: 'argument': truncation from 'double' to 'float'
-C:\Users\nienc\Documents\Zalo Received Files\Project_2\Project_2\main.cpp(1765,49): warning C4305: 'argument': truncation from 'double' to 'float'
-C:\Users\nienc\Documents\Zalo Received Files\Project_2\Project_2\main.cpp(1768,26): warning C4305: 'argument': truncation from 'double' to 'float'
-C:\Users\nienc\Documents\Zalo Received Files\Project_2\Project_2\main.cpp(1768,18): warning C4305: 'argument': truncation from 'double' to 'float'
-C:\Users\nienc\Documents\Zalo Received Files\Project_2\Project_2\main.cpp(1770,27): warning C4305: 'argument': truncation from 'double' to 'float'
-C:\Users\nienc\Documents\Zalo Received Files\Project_2\Project_2\main.cpp(1770,18): warning C4305: 'argument': truncation from 'double' to 'float'
-C:\Users\nienc\Documents\Zalo Received Files\Project_2\Project_2\main.cpp(1779,22): warning C4305: 'argument': truncation from 'double' to 'float'
-C:\Users\nienc\Documents\Zalo Received Files\Project_2\Project_2\main.cpp(1786,61): warning C4305: 'argument': truncation from 'double' to 'float'
-C:\Users\nienc\Documents\Zalo Received Files\Project_2\Project_2\main.cpp(1786,56): warning C4305: 'argument': truncation from 'double' to 'float'
-C:\Users\nienc\Documents\Zalo Received Files\Project_2\Project_2\main.cpp(1786,49): warning C4305: 'argument': truncation from 'double' to 'float'
-C:\Users\nienc\Documents\Zalo Received Files\Project_2\Project_2\main.cpp(1789,26): warning C4305: 'argument': truncation from 'double' to 'float'
-C:\Users\nienc\Documents\Zalo Received Files\Project_2\Project_2\main.cpp(1789,18): warning C4305: 'argument': truncation from 'double' to 'float'
-C:\Users\nienc\Documents\Zalo Received Files\Project_2\Project_2\main.cpp(1791,27): warning C4305: 'argument': truncation from 'double' to 'float'
-C:\Users\nienc\Documents\Zalo Received Files\Project_2\Project_2\main.cpp(1791,18): warning C4305: 'argument': truncation from 'double' to 'float'
-C:\Users\nienc\Documents\Zalo Received Files\Project_2\Project_2\main.cpp(1800,22): warning C4305: 'argument': truncation from 'double' to 'float'
-C:\Users\nienc\Documents\Zalo Received Files\Project_2\Project_2\main.cpp(1807,61): warning C4305: 'argument': truncation from 'double' to 'float'
-C:\Users\nienc\Documents\Zalo Received Files\Project_2\Project_2\main.cpp(1807,56): warning C4305: 'argument': truncation from 'double' to 'float'
-C:\Users\nienc\Documents\Zalo Received Files\Project_2\Project_2\main.cpp(1807,49): warning C4305: 'argument': truncation from 'double' to 'float'
-C:\Users\nienc\Documents\Zalo Received Files\Project_2\Project_2\main.cpp(1810,26): warning C4305: 'argument': truncation from 'double' to 'float'
-C:\Users\nienc\Documents\Zalo Received Files\Project_2\Project_2\main.cpp(1810,18): warning C4305: 'argument': truncation from 'double' to 'float'
-C:\Users\nienc\Documents\Zalo Received Files\Project_2\Project_2\main.cpp(1812,27): warning C4305: 'argument': truncation from 'double' to 'float'
-C:\Users\nienc\Documents\Zalo Received Files\Project_2\Project_2\main.cpp(1812,18): warning C4305: 'argument': truncation from 'double' to 'float'
-C:\Users\nienc\Documents\Zalo Received Files\Project_2\Project_2\main.cpp(1821,22): warning C4305: 'argument': truncation from 'double' to 'float'
-C:\Users\nienc\Documents\Zalo Received Files\Project_2\Project_2\main.cpp(1828,61): warning C4305: 'argument': truncation from 'double' to 'float'
-C:\Users\nienc\Documents\Zalo Received Files\Project_2\Project_2\main.cpp(1828,56): warning C4305: 'argument': truncation from 'double' to 'float'
-C:\Users\nienc\Documents\Zalo Received Files\Project_2\Project_2\main.cpp(1828,49): warning C4305: 'argument': truncation from 'double' to 'float'
-C:\Users\nienc\Documents\Zalo Received Files\Project_2\Project_2\main.cpp(1831,26): warning C4305: 'argument': truncation from 'double' to 'float'
-C:\Users\nienc\Documents\Zalo Received Files\Project_2\Project_2\main.cpp(1831,18): warning C4305: 'argument': truncation from 'double' to 'float'
-C:\Users\nienc\Documents\Zalo Received Files\Project_2\Project_2\main.cpp(1833,27): warning C4305: 'argument': truncation from 'double' to 'float'
-C:\Users\nienc\Documents\Zalo Received Files\Project_2\Project_2\main.cpp(1833,18): warning C4305: 'argument': truncation from 'double' to 'float'
-C:\Users\nienc\Documents\Zalo Received Files\Project_2\Project_2\main.cpp(1842,22): warning C4305: 'argument': truncation from 'double' to 'float'
-C:\Users\nienc\Documents\Zalo Received Files\Project_2\Project_2\main.cpp(1849,61): warning C4305: 'argument': truncation from 'double' to 'float'
-C:\Users\nienc\Documents\Zalo Received Files\Project_2\Project_2\main.cpp(1849,56): warning C4305: 'argument': truncation from 'double' to 'float'
-C:\Users\nienc\Documents\Zalo Received Files\Project_2\Project_2\main.cpp(1849,49): warning C4305: 'argument': truncation from 'double' to 'float'
-C:\Users\nienc\Documents\Zalo Received Files\Project_2\Project_2\main.cpp(1852,26): warning C4305: 'argument': truncation from 'double' to 'float'
-C:\Users\nienc\Documents\Zalo Received Files\Project_2\Project_2\main.cpp(1852,18): warning C4305: 'argument': truncation from 'double' to 'float'
-C:\Users\nienc\Documents\Zalo Received Files\Project_2\Project_2\main.cpp(1854,27): warning C4305: 'argument': truncation from 'double' to 'float'
-C:\Users\nienc\Documents\Zalo Received Files\Project_2\Project_2\main.cpp(1854,18): warning C4305: 'argument': truncation from 'double' to 'float'
-C:\Users\nienc\Documents\Zalo Received Files\Project_2\Project_2\main.cpp(1863,22): warning C4305: 'argument': truncation from 'double' to 'float'
-C:\Users\nienc\Documents\Zalo Received Files\Project_2\Project_2\main.cpp(1870,61): warning C4305: 'argument': truncation from 'double' to 'float'
-C:\Users\nienc\Documents\Zalo Received Files\Project_2\Project_2\main.cpp(1870,56): warning C4305: 'argument': truncation from 'double' to 'float'
-C:\Users\nienc\Documents\Zalo Received Files\Project_2\Project_2\main.cpp(1870,49): warning C4305: 'argument': truncation from 'double' to 'float'
-C:\Users\nienc\Documents\Zalo Received Files\Project_2\Project_2\main.cpp(1873,26): warning C4305: 'argument': truncation from 'double' to 'float'
-C:\Users\nienc\Documents\Zalo Received Files\Project_2\Project_2\main.cpp(1873,18): warning C4305: 'argument': truncation from 'double' to 'float'
-C:\Users\nienc\Documents\Zalo Received Files\Project_2\Project_2\main.cpp(1875,27): warning C4305: 'argument': truncation from 'double' to 'float'
-C:\Users\nienc\Documents\Zalo Received Files\Project_2\Project_2\main.cpp(1875,18): warning C4305: 'argument': truncation from 'double' to 'float'
-C:\Users\nienc\Documents\Zalo Received Files\Project_2\Project_2\main.cpp(1891,26): warning C4305: 'argument': truncation from 'double' to 'float'
-C:\Users\nienc\Documents\Zalo Received Files\Project_2\Project_2\main.cpp(1897,26): warning C4305: 'argument': truncation from 'double' to 'float'
-C:\Users\nienc\Documents\Zalo Received Files\Project_2\Project_2\main.cpp(1905,18): warning C4305: 'argument': truncation from 'double' to 'float'
-C:\Users\nienc\Documents\Zalo Received Files\Project_2\Project_2\main.cpp(1950,21): warning C4305: 'argument': truncation from 'double' to 'float'
-C:\Users\nienc\Documents\Zalo Received Files\Project_2\Project_2\main.cpp(1955,52): warning C4305: 'argument': truncation from 'double' to 'float'
-C:\Users\nienc\Documents\Zalo Received Files\Project_2\Project_2\main.cpp(1959,22): warning C4305: 'argument': truncation from 'double' to 'float'
-C:\Users\nienc\Documents\Zalo Received Files\Project_2\Project_2\main.cpp(1963,22): warning C4305: 'argument': truncation from 'double' to 'float'
-C:\Users\nienc\Documents\Zalo Received Files\Project_2\Project_2\main.cpp(1964,20): warning C4305: 'argument': truncation from 'double' to 'float'
-C:\Users\nienc\Documents\Zalo Received Files\Project_2\Project_2\main.cpp(2008,22): warning C4305: 'argument': truncation from 'double' to 'float'
-C:\Users\nienc\Documents\Zalo Received Files\Project_2\Project_2\main.cpp(2012,21): warning C4305: 'argument': truncation from 'double' to 'float'
-C:\Users\nienc\Documents\Zalo Received Files\Project_2\Project_2\main.cpp(2023,21): warning C4305: 'argument': truncation from 'double' to 'float'
-C:\Users\nienc\Documents\Zalo Received Files\Project_2\Project_2\main.cpp(2028,21): warning C4305: 'argument': truncation from 'double' to 'float'
-C:\Users\nienc\Documents\Zalo Received Files\Project_2\Project_2\main.cpp(2039,24): warning C4305: 'argument': truncation from 'double' to 'float'
-C:\Users\nienc\Documents\Zalo Received Files\Project_2\Project_2\main.cpp(2043,21): warning C4305: 'argument': truncation from 'double' to 'float'
-C:\Users\nienc\Documents\Zalo Received Files\Project_2\Project_2\main.cpp(2054,24): warning C4305: 'argument': truncation from 'double' to 'float'
-C:\Users\nienc\Documents\Zalo Received Files\Project_2\Project_2\main.cpp(2059,21): warning C4305: 'argument': truncation from 'double' to 'float'
-C:\Users\nienc\Documents\Zalo Received Files\Project_2\Project_2\main.cpp(2078,53): warning C4305: 'argument': truncation from 'double' to 'float'
-C:\Users\nienc\Documents\Zalo Received Files\Project_2\Project_2\main.cpp(2082,26): warning C4305: 'argument': truncation from 'double' to 'float'
-C:\Users\nienc\Documents\Zalo Received Files\Project_2\Project_2\main.cpp(2082,21): warning C4305: 'argument': truncation from 'double' to 'float'
-C:\Users\nienc\Documents\Zalo Received Files\Project_2\Project_2\main.cpp(2082,15): warning C4305: 'argument': truncation from 'double' to 'float'
-C:\Users\nienc\Documents\Zalo Received Files\Project_2\Project_2\main.cpp(2157,28): warning C4305: '+=': truncation from 'double' to 'GLfloat'
-C:\Users\nienc\Documents\Zalo Received Files\Project_2\Project_2\main.cpp(2160,28): warning C4305: '-=': truncation from 'double' to 'GLfloat'
-C:\Users\nienc\Documents\Zalo Received Files\Project_2\Project_2\main.cpp(2222,28): warning C4305: '+=': truncation from 'double' to 'GLfloat'
-C:\Users\nienc\Documents\Zalo Received Files\Project_2\Project_2\main.cpp(2225,28): warning C4305: '-=': truncation from 'double' to 'GLfloat'
-C:\Users\nienc\Documents\Zalo Received Files\Project_2\Project_2\main.cpp(2286,28): warning C4305: '+=': truncation from 'double' to 'GLfloat'
-C:\Users\nienc\Documents\Zalo Received Files\Project_2\Project_2\main.cpp(2289,28): warning C4305: '-=': truncation from 'double' to 'GLfloat'
-C:\Users\nienc\Documents\Zalo Received Files\Project_2\Project_2\main.cpp(2413,22): warning C4305: '+=': truncation from 'double' to 'GLfloat'
-C:\Users\nienc\Documents\Zalo Received Files\Project_2\Project_2\main.cpp(2418,22): warning C4305: '-=': truncation from 'double' to 'GLfloat'
+C:\Users\nienc\Documents\Zalo Received Files\Project_2\Project_2\main.cpp(1468,19): warning C4305: 'argument': truncation from 'double' to 'float'
+C:\Users\nienc\Documents\Zalo Received Files\Project_2\Project_2\main.cpp(1469,15): warning C4305: 'argument': truncation from 'double' to 'float'
+C:\Users\nienc\Documents\Zalo Received Files\Project_2\Project_2\main.cpp(1476,23): warning C4305: 'argument': truncation from 'double' to 'float'
+C:\Users\nienc\Documents\Zalo Received Files\Project_2\Project_2\main.cpp(1477,24): warning C4305: 'argument': truncation from 'double' to 'float'
+C:\Users\nienc\Documents\Zalo Received Files\Project_2\Project_2\main.cpp(1477,15): warning C4305: 'argument': truncation from 'double' to 'float'
+C:\Users\nienc\Documents\Zalo Received Files\Project_2\Project_2\main.cpp(1484,19): warning C4305: 'argument': truncation from 'double' to 'float'
+C:\Users\nienc\Documents\Zalo Received Files\Project_2\Project_2\main.cpp(1485,15): warning C4305: 'argument': truncation from 'double' to 'float'
+C:\Users\nienc\Documents\Zalo Received Files\Project_2\Project_2\main.cpp(1496,20): warning C4305: 'argument': truncation from 'double' to 'float'
+C:\Users\nienc\Documents\Zalo Received Files\Project_2\Project_2\main.cpp(1505,25): warning C4305: 'argument': truncation from 'double' to 'float'
+C:\Users\nienc\Documents\Zalo Received Files\Project_2\Project_2\main.cpp(1512,25): warning C4305: 'argument': truncation from 'double' to 'float'
+C:\Users\nienc\Documents\Zalo Received Files\Project_2\Project_2\main.cpp(1513,25): warning C4305: 'argument': truncation from 'double' to 'float'
+C:\Users\nienc\Documents\Zalo Received Files\Project_2\Project_2\main.cpp(1610,26): warning C4305: 'argument': truncation from 'double' to 'float'
+C:\Users\nienc\Documents\Zalo Received Files\Project_2\Project_2\main.cpp(1616,26): warning C4305: 'argument': truncation from 'double' to 'float'
+C:\Users\nienc\Documents\Zalo Received Files\Project_2\Project_2\main.cpp(1628,49): warning C4305: 'argument': truncation from 'double' to 'float'
+C:\Users\nienc\Documents\Zalo Received Files\Project_2\Project_2\main.cpp(1634,49): warning C4305: 'argument': truncation from 'double' to 'float'
+C:\Users\nienc\Documents\Zalo Received Files\Project_2\Project_2\main.cpp(1640,26): warning C4305: 'argument': truncation from 'double' to 'float'
+C:\Users\nienc\Documents\Zalo Received Files\Project_2\Project_2\main.cpp(1799,22): warning C4305: 'argument': truncation from 'double' to 'float'
+C:\Users\nienc\Documents\Zalo Received Files\Project_2\Project_2\main.cpp(1806,61): warning C4305: 'argument': truncation from 'double' to 'float'
+C:\Users\nienc\Documents\Zalo Received Files\Project_2\Project_2\main.cpp(1806,56): warning C4305: 'argument': truncation from 'double' to 'float'
+C:\Users\nienc\Documents\Zalo Received Files\Project_2\Project_2\main.cpp(1806,49): warning C4305: 'argument': truncation from 'double' to 'float'
+C:\Users\nienc\Documents\Zalo Received Files\Project_2\Project_2\main.cpp(1809,26): warning C4305: 'argument': truncation from 'double' to 'float'
+C:\Users\nienc\Documents\Zalo Received Files\Project_2\Project_2\main.cpp(1809,18): warning C4305: 'argument': truncation from 'double' to 'float'
+C:\Users\nienc\Documents\Zalo Received Files\Project_2\Project_2\main.cpp(1811,27): warning C4305: 'argument': truncation from 'double' to 'float'
+C:\Users\nienc\Documents\Zalo Received Files\Project_2\Project_2\main.cpp(1811,18): warning C4305: 'argument': truncation from 'double' to 'float'
+C:\Users\nienc\Documents\Zalo Received Files\Project_2\Project_2\main.cpp(1820,22): warning C4305: 'argument': truncation from 'double' to 'float'
+C:\Users\nienc\Documents\Zalo Received Files\Project_2\Project_2\main.cpp(1827,61): warning C4305: 'argument': truncation from 'double' to 'float'
+C:\Users\nienc\Documents\Zalo Received Files\Project_2\Project_2\main.cpp(1827,56): warning C4305: 'argument': truncation from 'double' to 'float'
+C:\Users\nienc\Documents\Zalo Received Files\Project_2\Project_2\main.cpp(1827,49): warning C4305: 'argument': truncation from 'double' to 'float'
+C:\Users\nienc\Documents\Zalo Received Files\Project_2\Project_2\main.cpp(1830,26): warning C4305: 'argument': truncation from 'double' to 'float'
+C:\Users\nienc\Documents\Zalo Received Files\Project_2\Project_2\main.cpp(1830,18): warning C4305: 'argument': truncation from 'double' to 'float'
+C:\Users\nienc\Documents\Zalo Received Files\Project_2\Project_2\main.cpp(1832,27): warning C4305: 'argument': truncation from 'double' to 'float'
+C:\Users\nienc\Documents\Zalo Received Files\Project_2\Project_2\main.cpp(1832,18): warning C4305: 'argument': truncation from 'double' to 'float'
+C:\Users\nienc\Documents\Zalo Received Files\Project_2\Project_2\main.cpp(1841,22): warning C4305: 'argument': truncation from 'double' to 'float'
+C:\Users\nienc\Documents\Zalo Received Files\Project_2\Project_2\main.cpp(1848,61): warning C4305: 'argument': truncation from 'double' to 'float'
+C:\Users\nienc\Documents\Zalo Received Files\Project_2\Project_2\main.cpp(1848,56): warning C4305: 'argument': truncation from 'double' to 'float'
+C:\Users\nienc\Documents\Zalo Received Files\Project_2\Project_2\main.cpp(1848,49): warning C4305: 'argument': truncation from 'double' to 'float'
+C:\Users\nienc\Documents\Zalo Received Files\Project_2\Project_2\main.cpp(1851,26): warning C4305: 'argument': truncation from 'double' to 'float'
+C:\Users\nienc\Documents\Zalo Received Files\Project_2\Project_2\main.cpp(1851,18): warning C4305: 'argument': truncation from 'double' to 'float'
+C:\Users\nienc\Documents\Zalo Received Files\Project_2\Project_2\main.cpp(1853,27): warning C4305: 'argument': truncation from 'double' to 'float'
+C:\Users\nienc\Documents\Zalo Received Files\Project_2\Project_2\main.cpp(1853,18): warning C4305: 'argument': truncation from 'double' to 'float'
+C:\Users\nienc\Documents\Zalo Received Files\Project_2\Project_2\main.cpp(1862,22): warning C4305: 'argument': truncation from 'double' to 'float'
+C:\Users\nienc\Documents\Zalo Received Files\Project_2\Project_2\main.cpp(1869,61): warning C4305: 'argument': truncation from 'double' to 'float'
+C:\Users\nienc\Documents\Zalo Received Files\Project_2\Project_2\main.cpp(1869,56): warning C4305: 'argument': truncation from 'double' to 'float'
+C:\Users\nienc\Documents\Zalo Received Files\Project_2\Project_2\main.cpp(1869,49): warning C4305: 'argument': truncation from 'double' to 'float'
+C:\Users\nienc\Documents\Zalo Received Files\Project_2\Project_2\main.cpp(1872,26): warning C4305: 'argument': truncation from 'double' to 'float'
+C:\Users\nienc\Documents\Zalo Received Files\Project_2\Project_2\main.cpp(1872,18): warning C4305: 'argument': truncation from 'double' to 'float'
+C:\Users\nienc\Documents\Zalo Received Files\Project_2\Project_2\main.cpp(1874,27): warning C4305: 'argument': truncation from 'double' to 'float'
+C:\Users\nienc\Documents\Zalo Received Files\Project_2\Project_2\main.cpp(1874,18): warning C4305: 'argument': truncation from 'double' to 'float'
+C:\Users\nienc\Documents\Zalo Received Files\Project_2\Project_2\main.cpp(1883,22): warning C4305: 'argument': truncation from 'double' to 'float'
+C:\Users\nienc\Documents\Zalo Received Files\Project_2\Project_2\main.cpp(1890,61): warning C4305: 'argument': truncation from 'double' to 'float'
+C:\Users\nienc\Documents\Zalo Received Files\Project_2\Project_2\main.cpp(1890,56): warning C4305: 'argument': truncation from 'double' to 'float'
+C:\Users\nienc\Documents\Zalo Received Files\Project_2\Project_2\main.cpp(1890,49): warning C4305: 'argument': truncation from 'double' to 'float'
+C:\Users\nienc\Documents\Zalo Received Files\Project_2\Project_2\main.cpp(1893,26): warning C4305: 'argument': truncation from 'double' to 'float'
+C:\Users\nienc\Documents\Zalo Received Files\Project_2\Project_2\main.cpp(1893,18): warning C4305: 'argument': truncation from 'double' to 'float'
+C:\Users\nienc\Documents\Zalo Received Files\Project_2\Project_2\main.cpp(1895,27): warning C4305: 'argument': truncation from 'double' to 'float'
+C:\Users\nienc\Documents\Zalo Received Files\Project_2\Project_2\main.cpp(1895,18): warning C4305: 'argument': truncation from 'double' to 'float'
+C:\Users\nienc\Documents\Zalo Received Files\Project_2\Project_2\main.cpp(1904,22): warning C4305: 'argument': truncation from 'double' to 'float'
+C:\Users\nienc\Documents\Zalo Received Files\Project_2\Project_2\main.cpp(1911,61): warning C4305: 'argument': truncation from 'double' to 'float'
+C:\Users\nienc\Documents\Zalo Received Files\Project_2\Project_2\main.cpp(1911,56): warning C4305: 'argument': truncation from 'double' to 'float'
+C:\Users\nienc\Documents\Zalo Received Files\Project_2\Project_2\main.cpp(1911,49): warning C4305: 'argument': truncation from 'double' to 'float'
+C:\Users\nienc\Documents\Zalo Received Files\Project_2\Project_2\main.cpp(1914,26): warning C4305: 'argument': truncation from 'double' to 'float'
+C:\Users\nienc\Documents\Zalo Received Files\Project_2\Project_2\main.cpp(1914,18): warning C4305: 'argument': truncation from 'double' to 'float'
+C:\Users\nienc\Documents\Zalo Received Files\Project_2\Project_2\main.cpp(1916,27): warning C4305: 'argument': truncation from 'double' to 'float'
+C:\Users\nienc\Documents\Zalo Received Files\Project_2\Project_2\main.cpp(1916,18): warning C4305: 'argument': truncation from 'double' to 'float'
+C:\Users\nienc\Documents\Zalo Received Files\Project_2\Project_2\main.cpp(1932,26): warning C4305: 'argument': truncation from 'double' to 'float'
+C:\Users\nienc\Documents\Zalo Received Files\Project_2\Project_2\main.cpp(1938,26): warning C4305: 'argument': truncation from 'double' to 'float'
+C:\Users\nienc\Documents\Zalo Received Files\Project_2\Project_2\main.cpp(1946,18): warning C4305: 'argument': truncation from 'double' to 'float'
+C:\Users\nienc\Documents\Zalo Received Files\Project_2\Project_2\main.cpp(1991,21): warning C4305: 'argument': truncation from 'double' to 'float'
+C:\Users\nienc\Documents\Zalo Received Files\Project_2\Project_2\main.cpp(1996,52): warning C4305: 'argument': truncation from 'double' to 'float'
+C:\Users\nienc\Documents\Zalo Received Files\Project_2\Project_2\main.cpp(2000,22): warning C4305: 'argument': truncation from 'double' to 'float'
+C:\Users\nienc\Documents\Zalo Received Files\Project_2\Project_2\main.cpp(2004,22): warning C4305: 'argument': truncation from 'double' to 'float'
+C:\Users\nienc\Documents\Zalo Received Files\Project_2\Project_2\main.cpp(2005,20): warning C4305: 'argument': truncation from 'double' to 'float'
+C:\Users\nienc\Documents\Zalo Received Files\Project_2\Project_2\main.cpp(2049,22): warning C4305: 'argument': truncation from 'double' to 'float'
+C:\Users\nienc\Documents\Zalo Received Files\Project_2\Project_2\main.cpp(2053,21): warning C4305: 'argument': truncation from 'double' to 'float'
+C:\Users\nienc\Documents\Zalo Received Files\Project_2\Project_2\main.cpp(2064,21): warning C4305: 'argument': truncation from 'double' to 'float'
+C:\Users\nienc\Documents\Zalo Received Files\Project_2\Project_2\main.cpp(2069,21): warning C4305: 'argument': truncation from 'double' to 'float'
+C:\Users\nienc\Documents\Zalo Received Files\Project_2\Project_2\main.cpp(2080,24): warning C4305: 'argument': truncation from 'double' to 'float'
+C:\Users\nienc\Documents\Zalo Received Files\Project_2\Project_2\main.cpp(2084,21): warning C4305: 'argument': truncation from 'double' to 'float'
+C:\Users\nienc\Documents\Zalo Received Files\Project_2\Project_2\main.cpp(2095,24): warning C4305: 'argument': truncation from 'double' to 'float'
+C:\Users\nienc\Documents\Zalo Received Files\Project_2\Project_2\main.cpp(2100,21): warning C4305: 'argument': truncation from 'double' to 'float'
+C:\Users\nienc\Documents\Zalo Received Files\Project_2\Project_2\main.cpp(2119,53): warning C4305: 'argument': truncation from 'double' to 'float'
+C:\Users\nienc\Documents\Zalo Received Files\Project_2\Project_2\main.cpp(2123,26): warning C4305: 'argument': truncation from 'double' to 'float'
+C:\Users\nienc\Documents\Zalo Received Files\Project_2\Project_2\main.cpp(2123,21): warning C4305: 'argument': truncation from 'double' to 'float'
+C:\Users\nienc\Documents\Zalo Received Files\Project_2\Project_2\main.cpp(2123,15): warning C4305: 'argument': truncation from 'double' to 'float'
+C:\Users\nienc\Documents\Zalo Received Files\Project_2\Project_2\main.cpp(2198,28): warning C4305: '+=': truncation from 'double' to 'GLfloat'
+C:\Users\nienc\Documents\Zalo Received Files\Project_2\Project_2\main.cpp(2201,28): warning C4305: '-=': truncation from 'double' to 'GLfloat'
+C:\Users\nienc\Documents\Zalo Received Files\Project_2\Project_2\main.cpp(2213,27): warning C4305: '+=': truncation from 'double' to 'GLfloat'
+C:\Users\nienc\Documents\Zalo Received Files\Project_2\Project_2\main.cpp(2220,27): warning C4305: '+=': truncation from 'double' to 'GLfloat'
+C:\Users\nienc\Documents\Zalo Received Files\Project_2\Project_2\main.cpp(2227,27): warning C4305: '+=': truncation from 'double' to 'GLfloat'
+C:\Users\nienc\Documents\Zalo Received Files\Project_2\Project_2\main.cpp(2284,28): warning C4305: '+=': truncation from 'double' to 'GLfloat'
+C:\Users\nienc\Documents\Zalo Received Files\Project_2\Project_2\main.cpp(2287,28): warning C4305: '-=': truncation from 'double' to 'GLfloat'
+C:\Users\nienc\Documents\Zalo Received Files\Project_2\Project_2\main.cpp(2299,27): warning C4305: '+=': truncation from 'double' to 'GLfloat'
+C:\Users\nienc\Documents\Zalo Received Files\Project_2\Project_2\main.cpp(2306,27): warning C4305: '+=': truncation from 'double' to 'GLfloat'
+C:\Users\nienc\Documents\Zalo Received Files\Project_2\Project_2\main.cpp(2313,27): warning C4305: '+=': truncation from 'double' to 'GLfloat'
+C:\Users\nienc\Documents\Zalo Received Files\Project_2\Project_2\main.cpp(2369,28): warning C4305: '+=': truncation from 'double' to 'GLfloat'
+C:\Users\nienc\Documents\Zalo Received Files\Project_2\Project_2\main.cpp(2372,28): warning C4305: '-=': truncation from 'double' to 'GLfloat'
+C:\Users\nienc\Documents\Zalo Received Files\Project_2\Project_2\main.cpp(2384,27): warning C4305: '+=': truncation from 'double' to 'GLfloat'
+C:\Users\nienc\Documents\Zalo Received Files\Project_2\Project_2\main.cpp(2391,27): warning C4305: '+=': truncation from 'double' to 'GLfloat'
+C:\Users\nienc\Documents\Zalo Received Files\Project_2\Project_2\main.cpp(2398,27): warning C4305: '+=': truncation from 'double' to 'GLfloat'
+C:\Users\nienc\Documents\Zalo Received Files\Project_2\Project_2\main.cpp(2517,22): warning C4305: '+=': truncation from 'double' to 'GLfloat'
+C:\Users\nienc\Documents\Zalo Received Files\Project_2\Project_2\main.cpp(2522,22): warning C4305: '-=': truncation from 'double' to 'GLfloat'
   Project_2.vcxproj -> C:\Users\nienc\Documents\Zalo Received Files\Project_2\Project_2\x64\Debug\Project_2.exe
