@@ -140,15 +140,11 @@ projection_mat_location;
 
 // Dùng biến đổi mô hình
 float
-r[] = { 0.0f, 0.0f, 0.0f },
-s[] = { 1.0f, 1.0f, 1.0f },
 t[] = { 0.0f, 0.0f, 0.0f };
 
 // Dùng kiểm tra tịnh tiến, quay, co giãn
 bool
-translated = false,
-rotated = false,
-scaled = false;
+translated = false;
 
 string ReadShaderSourceFile(string fileName) {
 	fstream reader(fileName.c_str());
@@ -279,6 +275,9 @@ GLfloat NuocChay[_BinhNuoc] = {
 GLint bn = _binhnuoc1;
 float _bn = 0;
 bool _switchBN[3] = { false };
+
+float detien = 0;
+bool _detien = false;
 #pragma endregion
 
 #pragma region Default
@@ -1389,6 +1388,64 @@ namespace Table {
 		cube();
 		model_mat_cpp = mvstack.pop();
 	}
+
+	void ChoDeTien() {
+		mvstack.push(model_mat_cpp);
+		model_mat_cpp = model_mat_cpp *
+			translate(vec3(14.5, -5, 10)) *
+			scale(vec3(5, 2, 0.1));
+		FillColor(color(175, 170, 163));
+		cube();
+		model_mat_cpp = mvstack.pop();
+
+		mvstack.push(model_mat_cpp);
+		model_mat_cpp = model_mat_cpp *
+			translate(vec3(14.5, -5, 4)) *
+			scale(vec3(5, 2, 0.1));
+		FillColor(color(175, 170, 163));
+		cube();
+		model_mat_cpp = mvstack.pop();
+
+		mvstack.push(model_mat_cpp);
+		model_mat_cpp = model_mat_cpp *
+			translate(vec3(14.5, -5, 4)) *
+			scale(vec3(5, 0.1, 6));
+		FillColor(color(175, 170, 163));
+		cube();
+		model_mat_cpp = mvstack.pop();
+
+		mvstack.push(model_mat_cpp);
+		model_mat_cpp = model_mat_cpp *
+			translate(vec3(14.5, -5, 4)) *
+			scale(vec3(0.1, 2, 6));
+		FillColor(color(175, 170, 163));
+		cube();
+		model_mat_cpp = mvstack.pop();
+
+		mvstack.push(model_mat_cpp);
+		model_mat_cpp = model_mat_cpp *
+			translate(vec3(19.5, -5, 4)) *
+			scale(vec3(0.1, 2, 6));
+		FillColor(color(175, 170, 163));
+		cube();
+		model_mat_cpp = mvstack.pop();
+
+		mvstack.push(model_mat_cpp);
+		model_mat_cpp = model_mat_cpp *
+			translate(vec3(14.25, -3.9, 7.1)) *
+			scale(vec3(0.5, 0.25, 0.25));
+		FillColor(color(225, 250, 249));
+		cube();
+		model_mat_cpp = mvstack.pop();
+
+		mvstack.push(model_mat_cpp);
+		model_mat_cpp = model_mat_cpp *
+			translate(vec3(14.05, -4.05, 6.95)) *
+			scale(vec3(0.2, 0.5, 0.5));
+		FillColor(color(5, 0, 9));
+		cube();
+		model_mat_cpp = mvstack.pop();
+	}
 }
 
 namespace Poster {
@@ -1528,11 +1585,6 @@ void DisplayFunc(void)
 	if (translated)
 	{
 		model_mat_cpp = model_mat_cpp * translate(vec3(t[0], t[1], t[2]));
-		glUniformMatrix4fv(model_mat_location, 1, GL_FALSE, model_mat_cpp.m);
-	}
-	if (scaled)
-	{
-		model_mat_cpp = model_mat_cpp * scale(vec3(s[0], s[1], s[2]));
 		glUniformMatrix4fv(model_mat_location, 1, GL_FALSE, model_mat_cpp.m);
 	}
 	
@@ -2040,6 +2092,12 @@ void DisplayFunc(void)
 	Table::back_Table();
 	Table::font_table();
 	Television::TV1();
+
+	mvstack.push(model_mat_cpp);
+	model_mat_cpp = model_mat_cpp *
+		translate(vec3(-detien, 0, 0));
+	Table::ChoDeTien();
+	model_mat_cpp = mvstack.pop();
 #pragma endregion
 
 #pragma region Camera
@@ -2229,6 +2287,14 @@ void IdleFunc1(void)
 			NuocChay[_binhnuoc3] = 0.0;
 		}
 	}
+
+	if (_detien && detien < 5) {
+		detien += 0.01;
+	}
+
+	if (_detien == false && detien > 0) {
+		detien -= 0.01;
+	}
 	glutPostRedisplay();
 }
 void IdleFunc(void)
@@ -2315,6 +2381,14 @@ void IdleFunc(void)
 			NuocChay[_binhnuoc3] = 0.0;
 		}
 	}
+
+	if (_detien && detien < 5) {
+		detien += 0.01;
+	}
+
+	if (_detien == false && detien > 0) {
+		detien -= 0.01;
+	}
 	glutPostRedisplay();
 }
 void IdleFunc2(void)
@@ -2400,6 +2474,14 @@ void IdleFunc2(void)
 			NuocChay[_binhnuoc3] = 0.0;
 		}
 	}
+
+	if (_detien && detien < 5) {
+		detien += 0.01;
+	}
+
+	if (_detien == false && detien > 0) {
+		detien -= 0.01;
+	}
 	glutPostRedisplay();
 }
 #pragma endregion
@@ -2411,20 +2493,6 @@ void KeyboardFunc(unsigned char key, int x, int y)
 	switch (key) {
 	case 27:
 		glutLeaveMainLoop();
-		break;
-	case '=':
-	case '+':
-		s[0] *= 1.05f;
-		s[1] *= 1.05f;
-		s[2] *= 1.05f;
-		scaled = true;
-		break;
-	case '-':
-	case '_':
-		s[0] /= 1.05f;
-		s[1] /= 1.05f;
-		s[2] /= 1.05f;
-		scaled = true;
 		break;
 	case '1': lightSwitches[0] = !lightSwitches[0]; break;
 	case '2': lightSwitches[1] = !lightSwitches[1]; break;
@@ -2548,6 +2616,9 @@ void KeyboardFunc(unsigned char key, int x, int y)
 			break;
 		}
 		break;
+	case ',':
+		_detien = !_detien;
+		break;
 	}
 
 }
@@ -2606,8 +2677,10 @@ int main(int argc, char* argv[])
 	std::cout << "|--------------------- Huong Dan Su Dung ---------------------|" << std::endl;
 	std::cout << "|     Phim     |                  Chuc nang                   |" << std::endl;
 	std::cout << "|-------------------------------------------------------------|" << std::endl;
+	std::cout << "| .            |  Dong / Mo voi nuoc                          |" << std::endl;
 	std::cout << "| ;            |  Dong / Mo cua chinh                         |" << std::endl;
 	std::cout << "| '            |  Bat / Tat quat tran                         |" << std::endl;
+	std::cout << "| ,            |  Dong / Mo ngan keo                          |" << std::endl;
 	std::cout << "| \\            |  Bat / Tat dieu hoa                          |" << std::endl;
 	std::cout << "| Key Up       |  Di chuyen camera vao trong                  |" << std::endl;
 	std::cout << "| Key Down     |  Di chuyen camera ra ngoai                   |" << std::endl;
@@ -2625,7 +2698,7 @@ int main(int argc, char* argv[])
 	std::cout << "| I/i          |  Dong / Mo nap thung rac                     |" << std::endl;
 	std::cout << "| [            |  Di chuyen ghe ra ngoai                      |" << std::endl;
 	std::cout << "| ]            |  Di chuyen ghe vao trong                     |" << std::endl;
-	std::cout << "| Double Alt R |  Bat/tat may tinh tien                       |" << std::endl;
+	std::cout << "| Double Alt R |  Bat / tat may tinh tien                     |" << std::endl;
 	std::cout << "| Right Mouse  |  Chon chuc nang                              |" << std::endl;
 	std::cout << "|-------------------------------------------------------------|" << std::endl;
 	glutInit(&argc, argv);
